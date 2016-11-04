@@ -132,18 +132,478 @@
             <lotLocation>1</lotLocation>
             <interred>
                 <date>1957-02-06</date>
+                <intermentNo>8</intermentNo>
             </interred>
             <deathDate>
-                <date>1931-05-21</date>
+                <date>1957-02-03</date>
              </deathDate>
             <deathPlace>
-                <city>Mann County</city>
-                <state>New York</state>
+                <city>Irwin</city>
+                <state>Pennsylvania</state>
             </deathPlace>
-            <age>49</age>
+            <age>75</age>
             <gender>male</gender>
             <color>white</color>
         </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Mary</firstName>
+                <middleName>Emma</middleName>
+                <surName>McCune</surName>
+            </persName>
+            <lotLocation>2</lotLocation>
+            <interred>
+                <date>1959-11-28</date>
+                <intermentNo>94</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1959-11-25</date>
+            </deathDate>
+            <deathPlace>
+                <city>Irwin</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>73</age>
+            <gender>female</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>James</firstName>
+                <MI>L</MI>
+                <surName>Mitchell</surName>
+            </persName>
+            <lotLocation>3</lotLocation>
+            <interred>
+                <date>1972-11-13</date>
+                <intermentNo>92</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1972-11-10</date>
+            </deathDate>
+            <deathPlace>
+                <city>Pittsburgh</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>60</age>
+            <gender>male</gender>
+            <color>white</color>
+            <causeofDeath>Cancer of Lung</causeofDeath>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Sara</firstName>
+                <MI>M</MI>
+                <surName>Mitchell</surName>
+            </persName>
+            <lotLocation>4</lotLocation>
+            <interred>
+                <date>1991-06-25</date>
+                <intermentNo>36</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1991-06-21</date>
+            </deathDate>
+            <deathPlace>
+                <city>Greensburg</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>74</age>
+            <gender>female</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Edwin</firstName>
+                <surName>McCune</surName>
+            </persName>
+            <lotLocation>5</lotLocation>
+            <interred>
+                <date>1930-11-18</date>
+            </interred>
+            <deathDate>
+                <date>1930-11-16</date>
+            </deathDate>
+            <deathPlace>
+                <city>Irwin</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>19</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Casper</firstName>
+                <surName>McCune</surName>
+            </persName>
+            <lotLocation>6</lotLocation>
+            <interred>
+                <date>1930-11-18</date>
+            </interred>
+            <deathDate>
+                <date>1930-11-16</date>
+            </deathDate>
+            <deathPlace>
+                <city>Irwin</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>24</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Grace</firstName>
+                <MI>E</MI>
+                <surName>Kelly</surName>
+            </persName>
+            <lotLocation>8</lotLocation>
+            <interred>
+                <date>2008-07-02</date>
+            </interred>
+            <deathDate>
+                <date>2008-06-30</date>
+            </deathDate>
+            <deathPlace>
+                <city>Greensburg</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>95</age>
+            <gender>female</gender>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Edward</firstName>
+                <MI>P</MI>
+                <surName>Kelly</surName>
+            </persName>
+            <lotLocation>7A</lotLocation>
+            <interred type="re-interment">
+                <date>1962-11-27</date>
+                <intermentNo>82</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1961-02-01</date>
+            </deathDate>
+            <deathPlace>
+                <city>Greensburg</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>48</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Daniel</firstName>
+                <middleName>Edward</middleName>
+                <surName>Zimmerman</surName>
+            </persName>
+            <lotLocation>7B</lotLocation>
+            <interred>
+                <date>1971-11-09</date>
+                <intermentNo>76</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1971-11-08</date>
+            </deathDate>
+            <deathPlace>
+                <city>Pittsburgh</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age type="days">34 Days</age>
+            <gender>male</gender>
+            <color>white</color>
+            <causeofDeath>Cardio Respiratory Arrest</causeofDeath>
+        </occupant>
+    </lot>
+    
+    <lot section="1" number="8">
+        <firstOwner>
+            <persName>
+                <firstName>Ella</firstName>
+                <MI>H</MI>
+                <surName>Kleist</surName>
+            </persName>
+        </firstOwner>
+        
+        <occupant>
+            <persName>
+                <firstName>Adam</firstName>
+                <middleName>Howard</middleName>
+                <surName>Kleist</surName>
+            </persName>
+            <lotLocation>4</lotLocation>
+            <interred>
+                <date>1932-05-06</date>
+            </interred>
+            <deathDate>
+                <date>1932-05-02</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>46</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Ella</firstName>
+                <MI>H</MI>
+                <surName>Mitchell</surName>
+            </persName>
+            <lotLocation>5</lotLocation>
+            <interred>
+                <date>1981-08-30</date>
+                <intermentNo>71</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1981-08-27</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>94</age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>Respiratory Paralysis Medollary Infarction</causeofDeath>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Andrew</firstName>
+                <MI>F</MI>
+                <surName>King</surName>
+            </persName>
+            <lotLocation>1</lotLocation>
+            <interred>
+                <date>1943-01-12</date>
+                <intermentNo>06</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1943-01-09</date>
+            </deathDate>
+            <deathPlace>
+                <city>Wilkinsburg</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>82</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Elizabeth</firstName>
+                <MI>C</MI>
+                <surName>King</surName>
+            </persName>
+            <lotLocation>2</lotLocation>
+            <interred>
+                <date>1949-01-21</date>
+                <intermentNo>08</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1949-01-18</date>
+            </deathDate>
+            <deathPlace>
+                <city>Wilkinsburg</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>83</age>
+            <gender>female</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>John</firstName>
+                <middleName>Kleman</middleName>
+                <surName>King</surName>
+            </persName>
+            <lotLocation>3</lotLocation>
+            <interred>
+                <date>1978-03-08</date>
+                <intermentNo>24</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1978-03-04</date>
+            </deathDate>
+            <deathPlace>
+                <city>Tarpon Springs</city>
+                <state>Florida</state>
+                <note>transferred body from Florida</note>
+            </deathPlace>
+            <age>unknown</age>
+            <gender>male</gender>
+            <color>white</color>
+            <causeofDeath>natural</causeofDeath>
+        </occupant>
+    </lot>
+    <lot section="1" number="7">
+        <firstOwner>
+            <persName>
+                <firstName>William</firstName>
+                <middleName>Clifford</middleName>
+                <surName>Menges</surName>
+            </persName>
+        </firstOwner>
+        <seconOwner>
+            <persName>
+                <firstName>Mary</firstName>
+                <MI>K</MI>
+                <surName>Bostwick</surName>
+            </persName>
+        </seconOwner>
+        
+        <occupant>
+            <persName>
+                <firstName>Carrie</firstName>
+                <surName>Menges</surName>
+            </persName>
+            <lotLocation>2</lotLocation>
+            <interred>
+                <date>1945-12-31</date>
+                <intermentNo>108</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1945-12-28</date>
+            </deathDate>
+            <deathPlace>
+                <city>Wilkinsburg</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>54</age>
+            <gender>female</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Charles</firstName>
+                <middleName>Andrew</middleName>
+                <surName>Menges</surName>
+            </persName>
+            <lotLocation>3</lotLocation>
+            <interred>
+                <date>1929-06-08</date>
+            </interred>
+            <deathDate>
+                <date>1929-06-06</date>
+            </deathDate>
+            <deathPlace>
+                <city>Irwin</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>6</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Joellen</firstName>
+                <surName>Bostwick</surName>
+            </persName>
+            <lotLocation>4</lotLocation>
+            <interred>
+                <date>1964-04-08-</date>
+                <intermentNo>23</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1964-04-06</date>
+            </deathDate>
+            <deathPlace>
+                <city>Wilkinsburg</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age type="days">3 Days</age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>cerebral</causeofDeath>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>James</firstName>
+                <MI>M</MI>
+                <surName>Bostwick</surName>
+            </persName>
+            <lotLocation>5</lotLocation>
+            <interred>
+                <date>1976-09-18-</date>
+            </interred>
+            <deathDate>
+                <date>1976-09-16</date>
+            </deathDate>
+            <deathPlace>
+                <city>Shadyside</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>85</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Mary</firstName>
+                <MI>K</MI>
+                <surName>Bostwick</surName>
+            </persName>
+            <lotLocation>6</lotLocation>
+            <interred>
+                <date>1979-11-15-</date>
+                <intermentNo>75</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1979-11-12</date>
+            </deathDate>
+            <deathPlace>
+                <city>Wilkinsburg</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>85</age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>Congestive failure</causeofDeath>
+        </occupant>
+        
+            <occupant>
+                <persName>
+                    <firstName>James</firstName>
+                    <middleName>King</middleName>
+                    <surName>Bostwick</surName>
+                </persName>
+                <lotLocation>7</lotLocation>
+                <interred>
+                    <date>2008-03-07</date>
+                </interred>
+                <deathDate>
+                    <date>2008-03-03</date>
+                </deathDate>
+                <deathPlace>
+                    <city>Pittsburgh</city>
+                    <state>Pennsylvania</state>
+                </deathPlace>
+                <age>97</age>
+                <gender>male</gender>
+                <causeofDeath>Cardiac arrhythmia</causeofDeath>
+            </occupant>
+        
         
     </lot>
 </root>
