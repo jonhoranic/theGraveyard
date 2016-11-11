@@ -49,8 +49,7 @@
                                  >measurement</measure></measureGrp> here.</layout>
                      </layoutDesc>
                   </objectDesc>
-               </physDesc>
-
+               </physDesc>    
                <history>
                   <origin>
                      <origPlace>Place of origin</origPlace>
@@ -60,11 +59,13 @@
                   <provenance type="observed">Modern location(s) (if different from repository,
                      above) </provenance>
                </history>
-               <adminInfo>
-                  <custodialHist>
-                     <custEvent type="photography"/>
-                  </custodialHist>
-               </adminInfo>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="photography"/>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
             </msDesc>
 
          </sourceDesc>
@@ -77,11 +78,11 @@
    <text>
       <body>
          <listPerson>
-            <person xml:id="who1" sex="F">
-               <persName><surname></surname>
-                  <forename></forename>
-                  <forename></forename>
-                  <roleName></roleName>
+            <person xml:id="who1" sex="f">
+               <persName><surname/>
+                  <forename/>
+                  <forename/>
+                  <roleName/>
                </persName>
                <birth notBefore="2016-01-01" notAfter="2016-02-05"><placeName>Mount Pleasant,
                      PA</placeName></birth>
