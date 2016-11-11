@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:rng="http://relaxng.org/ns/structure/1.0"
+   version="2.9.1"
+   xml:lang="en">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Graveyard Project ODD</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Prepared in TEI P5 by The Graveyard project team on newtFire.org. GitHub repository: <ref target="https://github.com/jonhoranic/theGraveyard"/>. Date last worked on: <date when="2016-11-10">10 November 2016</date></authority>
+            <availability><licence><!--Choose and identify a Creative Commons license for distribution. Look here: https://creativecommons.org/share-your-work/--></licence></availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <schemaSpec ident="graveyardODD" start="TEI teiCorpus" prefix="tei">
+            <moduleRef key="tei"/>
+            <moduleRef key="core" include="listBibl bibl title author editor publisher pubPlace biblScope cit quote rs date time measure measureGrp list item head lg l gap milestone pb lb note num p q ref respStmt resp textLang graphic label"/>         
+         <!-- QUESTION FOR THE GRAVEYARD TEAM: Are you transcribing documents? (We may want to reduce the element list from the core module)-->
+            <!--The elements that start the above list, from listBibl through biblScope, are used for bibliographies and bibliographic citations. Use title when the title of a work is referred to, and bibl when it's a fuller reference that might contain a title and an author, *or* is a reference to a "that book by so-and-so" which isn't really its title. 
+            Use the @level attribute on title to control what kind of title it is: <title level="j"> for journal articles, and <title level="m"> for books (known as "monographs"). 
+            
+            <cit>, <quote>, and <bibl> are used together for a quoted passage in the text with a source attribution, like this:       
+            <cit><quote>To be, or not to be</quote><bibl><title level="m">Hamlet</title> by <author>William Shakespeare</author></bibl></cit>
+            -->
+            <moduleRef key="header"/>
+            <moduleRef key="msdescription" include="custodialHist custEvent msDesc msIdentifier repository idno physDesc objectDesc supportDesc support material objectType dimensions height width depth dim layoutDesc layout history origin origPlace origDate provenance"/>
+            <!--ebb: the msdescription module selections are inspired by Epidoc, and expanded a little with the custodialHist and custEvent elements designed for marking curatorial activities like photographing stones. -->
+            <moduleRef key="namesdates" exclude="listNym nym"/>
+            <moduleRef key="textstructure" exclude="div1 div2 div3 div4 div5 div6 div7"/>     
+           <moduleRef key="transcr" include="facsimile"/>
+            
+           
+          <elementSpec ident="person" module="namesdates" mode="change">
+            <attList>
+               <attDef ident="sex" mode="replace" usage="req">
+                  <datatype>
+                     <dataRef key="teidata.word"/>
+                  </datatype>
+                  <valList type="closed">
+                     <valItem ident="F"/>
+                     <valItem ident="M"/>
+                     <valItem ident="O"/><!--other-->
+                     <valItem ident="NA"/><!--not applicable-->
+                     <valItem ident="U"/><!--unknown-->
+                  </valList>
+               </attDef> 
+            </attList>
+         </elementSpec>
+            <elementSpec ident="graphic" module="core" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.personPart" mode="add"/>
+               </classes>
+            </elementSpec>
+          
+         
+       <!-- Sample schematron rule for ODD:
+          <constraintSpec scheme="isoschematron" ident="pair_geos">
+             <constraint>
+                <sch:rule context="tei:location">
+                   <sch:assert test="count(tei:geo) = 2 and count(tei:geo[@type='lat']) = 1 and count(tei:geo[@type='long']) = 1">
+                      The location element must have two geo element children. 
+                      Of these, there must be one geo[@type='lat'] and one geo[@type='long'].
+                   </sch:assert>
+                </sch:rule>
+             </constraint>
+          </constraintSpec>-->
+ 
+         </schemaSpec>
+      </body>
+  </text>
+</TEI>
