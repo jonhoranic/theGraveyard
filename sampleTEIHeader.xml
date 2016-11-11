@@ -77,7 +77,12 @@
    </facsimile>
    <text>
       <body>
-         <listPerson>
+        <div><!--ebb: The div sets the section level. This needs either an attribute or a child <head> element to define the section.--> 
+           <listPerson xml:id="lot3"><!--Each listPerson represents a single "lot" of people. You want an attribute value to hold this info. Let's use an @xml:id.-->
+              <head>Lot 3 refers to a group of gravestones bordered on the southeastern side by a shrub. 
+              <geo><!--Stick a pair of whitespace-separated geocoordinates here. Look up how to do this in the TEI.--></geo>
+              </head>
+
             <person xml:id="who1" sex="f">
                <persName><surname/>
                   <forename/>
@@ -96,9 +101,9 @@
                   <label>white</label>
                </trait>
                <graphic url="photo.jpg"/>
+               <geo><!--Look up how to properly set geocoordinates in here.--></geo>
             </person>
-
-         </listPerson>
+         </listPerson> </div>
       </body>
    </text>
 </TEI>
