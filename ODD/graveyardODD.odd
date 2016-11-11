@@ -34,7 +34,7 @@
             <cit><quote>To be, or not to be</quote><bibl><title level="m">Hamlet</title> by <author>William Shakespeare</author></bibl></cit>
             -->
             <moduleRef key="header"/>
-            <moduleRef key="msdescription" include="adminInfo custodialHist custEvent msDesc msIdentifier repository idno physDesc objectDesc supportDesc support material objectType dimensions height width depth dim layoutDesc layout history origin origPlace origDate provenance"/>
+            <moduleRef key="msdescription" include="adminInfo custodialHist custEvent msDesc msIdentifier repository idno physDesc objectDesc supportDesc support material objectType dimensions height width depth dim layoutDesc layout history origin origPlace origDate provenance additional"/>
             <!--ebb: the msdescription module selections are inspired by Epidoc, and expanded a little with the custodialHist and custEvent elements designed for marking curatorial activities like photographing stones. -->
             <moduleRef key="namesdates" exclude="listNym nym"/>
             <moduleRef key="textstructure" exclude="div1 div2 div3 div4 div5 div6 div7"/>     
