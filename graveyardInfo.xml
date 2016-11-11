@@ -606,4 +606,404 @@
         
         
     </lot>
+    
+    <lot section="1" number="6">
+        <firstOwner>
+            <persName>
+                <firstName>Amanda </firstName>
+                <surName>Vogel</surName>
+            </persName>
+        </firstOwner>
+        
+        <occupant>
+            <persName>
+                <firstName>Albert</firstName>
+                <surName>Vogel</surName>
+            </persName>
+            <lotLocation>1</lotLocation>
+            <interred>
+                <date>1930-06-04</date>
+            </interred>
+            <deathDate>
+                <date>1930-06-01</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>76</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Amanda</firstName>
+                <surName>Vogel</surName>
+            </persName>
+            <lotLocation>2</lotLocation>
+            <interred>
+                <date>1944-08-23</date>
+                <intermentNo>80</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1944-08-21</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>87</age>
+            <gender>female</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Charles</firstName>
+                <MI>E</MI>
+                <surName>Vogel</surName>
+            </persName>
+            <lotLocation>3</lotLocation>
+            <interred>
+                <date>1968-04-21</date>
+                <intermentNo>46</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1968-04-18</date>
+            </deathDate>
+            <deathPlace>
+                <city>Greensburg</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>80</age>
+            <gender>male</gender>
+            <color>white</color>
+            <causeofDeath>Leukemia</causeofDeath>
+        </occupant>
+        <occupant>
+            <persName>
+                <firstName>Edna</firstName>
+                <MI>L</MI>
+                <surName>Vogel</surName>
+            </persName>
+            <lotLocation>4</lotLocation>
+            <interred>
+                <date>1990-09-06</date>
+                <intermentNo>62</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1990-09-02</date>
+            </deathDate>
+            <deathPlace>
+                <city>Hempfield</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>87</age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>Adenocarcinoma Hepatic Duct</causeofDeath>
+        </occupant>
+    </lot>
+    
+    <lot section="1" number="5">
+        
+        <firstOwner>
+            <persName>
+                <firstName>Hannah</firstName>
+                <MI>M</MI>
+                <surName>Young</surName>
+            </persName>
+        </firstOwner>
+        
+        <occupant>
+            <persName>
+                <firstName>Charles</firstName>
+                <MI>P</MI>
+                <surName>Young</surName>
+            </persName>
+            <lotLocation>1</lotLocation>
+            <interred>
+                <date>1937-08-13</date>
+                <intermentNo>59</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1937-08-10</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>65</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Hannah</firstName>
+                <MI>M</MI>
+                <surName>Young</surName>
+            </persName>
+            <lotLocation>2</lotLocation>
+            <interred>
+                <date>1959-08-15</date>
+                <intermentNo>69</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1959-08-12</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>85</age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>Squamous Cell Carcinoma with Metastasis</causeofDeath>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Henry</firstName>
+                <MI>H</MI>
+                <surName>Stein</surName>
+            </persName>
+            <lotLocation>3</lotLocation>
+            <interred>
+                <date>1945-04-30</date>
+                <intermentNo>40</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1945-04-23</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>49</age>
+            <gender>male</gender>
+            <color>white</color>
+            <causeofDeath>Adenocarcinoma Hepatic Duct</causeofDeath>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Charles</firstName>
+                <MI>H</MI>
+                <surName>Stein</surName>
+                <title type="military">S/SGT</title>
+            </persName>
+            <lotLocation>6</lotLocation>
+            <interred>
+                <date>1944-06-15</date>
+                <intermentNo>44</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1944-11-30</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>20</age>
+            <gender>male</gender>
+            <color>white</color>
+            <causeofDeath>Died in combat WWII</causeofDeath>
+        </occupant>
+        
+    </lot>
+    
+    <lot section="1" number="4">
+        <firstOwner>
+            <persName>
+                <firstName>Ida</firstName>
+                <middleName>Mae</middleName>
+                <surName>Apple</surName>
+            </persName>
+        </firstOwner>
+        
+        <occupant>
+            <persName>
+                <firstName>George</firstName>
+                <MI>W</MI>
+                <surName>Apple</surName>
+            </persName>
+            <lotLocation>1</lotLocation>
+            <interred>
+                <date>1953-11-21</date>
+                <intermentNo>71</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1953-11-18</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>67</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Ida</firstName>
+                <middleName>Mae</middleName>
+                <surName>Apple</surName>
+            </persName>
+            <lotLocation>2</lotLocation>
+            <interred>
+                <date>1977-08-31</date>
+                <intermentNo>61</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1977-08-28</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>91</age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>Congestive heart failure</causeofDeath>
+        </occupant>
+    </lot>
+    
+    <lot section="1" number="3">
+        <firstOwner>
+            <persName>
+                <firstName>Norman</firstName>
+                <MI>F</MI>
+                <surName>Wallace</surName>
+            </persName>
+        </firstOwner>
+        
+        <occupant>
+            <persName>
+                <firstName>Norman</firstName>
+                <MI>F</MI>
+                <surName>Wallace</surName>
+            </persName>
+            <lotLocation>4</lotLocation>
+            <interred>
+                <date>2013-12-16</date>
+                <intermentNo>60</intermentNo>
+            </interred>
+            <deathDate>
+                <date>2013-12-12</date>
+            </deathDate>
+            <deathPlace>
+                <city>New Wilmington</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>97</age>
+            <gender>male</gender>
+            <causeofDeath>Ischemic Heart Disease</causeofDeath>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Clara</firstName>
+                <MI>K</MI>
+                <surName>Wallace</surName>
+            </persName>
+            <lotLocation>5</lotLocation>
+            <interred>
+                <date>2002-12-06</date>
+                <intermentNo>80</intermentNo>
+            </interred>
+            <deathDate>
+                <date>2002-12-03</date>
+            </deathDate>
+            <deathPlace>
+                <city>Greensburg</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>92</age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>Alzhemier Disease</causeofDeath>
+        </occupant>
+    </lot>
+    
+    <lot section="1" number="33">
+        <firstOwner>
+            <persName>
+                <firstName>A.J.</firstName>
+                <middleName>Bert A.</middleName>
+                <surName>DeWalt</surName>
+            </persName>
+        </firstOwner>
+        
+        <occupant>
+            <persName>
+                <firstName>Blanche</firstName>
+                <MI>M</MI>
+                <surName>DeWalt</surName>
+            </persName>
+            <lotLocation>1</lotLocation>
+            <interred>
+                <date>1963-10-30</date>
+                <intermentNo>82</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1963-10-26</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>77</age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>Heart Disease</causeofDeath>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>A.J.</firstName>
+                <MI>Bert</MI>
+                <surName>DeWalt</surName>
+            </persName>
+            <lotLocation>2</lotLocation>
+            <interred>
+                <date>1974-06-24</date>
+                <intermentNo>58</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1974-06-20</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>90</age>
+            <gender>male</gender>
+            <color>white</color>
+            <causeofDeath>Cardio Pulmonary Disease</causeofDeath>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Violet</firstName>
+                <surName>DeWalt</surName>
+            </persName>
+            <lotLocation>3</lotLocation>
+            <interred>
+                <date>1929-05-02</date>
+            </interred>
+            <deathDate>
+                <date>1929-04-28</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>42</age>
+            <gender>female</gender>
+            <color>white</color>
+        </occupant>
+    </lot>
 </root>
