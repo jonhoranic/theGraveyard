@@ -62,6 +62,12 @@
                   <memberOf key="model.personPart" mode="add"/>
                </classes>
             </elementSpec>
+            
+            <elementSpec ident="geo" module="core" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.personPart" mode="add"/>
+               </classes>
+            </elementSpec>
           
          
        <!-- Sample schematron rule for ODD:
