@@ -25,7 +25,7 @@
       <body>
          <schemaSpec ident="graveyardODD" start="TEI teiCorpus" prefix="tei">
             <moduleRef key="tei"/>
-            <moduleRef key="core" include="listBibl bibl title author editor publisher pubPlace biblScope cit quote rs date time measure measureGrp list item head lg l gap milestone pb lb note num p q ref respStmt resp textLang graphic label"/>         
+            <moduleRef key="core" include="listBibl bibl title author editor publisher pubPlace biblScope rs date time measure measureGrp list item head note num p q ref respStmt resp graphic label"/>         
          <!-- QUESTION FOR THE GRAVEYARD TEAM: Are you transcribing documents? (We may want to reduce the element list from the core module)-->
             <!--The elements that start the above list, from listBibl through biblScope, are used for bibliographies and bibliographic citations. Use title when the title of a work is referred to, and bibl when it's a fuller reference that might contain a title and an author, *or* is a reference to a "that book by so-and-so" which isn't really its title. 
             Use the @level attribute on title to control what kind of title it is: <title level="j"> for journal articles, and <title level="m"> for books (known as "monographs"). 
@@ -34,7 +34,7 @@
             <cit><quote>To be, or not to be</quote><bibl><title level="m">Hamlet</title> by <author>William Shakespeare</author></bibl></cit>
             -->
             <moduleRef key="header"/>
-            <moduleRef key="msdescription" include="custodialHist custEvent msDesc msIdentifier repository idno physDesc objectDesc supportDesc support material objectType dimensions height width depth dim layoutDesc layout history origin origPlace origDate provenance"/>
+            <moduleRef key="msdescription" include="adminInfo custodialHist custEvent msDesc msIdentifier repository idno physDesc objectDesc supportDesc support material objectType dimensions height width depth dim layoutDesc layout history origin origPlace origDate provenance"/>
             <!--ebb: the msdescription module selections are inspired by Epidoc, and expanded a little with the custodialHist and custEvent elements designed for marking curatorial activities like photographing stones. -->
             <moduleRef key="namesdates" exclude="listNym nym"/>
             <moduleRef key="textstructure" exclude="div1 div2 div3 div4 div5 div6 div7"/>     
@@ -48,11 +48,11 @@
                      <dataRef key="teidata.word"/>
                   </datatype>
                   <valList type="closed">
-                     <valItem ident="F"/>
-                     <valItem ident="M"/>
-                     <valItem ident="O"/><!--other-->
-                     <valItem ident="NA"/><!--not applicable-->
-                     <valItem ident="U"/><!--unknown-->
+                     <valItem ident="f"/>
+                     <valItem ident="m"/>
+                     <valItem ident="o"/><!--other-->
+                     <valItem ident="na"/><!--not applicable-->
+                     <valItem ident="u"/><!--unknown-->
                   </valList>
                </attDef> 
             </attList>
