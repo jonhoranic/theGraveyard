@@ -44,9 +44,9 @@
           <elementSpec ident="person" module="namesdates" mode="change">
             <attList>
                <attDef ident="sex" mode="replace" usage="req">
-                  <datatype>
+               <!--   <datatype>
                      <dataRef key="teidata.word"/>
-                  </datatype>
+                  </datatype>-->
                   <valList type="closed">
                      <valItem ident="f"/>
                      <valItem ident="m"/>
