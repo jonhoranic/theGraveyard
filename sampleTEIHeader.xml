@@ -94,7 +94,7 @@
                <death when="2016-09-09"><note type="cause">natural
                      causes</note><placeName>Greensburg, PA</placeName></death>
                <event>
-                  <p/>
+                  <p></p>
                </event>
                <occupation/>
                <trait type="racial">
@@ -103,7 +103,8 @@
                <graphic url="photo.jpg"/>
                <geo><!--Look up how to properly set geocoordinates in here.--></geo>
             </person>
-         </listPerson> </div>
+         </listPerson>
+        </div>
       </body>
    </text>
 </TEI>
