@@ -190,7 +190,7 @@
             <age>60</age>
             <gender>male</gender>
             <color>white</color>
-            <causeofDeath>Cancer of Lung</causeofDeath>
+            <causeofDeath>cancer of lung</causeofDeath>
         </occupant>
         
         <occupant>
@@ -323,7 +323,7 @@
             <age type="days">34 Days</age>
             <gender>male</gender>
             <color>white</color>
-            <causeofDeath>Cardio Respiratory Arrest</causeofDeath>
+            <causeofDeath>cardio respiratory arrest</causeofDeath>
         </occupant>
     </lot>
     
@@ -379,7 +379,7 @@
             <age>94</age>
             <gender>female</gender>
             <color>white</color>
-            <causeofDeath>Respiratory Paralysis Medollary Infarction</causeofDeath>
+            <causeofDeath>respiratory paralysis medollary infarction</causeofDeath>
         </occupant>
         
         <occupant>
@@ -579,7 +579,7 @@
             <age>85</age>
             <gender>female</gender>
             <color>white</color>
-            <causeofDeath>Congestive failure</causeofDeath>
+            <causeofDeath>congestive failure</causeofDeath>
         </occupant>
         
             <occupant>
@@ -601,7 +601,7 @@
                 </deathPlace>
                 <age>97</age>
                 <gender>male</gender>
-                <causeofDeath>Cardiac arrhythmia</causeofDeath>
+                <causeofDeath>cardiac arrhythmia</causeofDeath>
             </occupant>
         
         
@@ -679,7 +679,7 @@
             <age>80</age>
             <gender>male</gender>
             <color>white</color>
-            <causeofDeath>Leukemia</causeofDeath>
+            <causeofDeath>leukemia</causeofDeath>
         </occupant>
         <occupant>
             <persName>
@@ -702,7 +702,7 @@
             <age>87</age>
             <gender>female</gender>
             <color>white</color>
-            <causeofDeath>Adenocarcinoma Hepatic Duct</causeofDeath>
+            <causeofDeath>adenocarcinoma hepatic duct</causeofDeath>
         </occupant>
     </lot>
     
@@ -760,7 +760,7 @@
             <age>85</age>
             <gender>female</gender>
             <color>white</color>
-            <causeofDeath>Squamous Cell Carcinoma with Metastasis</causeofDeath>
+            <causeofDeath>squamous cell carcinoma with metastasis</causeofDeath>
         </occupant>
         
         <occupant>
@@ -784,7 +784,7 @@
             <age>49</age>
             <gender>male</gender>
             <color>white</color>
-            <causeofDeath>Adenocarcinoma Hepatic Duct</causeofDeath>
+            <causeofDeath>adenocarcinoma hepatic duct</causeofDeath>
         </occupant>
         
         <occupant>
@@ -809,7 +809,7 @@
             <age>20</age>
             <gender>male</gender>
             <color>white</color>
-            <causeofDeath>Died in combat WWII</causeofDeath>
+            <causeofDeath>died in combat WWII</causeofDeath>
         </occupant>
         
     </lot>
@@ -867,7 +867,7 @@
             <age>91</age>
             <gender>female</gender>
             <color>white</color>
-            <causeofDeath>Congestive heart failure</causeofDeath>
+            <causeofDeath>congestive heart failure</causeofDeath>
         </occupant>
     </lot>
     
@@ -900,7 +900,7 @@
             </deathPlace>
             <age>97</age>
             <gender>male</gender>
-            <causeofDeath>Ischemic Heart Disease</causeofDeath>
+            <causeofDeath>ischemic heart disease</causeofDeath>
         </occupant>
         
         <occupant>
@@ -924,7 +924,7 @@
             <age>92</age>
             <gender>female</gender>
             <color>white</color>
-            <causeofDeath>Alzhemier Disease</causeofDeath>
+            <causeofDeath>alzhemier disease</causeofDeath>
         </occupant>
     </lot>
     
@@ -958,7 +958,7 @@
             <age>77</age>
             <gender>female</gender>
             <color>white</color>
-            <causeofDeath>Heart Disease</causeofDeath>
+            <causeofDeath>heart disease</causeofDeath>
         </occupant>
         
         <occupant>
@@ -982,7 +982,7 @@
             <age>90</age>
             <gender>male</gender>
             <color>white</color>
-            <causeofDeath>Cardio Pulmonary Disease</causeofDeath>
+            <causeofDeath>cardio pulmonary disease</causeofDeath>
         </occupant>
         
         <occupant>
@@ -1295,7 +1295,7 @@
             <age>79</age>
             <gender>male</gender>
             <color>white</color>
-            <causeofDeath>Provisional</causeofDeath>
+            <causeofDeath>provisional</causeofDeath>
         </occupant>
         
         <occupant>
@@ -1572,7 +1572,7 @@
             <age>72</age>
             <gender>female</gender>
             <color>white</color>
-            <causeofDeath>Heart Attack</causeofDeath>
+            <causeofDeath>heart attack</causeofDeath>
         </occupant>
         
         <occupant>
@@ -1596,7 +1596,7 @@
             <age>76</age>
             <gender>female</gender>
             <color>white</color>
-            <causeofDeath>Sepsis</causeofDeath>
+            <causeofDeath>sepsis</causeofDeath>
         </occupant>
         
         <occupant>
@@ -1708,7 +1708,7 @@
             <age>78</age>
             <gender>female</gender>
             <color>white</color>
-            <causeofDeath>Sepsis</causeofDeath>
+            <causeofDeath>sepsis</causeofDeath>
         </occupant>
         
         <occupant>
@@ -1821,7 +1821,7 @@
             <age>95</age>
             <gender>male</gender>
             <color>white</color>
-            <causeofDeath>Heart Attack</causeofDeath>
+            <causeofDeath>heart attack</causeofDeath>
         </occupant>
         
         <occupant>
@@ -2155,7 +2155,7 @@
             <age>76</age>
             <gender>male</gender>
             <color>white</color>
-            <causeofDeath>Leukemia</causeofDeath>
+            <causeofDeath>leukemia</causeofDeath>
         </occupant>
         
         <occupant>
@@ -2302,5 +2302,214 @@
             <color>white</color>
             <causeofDeath>subarachnoid hemorrhage</causeofDeath>
         </occupant>
+    </lot>
+    
+    <lot section="1" number="23">
+        <firstOwner>
+            <persName>
+                <firstName>Elizabeth</firstName>
+                <surName>Reynolds</surName>
+            </persName>
+        </firstOwner>
+        
+        <occupant>
+            <persName>
+                <firstName>Samuel</firstName>
+                <MI>J</MI>
+                <surName>Reynolds</surName>
+            </persName>
+            <lotLocation>1</lotLocation>
+            <interred>
+                <date>1932-10-13</date>
+            </interred>
+            <deathDate>
+                <date>1932-10-10</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>60</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Elizabeth</firstName>
+                <surName>Reynolds</surName>
+            </persName>
+            <lotLocation>2</lotLocation>
+            <interred>
+                <date>1962-12-22</date>
+                <intermentNo>92</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1962-12-19</date>
+            </deathDate>
+            <deathPlace>
+                <city>Torrance</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>87</age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>cerebral hemmorrhage</causeofDeath>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Cecil</firstName>
+                <MI>R</MI>
+                <surName>Montgomery</surName>
+            </persName>
+            <lotLocation>4</lotLocation>
+            <interred>
+                <date>1969-05-12</date>
+                <intermentNo>41</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1969-05-09</date>
+            </deathDate>
+            <deathPlace>
+                <city>Sarasota</city>
+                <state>Florida</state>
+            </deathPlace>
+            <age>65</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Cecil</firstName>
+                <surName>Reynolds</surName>
+                <surName>Montgomery</surName>
+            </persName>
+            <lotLocation>5</lotLocation>
+            <interred>
+                <date>1952-01-09</date>
+                <intermentNo>3</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1952-01-06</date>
+            </deathDate>
+            <deathPlace>
+                <city>Pleasant Valley</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>50</age>
+            <gender>female</gender>
+            <color>white</color>
+        </occupant>
+    </lot>
+    
+    <lot section="1" number="21 and 22">
+        <note>Mausoleum</note>
+        <firstOwner>
+            <persName>
+                <firstName>Bessie</firstName>
+                <MI>T</MI>
+                <surName>Walthour</surName>
+            </persName>
+        </firstOwner>
+        
+        <secondOwner>
+            <persName>
+                <firstName>Christy</firstName>
+                <surName>Walthour</surName>
+            </persName>
+        </secondOwner>
+        
+        <occupant>
+            <persName>
+                <firstName>Emma</firstName>
+                <MI>G</MI>
+                <surName>Walthour</surName>
+            </persName>
+            <lotLocation>1</lotLocation>
+            <interred>
+                <date>1978-10-26</date>
+                <intermentNo>86</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1915-11</date>
+            </deathDate>
+            <age>0</age>
+            <gender>female</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Bessie</firstName>
+                <MI>T</MI>
+                <surName>Walthour</surName>
+            </persName>
+            <lotLocation>2</lotLocation>
+            <interred>
+                <date>1975-06-27</date>
+                <intermentNo>45</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1975-06-24</date>
+            </deathDate>
+            <deathPlace>
+                <city>North Huntington</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>83</age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>cardiac failure</causeofDeath>
+        </occupant>
+    
+    <occupant>
+        <persName>
+            <firstName>Christopher</firstName>
+            <MI>C</MI>
+            <surName>Walthour</surName>
+        </persName>
+        <lotLocation>3</lotLocation>
+        <interred>
+            <date>1940-12-09</date>
+            <intermentNo>101</intermentNo>
+        </interred>
+        <deathDate>
+            <date>1940-12-07</date>
+        </deathDate>
+        <deathPlace>
+            <city>Manor</city>
+            <state>Pennsylvania</state>
+        </deathPlace>
+        <age>49</age>
+        <gender>male</gender>
+        <color>white</color>
+    </occupant>
+    
+    <occupant>
+        <persName>
+            <firstName>Christopher</firstName>
+            <MI>C</MI>
+            <surName>Walthour</surName>
+            <genName>Junior</genName>
+        </persName>
+        <lotLocation>4</lotLocation>
+        <interred>
+            <date>2003-08-19</date>
+            <intermentNo>53</intermentNo>
+        </interred>
+        <deathDate>
+            <date>2003-08-15</date>
+        </deathDate>
+        <deathPlace>
+            <city>Greensburg</city>
+            <state>Pennsylvania</state>
+        </deathPlace>
+        <age>86</age>
+        <gender>male</gender>
+        <color>white</color>
+        <causeofDeath>cardio pulmonary arrest</causeofDeath>
+    </occupant>
     </lot>
 </root>
