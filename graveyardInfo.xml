@@ -608,28 +608,6 @@
             <color>white</color>
             <causeofDeath>congestive failure</causeofDeath>
         </occupant>
-
-        <occupant>
-            <persName>
-                <firstName>James</firstName>
-                <middleName>King</middleName>
-                <surName>Bostwick</surName>
-            </persName>
-            <lotLocation>7</lotLocation>
-            <interred>
-                <date>2008-03-07</date>
-            </interred>
-            <deathDate>
-                <date>2008-03-03</date>
-            </deathDate>
-            <deathPlace>
-                <city>Pittsburgh</city>
-                <state>Pennsylvania</state>
-            </deathPlace>
-            <age>97</age>
-            <gender>male</gender>
-            <causeofDeath>cardiac arrhythmia</causeofDeath>
-        </occupant>
         
             <occupant>
                 <img src="cemeteryPictures/Bostwick1.jpg"/>
