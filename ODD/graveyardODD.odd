@@ -25,7 +25,7 @@
       <body>
          <schemaSpec ident="graveyardODD" start="TEI teiCorpus" prefix="tei">
             <moduleRef key="tei"/>
-            <moduleRef key="core" include="listBibl bibl title author editor publisher pubPlace biblScope rs date time measure measureGrp list item head note num p q ref respStmt resp graphic label"/>         
+            <moduleRef key="core" include="desc listBibl bibl title author editor publisher pubPlace biblScope rs date time measure measureGrp list item head note num p q ref respStmt resp graphic label"/>         
          <!-- QUESTION FOR THE GRAVEYARD TEAM: Are you transcribing documents? (We may want to reduce the element list from the core module)-->
             <!--The elements that start the above list, from listBibl through biblScope, are used for bibliographies and bibliographic citations. Use title when the title of a work is referred to, and bibl when it's a fuller reference that might contain a title and an author, *or* is a reference to a "that book by so-and-so" which isn't really its title. 
             Use the @level attribute on title to control what kind of title it is: <title level="j"> for journal articles, and <title level="m"> for books (known as "monographs"). 
@@ -68,7 +68,22 @@
                   <memberOf key="model.personPart" mode="add"/>
                </classes>
             </elementSpec>
-          
+            <elementSpec ident="desc" module="core" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.personPart" mode="add"/>
+               </classes>
+            </elementSpec>
+            <elementSpec ident="death" module="namesdates" mode="change">
+               <classes mode="change">            
+                  <memberOf key="model.eventLike" mode="add"/>
+               </classes>
+               
+            </elementSpec>
+            <elementSpec ident="roleName" module="namesdates" mode="change">
+               <classes mode="change">            
+                  <memberOf key="model.eventLike" mode="add"/>
+               </classes>
+            </elementSpec>
          
        <!-- Sample schematron rule for ODD:
           <constraintSpec scheme="isoschematron" ident="pair_geos">

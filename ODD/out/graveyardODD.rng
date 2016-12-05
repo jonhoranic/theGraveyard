@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-11-16T02:31:33Z. .
+Schema generated from ODD source 2016-12-05T17:08:19Z. .
 TEI Edition: Version 3.0.0. Last updated on
 	29th March 2016, revision 89ba24e
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.0/
@@ -1224,6 +1224,26 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
             </sch:assert>
           </sch:rule>
    </pattern>
+   <define name="teiatt.translatable.attributes">
+      <ref name="teiatt.translatable.attribute.versionDate"/>
+   </define>
+   <define name="teiatt.translatable.attribute.versionDate">
+      <optional>
+         <attribute name="versionDate">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the date on which the source text was extracted and sent to the translator</a:documentation>
+            <choice>
+               <data type="date"/>
+               <data type="gYear"/>
+               <data type="gMonth"/>
+               <data type="gDay"/>
+               <data type="gYearMonth"/>
+               <data type="gMonthDay"/>
+               <data type="time"/>
+               <data type="dateTime"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
    <define name="teiatt.citing.attributes">
       <ref name="teiatt.citing.attribute.unit"/>
       <ref name="teiatt.citing.attribute.from"/>
@@ -1779,28 +1799,40 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
    </define>
    <define name="teimodel.labelLike">
       <choice>
+         <ref name="teidesc"/>
          <ref name="teilabel"/>
       </choice>
    </define>
    <define name="teimodel.labelLike_alternation">
       <choice>
+         <ref name="teidesc"/>
          <ref name="teilabel"/>
       </choice>
    </define>
    <define name="teimodel.labelLike_sequence">
+      <ref name="teidesc"/>
       <ref name="teilabel"/>
    </define>
    <define name="teimodel.labelLike_sequenceOptional">
+      <optional>
+         <ref name="teidesc"/>
+      </optional>
       <optional>
          <ref name="teilabel"/>
       </optional>
    </define>
    <define name="teimodel.labelLike_sequenceOptionalRepeatable">
       <zeroOrMore>
+         <ref name="teidesc"/>
+      </zeroOrMore>
+      <zeroOrMore>
          <ref name="teilabel"/>
       </zeroOrMore>
    </define>
    <define name="teimodel.labelLike_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="teidesc"/>
+      </oneOrMore>
       <oneOrMore>
          <ref name="teilabel"/>
       </oneOrMore>
@@ -1952,6 +1984,8 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
    </define>
    <define name="teimodel.eventLike">
       <choice>
+         <ref name="teiroleName"/>
+         <ref name="teideath"/>
          <ref name="teievent"/>
          <ref name="teilistEvent"/>
       </choice>
@@ -1995,6 +2029,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="teimodel.biblLike"/>
          <ref name="teimodel.eventLike"/>
          <ref name="teimodel.persStateLike"/>
+         <ref name="teidesc"/>
          <ref name="teigraphic"/>
          <ref name="teiidno"/>
          <ref name="teibirth"/>
@@ -2231,7 +2266,9 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
       </choice>
    </define>
    <define name="teimodel.descLike">
-      <notAllowed/>
+      <choice>
+         <ref name="teidesc"/>
+      </choice>
    </define>
    <define name="teimodel.glossLike">
       <notAllowed/>
@@ -2836,6 +2873,16 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
                </choice>
             </attribute>
          </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="teidesc">
+      <element name="desc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(description) contains a brief description of the object documented by its parent element, including its intended usage, purpose, or application where this is appropriate. [22.4.1. Description of Components]</a:documentation>
+         <ref name="teimacro.limitedContent"/>
+         <ref name="teiatt.global.attributes"/>
+         <ref name="teiatt.translatable.attributes"/>
+         <ref name="teiatt.typed.attributes"/>
          <empty/>
       </element>
    </define>
@@ -6469,6 +6516,9 @@ Suggested values include: 1] paper; 2] parch(parchment) ; 3] mixed</a:documentat
    <define name="teirelation">
       <element name="relation">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(relationship) describes any kind of relationship or linkage amongst a specified group of places, events, persons, objects or other items. [13.3.2.3. Personal Relationships]</a:documentation>
+         <optional>
+            <ref name="teidesc"/>
+         </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="graveyardODD-relation-reforkeyorname-constraint-6">
             <rule context="tei:relation">

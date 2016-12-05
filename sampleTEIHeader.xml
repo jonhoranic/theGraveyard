@@ -9,7 +9,9 @@
             <!--You can include a respStmt to indicate various responsibilities, one for each name on your project team.-->
             <respStmt>
                <resp>Markup by</resp>
-               <persName>Madison Bredice</persName>
+               <persName xml:id="jmh">Madison Bredice</persName>
+               <persName></persName>
+               <persName></persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -94,7 +96,8 @@
                <death when="2016-09-09"><note type="cause">natural
                      causes</note><placeName>Greensburg, PA</placeName></death>
                <event>
-                  <p></p>
+              
+                  <desc>Stuff</desc>
                </event>
                <occupation/>
                <trait type="racial">
