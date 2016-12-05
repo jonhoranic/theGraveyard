@@ -12,7 +12,7 @@
                 <surName>Henderson</surName>
             </persName>
         </firstOwner>
-        <seconOwner>
+        <secondOwner>
             <purchased>
                 <date>1942-01-01</date>
             </purchased>
@@ -21,7 +21,7 @@
                 <MI>N</MI>
                 <surName>Riley</surName>
             </persName>
-        </seconOwner>
+        </secondOwner>
         
         <occupant>
             <persName>
@@ -461,13 +461,13 @@
                 <surName>Menges</surName>
             </persName>
         </firstOwner>
-        <seconOwner>
+        <secondOwner>
             <persName>
                 <firstName>Mary</firstName>
                 <MI>K</MI>
                 <surName>Bostwick</surName>
             </persName>
-        </seconOwner>
+        </secondOwner>
         
         <occupant>
             <persName>
