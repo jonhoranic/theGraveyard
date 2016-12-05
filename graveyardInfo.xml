@@ -3444,4 +3444,183 @@
             <color>white</color>
         </occupant>
     </lot>
+    
+    <lot section="1" number="14">
+        <firstOwner>
+            <persName>
+                <firstName>Harry</firstName>
+                <MI>J</MI>
+                <surName>Gongaware</surName>
+            </persName>
+        </firstOwner>
+        
+        <occupant>
+            <persName>
+                <firstName>Harry</firstName>
+                <MI>C</MI>
+                <surName>Gongaware</surName>
+            </persName>
+            <lotLocation>1</lotLocation>
+            <interred>
+                <date>1988-10-12</date>
+                <intermentNo>73</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1988-10-08</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>74</age>
+            <gender>male</gender>
+            <color>white</color>
+            <causeofDeath>cardiac arrest</causeofDeath>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Catherine</firstName>
+                <surName>Gongaware</surName>
+            </persName>
+            <lotLocation>2</lotLocation>
+            <interred>
+                <date>1996-08-24</date>
+                <intermentNo>65</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1996-08-21</date>
+            </deathDate>
+            <deathPlace>
+                <city>Greensburg</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>80</age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>myocardial infarction</causeofDeath>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Harry</firstName>
+                <middleName>Jonas</middleName>
+                <surName>Gongaware</surName>
+            </persName>
+            <lotLocation>3</lotLocation>
+            <interred>
+                <date>1950-11-08</date>
+                <intermentNo>77</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1950-11-04</date>
+            </deathDate>
+            <age>72</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+    </lot>
+    
+    <lot section="1" number="13">
+        <firstOwner>
+            <persName>
+                <firstName>William</firstName>
+                <MI>J</MI>
+                <surName>Coles</surName>
+            </persName>
+        </firstOwner>
+        
+        <occupant>
+            <persName>
+                <firstName>William</firstName>
+                <MI>J</MI>
+                <surName>Coles</surName>
+            </persName>
+            <lotLocation>1</lotLocation>
+            <interred>
+                <date>1947-07-13</date>
+                <intermentNo>48</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1947-07-09</date>
+            </deathDate>
+            <deathPlace>
+                <city>Homestead</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>83</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Anna</firstName>
+                <surName>Coles</surName>
+            </persName>
+            <lotLocation>2</lotLocation>
+            <interred>
+                <date>1944-07-08</date>
+                <intermentNo>69</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1944-07-06</date>
+            </deathDate>
+            <deathPlace>
+                <city>Homestead</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>81</age>
+            <gender>female</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Charles</firstName>
+                <middleName>Alfred</middleName>
+                <surName>Shirey</surName>
+                <genName>Doctor</genName>
+            </persName>
+            <lotLocation>4</lotLocation>
+            <interred>
+                <date>1946-01-04</date>
+                <intermentNo>1</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1946-01-01</date>
+            </deathDate>
+            <deathPlace>
+                <city>Manor</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>83</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+        
+        <occupant>
+            <persName>
+                <firstName>Emily</firstName>
+               <MI>G</MI>
+                <surName>Munson</surName>
+                <surName>Shirey</surName>
+            </persName>
+            <lotLocation>5</lotLocation>
+            <interred>
+                <date>1940-11-23</date>
+                <intermentNo>96</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1940-11-17</date>
+            </deathDate>
+            <deathPlace>
+                <city>Manor</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>75</age>
+            <gender>female</gender>
+            <color>white</color>
+        </occupant>
+    </lot>
 </root>
