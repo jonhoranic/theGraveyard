@@ -25,6 +25,7 @@
         
         <occupant>
             <persName>
+                <img src="cemeteryPictures/Riley.jpg"/>
                 <firstName>Paullos</firstName>
                 <MI>N</MI>
                 <surName>Riley</surName>
@@ -34,6 +35,7 @@
         
         <occupant>
             <persName>
+                <img src="cemeteryPictures/Riley.jpg"/>
                 <firstName>Fannie</firstName>
                 <surName>Riley</surName>
             </persName>
@@ -55,6 +57,7 @@
         </occupant>
         
         <occupant>
+            
             <persName>
                 <firstName>James</firstName>
                 <surName>Henderson</surName>
@@ -76,6 +79,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Gress.jpg"/>
             <persName>
                 <firstName>Edward</firstName>
                 <surName>Gress</surName>
@@ -88,6 +92,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Gress.jpg"/>
             <persName>
                 <firstName>Isabella</firstName>
                 <MI>M</MI>
@@ -125,6 +130,7 @@
         </firstOwner>
         
         <occupant>
+            <img src="cemeteryPictures/McCune1.jpg"/>
             <persName>
                 <firstName>John</firstName>
                 <surName>McCune</surName>
@@ -147,6 +153,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/McCune1.jpg"/>
             <persName>
                 <firstName>Mary</firstName>
                 <middleName>Emma</middleName>
@@ -170,6 +177,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Mitchell2.jpg"/>
             <persName>
                 <firstName>James</firstName>
                 <MI>L</MI>
@@ -194,6 +202,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Mitchell2.jpg"/>
             <persName>
                 <firstName>Sara</firstName>
                 <MI>M</MI>
@@ -217,6 +226,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/McCune2.jpg"/><!-- verify image -->
             <persName>
                 <firstName>Edwin</firstName>
                 <surName>McCune</surName>
@@ -238,6 +248,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/McCune2.jpg"/><!-- verify image -->
             <persName>
                 <firstName>Casper</firstName>
                 <surName>McCune</surName>
@@ -259,9 +270,11 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Kelly.jpg"/>
             <persName>
                 <firstName>Grace</firstName>
                 <MI>E</MI>
+                <surName>McCune</surName>
                 <surName>Kelly</surName>
             </persName>
             <lotLocation>8</lotLocation>
@@ -280,6 +293,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Kelly.jpg"/>
             <persName>
                 <firstName>Edward</firstName>
                 <MI>P</MI>
@@ -303,6 +317,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Zimmerman.jpg"/>
             <persName>
                 <firstName>Daniel</firstName>
                 <middleName>Edward</middleName>
@@ -337,6 +352,7 @@
         </firstOwner>
         
         <occupant>
+            <img src="cemeteryPictures/Kleist.jpg"/>
             <persName>
                 <firstName>Adam</firstName>
                 <middleName>Howard</middleName>
@@ -359,10 +375,11 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Kleist.jpg"/>
             <persName>
                 <firstName>Ella</firstName>
                 <MI>H</MI>
-                <surName>Mitchell</surName>
+                <surName>Kleist</surName>
             </persName>
             <lotLocation>5</lotLocation>
             <interred>
@@ -383,6 +400,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/King2.jpg"/>
             <persName>
                 <firstName>Andrew</firstName>
                 <MI>F</MI>
@@ -406,6 +424,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/King2.jpg"/>
             <persName>
                 <firstName>Elizabeth</firstName>
                 <MI>C</MI>
@@ -429,6 +448,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/King3.jpg"/>
             <persName>
                 <firstName>John</firstName>
                 <middleName>Kleman</middleName>
@@ -470,8 +490,10 @@
         </seconOwner>
         
         <occupant>
+            <img src="cemeteryPictures/King1.jpg"/>
             <persName>
                 <firstName>Carrie</firstName>
+                <surName>King</surName>
                 <surName>Menges</surName>
             </persName>
             <lotLocation>2</lotLocation>
@@ -492,6 +514,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Menges.jpg"/>
             <persName>
                 <firstName>Charles</firstName>
                 <middleName>Andrew</middleName>
@@ -514,6 +537,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Bostwick3.jpg"/>
             <persName>
                 <firstName>Joellen</firstName>
                 <surName>Bostwick</surName>
@@ -537,6 +561,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Bostwick.jpg"/>
             <persName>
                 <firstName>James</firstName>
                 <MI>M</MI>
@@ -559,6 +584,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Bostwick.jpg"/>
             <persName>
                 <firstName>Mary</firstName>
                 <MI>K</MI>
@@ -583,6 +609,7 @@
         </occupant>
         
             <occupant>
+                <img src="cemeteryPictures/Bostwick1.jpg"/>
                 <persName>
                     <firstName>James</firstName>
                     <middleName>King</middleName>
@@ -604,7 +631,7 @@
                 <causeofDeath>cardiac arrhythmia</causeofDeath>
             </occupant>
         
-        
+        <!-- Hey, where is Lucy Bostwick? She is on the tombstone - <img src="cemeteryPictures/Bostwick1.jpg"/> -->
     </lot>
     
     <lot section="1" number="6">
@@ -616,6 +643,7 @@
         </firstOwner>
         
         <occupant>
+            <img src="cemeteryPictures/Vogel3.jpg"/>
             <persName>
                 <firstName>Albert</firstName>
                 <surName>Vogel</surName>
@@ -637,6 +665,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Vogel3.jpg"/>
             <persName>
                 <firstName>Amanda</firstName>
                 <surName>Vogel</surName>
@@ -659,6 +688,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Vogel1.jpg"/>
             <persName>
                 <firstName>Charles</firstName>
                 <MI>E</MI>
@@ -682,6 +712,7 @@
             <causeofDeath>leukemia</causeofDeath>
         </occupant>
         <occupant>
+            <img src="cemeteryPictures/Vogel1.jpg"/>
             <persName>
                 <firstName>Edna</firstName>
                 <MI>L</MI>
@@ -717,6 +748,7 @@
         </firstOwner>
         
         <occupant>
+            <img src="cemeteryPictures/Young.jpg"/>
             <persName>
                 <firstName>Charles</firstName>
                 <MI>P</MI>
@@ -740,6 +772,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Young.jpg"/>
             <persName>
                 <firstName>Hannah</firstName>
                 <MI>M</MI>
@@ -764,6 +797,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Stein2.jpg"/>
             <persName>
                 <firstName>Henry</firstName>
                 <MI>H</MI>
@@ -786,8 +820,9 @@
             <color>white</color>
             <causeofDeath>adenocarcinoma hepatic duct</causeofDeath>
         </occupant>
-        
+        <!--Hey, where is Edna M. Stein? She is on tombstone - <img src="cemeteryPictures/Stein2.jpg"/>-->
         <occupant>
+            <img src="cemeteryPictures/Stein1.jpg"/>
             <persName>
                 <firstName>Charles</firstName>
                 <MI>H</MI>
@@ -824,6 +859,7 @@
         </firstOwner>
         
         <occupant>
+            <img src="cemeteryPictures/Apple.jpg"/>
             <persName>
                 <firstName>George</firstName>
                 <MI>W</MI>
@@ -847,6 +883,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Apple.jpg"/>
             <persName>
                 <firstName>Ida</firstName>
                 <middleName>Mae</middleName>
@@ -872,6 +909,7 @@
     </lot>
     
     <lot section="1" number="3">
+        
         <firstOwner>
             <persName>
                 <firstName>Norman</firstName>
@@ -881,6 +919,7 @@
         </firstOwner>
         
         <occupant>
+            <img src="cemeteryPictures/Wallace.jpg"/>
             <persName>
                 <firstName>Norman</firstName>
                 <MI>F</MI>
@@ -904,6 +943,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Wallace.jpg"/>
             <persName>
                 <firstName>Clara</firstName>
                 <MI>K</MI>
@@ -938,6 +978,7 @@
         </firstOwner>
         
         <occupant>
+            <img src="cemeteryPictures/Dewalt3.jpg"/>
             <persName>
                 <firstName>Blanche</firstName>
                 <MI>M</MI>
@@ -962,9 +1003,10 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Dewalt2.jpg"/>
             <persName>
-                <firstName>A.J.</firstName>
-                <middleName>Bert</middleName>
+                <firstName>Bert</firstName>
+                <middleName>A.J.</middleName>
                 <surName>DeWalt</surName>
             </persName>
             <lotLocation>2</lotLocation>
@@ -986,6 +1028,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Dewalt1.jpg"/>
             <persName>
                 <firstName>Violet</firstName>
                 <surName>DeWalt</surName>
@@ -1020,9 +1063,10 @@
         </firstOwner>
         
         <occupant>
+            <img src="cemeteryPictures/Miller.jpg"/>
             <persName>
                 <firstName>William</firstName>
-                <MI>F</MI>
+                <MI>S</MI>
                 <surName>Miller</surName>
             </persName>
             <lotLocation>6</lotLocation>
@@ -1045,6 +1089,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Miller.jpg"/>
             <persName>
                 <firstName>Janet</firstName>
                 <MI>D</MI>
@@ -1071,9 +1116,12 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Docherty.jpg"/>
             <persName>
                 <firstName>Anna</firstName>
-                <surName>Daugherty</surName>
+                <nickName>Annie</nickName>
+                <!--<surName>Daugherty</surName>-->
+                <surName>Docherty</surName> <!--spelling on tombstone-->
             </persName>
             <lotLocation>8A</lotLocation>
             <interred>
@@ -1093,9 +1141,11 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Docherty.jpg"/>
             <persName>
                 <firstName>Daniel</firstName>
-                <surName>Daugherty</surName>
+                <!--<surName>Daugherty</surName>-->
+                <surName>Docherty</surName> <!--spelling on tombstone-->
             </persName>
             <lotLocation>8B</lotLocation>
             <interred>
@@ -1115,10 +1165,11 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Del-Vitto.jpg"/>
             <persName>
                 <firstName>Paul</firstName>
                 <MI>W</MI>
-                <surName>Del Vitto</surName>
+                <surName>Del-Vitto</surName>
             </persName>
             <lotLocation>3</lotLocation>
             <interred>
@@ -1147,6 +1198,7 @@
         </firstOwner>
         
         <occupant>
+            <img src="cemeteryPictures/Helman9.jpg"/>
             <persName>
                 <firstName>David</firstName>
                 <middleName>Alexander</middleName>
@@ -1173,10 +1225,13 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Helman6.jpg"/>
             <persName>
                 <firstName>Elmer</firstName>
                 <middleName>Grant</middleName>
                 <surName>Helman</surName>
+                <title type="military">PVT.</title>
+                <desc type="military">Co. 68, 17th Battalion 153 Depot Brigade U.S. Army</desc>
             </persName>
             <lotLocation>4</lotLocation>
             <interred>
@@ -1195,6 +1250,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Helman5.jpg"/>
             <persName>
                 <firstName>Frank</firstName>
                 <MI>W</MI>
@@ -1228,6 +1284,7 @@
         </firstOwner>
         
         <occupant>
+            <img src="cemeteryPictures/Helman7.jpg"/>
             <persName>
                 <firstName>James</firstName>
                 <middleName>Alvin</middleName>
@@ -1251,6 +1308,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Helman3.jpg"/>
             <persName>
                 <firstName>Esther</firstName>
                 <middleName>Gootee</middleName>
@@ -1275,6 +1333,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Helman2.jpg"/>
             <persName>
                 <firstName>William</firstName>
                 <MI>A</MI>
@@ -1299,6 +1358,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Helman1.jpg"/>
             <persName>
                 <firstName>Emma</firstName>
                 <surName>Helman</surName>
@@ -1325,6 +1385,7 @@
         </firstOwner>
         
         <occupant>
+            <img src="cemeteryPictures/Baugh.jpg"/>
             <persName>
                 <firstName>William</firstName>
                 <surName>Baugh</surName>
@@ -1347,6 +1408,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Baugh.jpg"/>
             <persName>
                 <firstName>Sara</firstName>
                 <middleName>Eva</middleName>
@@ -1370,6 +1432,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Brezler6.jpg"/>
             <persName>
                 <firstName>Anna</firstName>
                 <middleName>Barbara</middleName>
@@ -1393,6 +1456,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Brezler5.jpg"/>
             <persName>
                 <firstName>William</firstName>
                 <MI>J</MI>
@@ -1416,6 +1480,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Brezler4.jpg"/>
             <persName>
                 <firstName>Charles</firstName>
                 <middleName>Luther</middleName>
@@ -1439,6 +1504,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Brezler3.jpg"/>
             <persName>
                 <firstName>Marion</firstName>
                 <MI>M</MI>
@@ -1462,6 +1528,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Brezler2.jpg"/>
             <persName>
                 <firstName>Harry</firstName>
                 <middleName>Milton</middleName>
@@ -1485,6 +1552,7 @@
         </occupant>
         
         <occupant>
+            <img src="cemeteryPictures/Brezler1.jpg"/>
             <persName>
                 <firstName>Elmer</firstName>
                 <MI>F</MI>
@@ -1507,7 +1575,7 @@
             <color>white</color>
         </occupant>
     </lot>
-    
+    <!-- THIS IS WHERE WE LEFT OFF ADDING IMAGES -->
     <lot section="1" number="28">
         <firstOwner>
             <persName>
