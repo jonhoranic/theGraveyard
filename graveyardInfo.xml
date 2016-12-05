@@ -12,6 +12,7 @@
                 <surName>Henderson</surName>
             </persName>
         </firstOwner>
+        
         <secondOwner>
             <purchased>
                 <date>1942-01-01</date>
@@ -21,13 +22,8 @@
                 <MI>N</MI>
                 <surName>Riley</surName>
             </persName>
-<<<<<<< HEAD
-        </seconOwner>
-
-=======
         </secondOwner>
-        
->>>>>>> 43f9969af66a0d43554ec1673db0c4e13d4bb25b
+
         <occupant>
             <persName>
                 <img src="cemeteryPictures/Riley.jpg"/>
@@ -492,13 +488,8 @@
                 <MI>K</MI>
                 <surName>Bostwick</surName>
             </persName>
-<<<<<<< HEAD
-        </seconOwner>
-
-=======
         </secondOwner>
         
->>>>>>> 43f9969af66a0d43554ec1673db0c4e13d4bb25b
         <occupant>
             <img src="cemeteryPictures/King1.jpg"/>
             <persName>
@@ -617,7 +608,6 @@
             <color>white</color>
             <causeofDeath>congestive failure</causeofDeath>
         </occupant>
-<<<<<<< HEAD
 
         <occupant>
             <persName>
@@ -640,9 +630,6 @@
             <gender>male</gender>
             <causeofDeath>cardiac arrhythmia</causeofDeath>
         </occupant>
-
-
-=======
         
             <occupant>
                 <img src="cemeteryPictures/Bostwick1.jpg"/>
@@ -668,7 +655,6 @@
             </occupant>
         
         <!-- Hey, where is Lucy Bostwick? She is on the tombstone - <img src="cemeteryPictures/Bostwick1.jpg"/> -->
->>>>>>> 43f9969af66a0d43554ec1673db0c4e13d4bb25b
     </lot>
 
     <lot section="1" number="6">
@@ -857,11 +843,8 @@
             <color>white</color>
             <causeofDeath>adenocarcinoma hepatic duct</causeofDeath>
         </occupant>
-<<<<<<< HEAD
 
-=======
         <!--Hey, where is Edna M. Stein? She is on tombstone - <img src="cemeteryPictures/Stein2.jpg"/>-->
->>>>>>> 43f9969af66a0d43554ec1673db0c4e13d4bb25b
         <occupant>
             <img src="cemeteryPictures/Stein1.jpg"/>
             <persName>
@@ -1616,11 +1599,8 @@
             <color>white</color>
         </occupant>
     </lot>
-<<<<<<< HEAD
 
-=======
     <!-- THIS IS WHERE WE LEFT OFF ADDING IMAGES -->
->>>>>>> 43f9969af66a0d43554ec1673db0c4e13d4bb25b
     <lot section="1" number="28">
         <firstOwner>
             <persName>
