@@ -22,7 +22,7 @@
                 <surName>Riley</surName>
             </persName>
         </seconOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Paullos</firstName>
@@ -31,7 +31,7 @@
             </persName>
             <lotLocation>4</lotLocation>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Fannie</firstName>
@@ -51,9 +51,9 @@
             <age>68</age>
             <gender>female</gender>
             <color>white</color>
-            
+
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>James</firstName>
@@ -74,7 +74,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Edward</firstName>
@@ -84,9 +84,9 @@
             <interred>
                 <date>1943-03-26</date>
             </interred>
-            
+
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Isabella</firstName>
@@ -110,7 +110,7 @@
             <color>white</color>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="9">
         <firstOwner>
             <persName>
@@ -123,7 +123,7 @@
                 <surName>McCune</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>John</firstName>
@@ -136,7 +136,7 @@
             </interred>
             <deathDate>
                 <date>1957-02-03</date>
-             </deathDate>
+            </deathDate>
             <deathPlace>
                 <city>Irwin</city>
                 <state>Pennsylvania</state>
@@ -145,7 +145,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Mary</firstName>
@@ -168,7 +168,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>James</firstName>
@@ -192,7 +192,7 @@
             <color>white</color>
             <causeofDeath>cancer of lung</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Sara</firstName>
@@ -215,7 +215,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Edwin</firstName>
@@ -236,7 +236,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Casper</firstName>
@@ -257,7 +257,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Grace</firstName>
@@ -278,7 +278,7 @@
             <age>95</age>
             <gender>female</gender>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Edward</firstName>
@@ -301,7 +301,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Daniel</firstName>
@@ -326,7 +326,7 @@
             <causeofDeath>cardio respiratory arrest</causeofDeath>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="8">
         <firstOwner>
             <persName>
@@ -335,7 +335,7 @@
                 <surName>Kleist</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Adam</firstName>
@@ -357,7 +357,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Ella</firstName>
@@ -381,7 +381,7 @@
             <color>white</color>
             <causeofDeath>respiratory paralysis medollary infarction</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Andrew</firstName>
@@ -404,7 +404,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Elizabeth</firstName>
@@ -427,7 +427,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>John</firstName>
@@ -468,7 +468,7 @@
                 <surName>Bostwick</surName>
             </persName>
         </seconOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Carrie</firstName>
@@ -490,7 +490,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Charles</firstName>
@@ -512,7 +512,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Joellen</firstName>
@@ -535,7 +535,7 @@
             <color>white</color>
             <causeofDeath>cerebral</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>James</firstName>
@@ -557,7 +557,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Mary</firstName>
@@ -581,32 +581,32 @@
             <color>white</color>
             <causeofDeath>congestive failure</causeofDeath>
         </occupant>
-        
-            <occupant>
-                <persName>
-                    <firstName>James</firstName>
-                    <middleName>King</middleName>
-                    <surName>Bostwick</surName>
-                </persName>
-                <lotLocation>7</lotLocation>
-                <interred>
-                    <date>2008-03-07</date>
-                </interred>
-                <deathDate>
-                    <date>2008-03-03</date>
-                </deathDate>
-                <deathPlace>
-                    <city>Pittsburgh</city>
-                    <state>Pennsylvania</state>
-                </deathPlace>
-                <age>97</age>
-                <gender>male</gender>
-                <causeofDeath>cardiac arrhythmia</causeofDeath>
-            </occupant>
-        
-        
+
+        <occupant>
+            <persName>
+                <firstName>James</firstName>
+                <middleName>King</middleName>
+                <surName>Bostwick</surName>
+            </persName>
+            <lotLocation>7</lotLocation>
+            <interred>
+                <date>2008-03-07</date>
+            </interred>
+            <deathDate>
+                <date>2008-03-03</date>
+            </deathDate>
+            <deathPlace>
+                <city>Pittsburgh</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>97</age>
+            <gender>male</gender>
+            <causeofDeath>cardiac arrhythmia</causeofDeath>
+        </occupant>
+
+
     </lot>
-    
+
     <lot section="1" number="6">
         <firstOwner>
             <persName>
@@ -614,7 +614,7 @@
                 <surName>Vogel</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Albert</firstName>
@@ -635,7 +635,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Amanda</firstName>
@@ -657,7 +657,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Charles</firstName>
@@ -705,9 +705,9 @@
             <causeofDeath>adenocarcinoma hepatic duct</causeofDeath>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="5">
-        
+
         <firstOwner>
             <persName>
                 <firstName>Hannah</firstName>
@@ -715,7 +715,7 @@
                 <surName>Young</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Charles</firstName>
@@ -738,7 +738,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Hannah</firstName>
@@ -762,7 +762,7 @@
             <color>white</color>
             <causeofDeath>squamous cell carcinoma with metastasis</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Henry</firstName>
@@ -786,7 +786,7 @@
             <color>white</color>
             <causeofDeath>adenocarcinoma hepatic duct</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Charles</firstName>
@@ -811,9 +811,9 @@
             <color>white</color>
             <causeofDeath>died in combat WWII</causeofDeath>
         </occupant>
-        
+
     </lot>
-    
+
     <lot section="1" number="4">
         <firstOwner>
             <persName>
@@ -822,7 +822,7 @@
                 <surName>Apple</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>George</firstName>
@@ -845,7 +845,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Ida</firstName>
@@ -870,7 +870,7 @@
             <causeofDeath>congestive heart failure</causeofDeath>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="3">
         <firstOwner>
             <persName>
@@ -879,7 +879,7 @@
                 <surName>Wallace</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Norman</firstName>
@@ -902,7 +902,7 @@
             <gender>male</gender>
             <causeofDeath>ischemic heart disease</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Clara</firstName>
@@ -927,7 +927,7 @@
             <causeofDeath>alzhemier disease</causeofDeath>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="33">
         <firstOwner>
             <persName>
@@ -936,7 +936,7 @@
                 <surName>DeWalt</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Blanche</firstName>
@@ -960,7 +960,7 @@
             <color>white</color>
             <causeofDeath>heart disease</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>A.J.</firstName>
@@ -984,7 +984,7 @@
             <color>white</color>
             <causeofDeath>cardio pulmonary disease</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Violet</firstName>
@@ -1006,7 +1006,7 @@
             <color>white</color>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="32">
         <firstOwner>
             <persName>
@@ -1014,11 +1014,11 @@
                 <surName>Del Vitto</surName>
             </persName>
             <persName>
-            <firstName>Jessie</firstName>
-            <surName>Del Vitto</surName>
+                <firstName>Jessie</firstName>
+                <surName>Del Vitto</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>William</firstName>
@@ -1043,7 +1043,7 @@
             <gender>male</gender>
             <color>unknown</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Janet</firstName>
@@ -1069,7 +1069,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Anna</firstName>
@@ -1091,7 +1091,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Daniel</firstName>
@@ -1113,7 +1113,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Paul</firstName>
@@ -1136,7 +1136,7 @@
             <color>white</color>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="31">
         <firstOwner>
             <persName>
@@ -1145,7 +1145,7 @@
                 <surName>Helman</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>David</firstName>
@@ -1171,7 +1171,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Elmer</firstName>
@@ -1193,7 +1193,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Frank</firstName>
@@ -1217,7 +1217,7 @@
             <color>white</color>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="30">
         <firstOwner>
             <persName>
@@ -1226,7 +1226,7 @@
                 <surName>Helman</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>James</firstName>
@@ -1249,7 +1249,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Esther</firstName>
@@ -1273,7 +1273,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>William</firstName>
@@ -1297,7 +1297,7 @@
             <color>white</color>
             <causeofDeath>provisional</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Emma</firstName>
@@ -1309,7 +1309,7 @@
             </interred>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="29">
         <firstOwner>
             <persName>
@@ -1323,7 +1323,7 @@
                 <surName>Brezler</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>William</firstName>
@@ -1345,7 +1345,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Sara</firstName>
@@ -1368,7 +1368,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Anna</firstName>
@@ -1391,7 +1391,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>William</firstName>
@@ -1414,7 +1414,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Charles</firstName>
@@ -1437,7 +1437,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Marion</firstName>
@@ -1460,7 +1460,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Harry</firstName>
@@ -1483,7 +1483,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Elmer</firstName>
@@ -1507,7 +1507,7 @@
             <color>white</color>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="28">
         <firstOwner>
             <persName>
@@ -1526,7 +1526,7 @@
                 <surName>Gongaware</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Edward</firstName>
@@ -1549,7 +1549,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Jessie</firstName>
@@ -1574,7 +1574,7 @@
             <color>white</color>
             <causeofDeath>heart attack</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Gladys</firstName>
@@ -1598,7 +1598,7 @@
             <color>white</color>
             <causeofDeath>sepsis</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Charles</firstName>
@@ -1622,7 +1622,7 @@
             <color>white</color>
             <causeofDeath>heart attack</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Elise</firstName>
@@ -1654,7 +1654,7 @@
                 <surName>Bratton</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Carolyn</firstName>
@@ -1677,7 +1677,7 @@
             <color>white</color>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="26 and 27" type="mausoleum">
         <firstOwner>
             <persName>
@@ -1710,7 +1710,7 @@
             <color>white</color>
             <causeofDeath>sepsis</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Max</firstName>
@@ -1755,7 +1755,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>John</firstName>
@@ -1778,10 +1778,10 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
     </lot>
-    
-    
+
+
     <lot section="1" number="25">
         <firstOwner>
             <persName>
@@ -1790,7 +1790,7 @@
                 <surName>Sweitzer</surName>
             </persName>
         </firstOwner>
-        
+
         <firstOwner>
             <note>Owns first 3 plots</note>
             <persName>
@@ -1799,7 +1799,7 @@
                 <surName>Kroon</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Robert</firstName>
@@ -1823,7 +1823,7 @@
             <color>white</color>
             <causeofDeath>heart attack</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Edna</firstName>
@@ -1845,7 +1845,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Hilda</firstName>
@@ -1868,7 +1868,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Carl</firstName>
@@ -1892,7 +1892,7 @@
             <color>white</color>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="25">
         <firstOwner>
             <persName>
@@ -1900,14 +1900,14 @@
                 <MI>S</MI>
                 <surName>Bowman</surName>
             </persName>
-            
+
             <persName>
                 <firstName>Vera</firstName>
                 <MI>M</MI>
                 <surName>Bowman</surName>
             </persName>
         </firstOwner>
-        
+
         <firstOwner>
             <persName>
                 <firstName>E</firstName>
@@ -1916,7 +1916,7 @@
             </persName>
             <note>owns first two plots</note>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Carl</firstName>
@@ -1940,7 +1940,7 @@
             <color>white</color>
             <causeofDeath>coronary occlusion</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Vera</firstName>
@@ -1964,7 +1964,7 @@
             <color>white</color>
             <causeofDeath>malnutrition</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Eliphas</firstName>
@@ -1987,7 +1987,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Flora</firstName>
@@ -2011,7 +2011,7 @@
             <color>white</color>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="24">
         <firstOwner>
             <persName>
@@ -2019,7 +2019,7 @@
                 <surName>Buckley</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Alvin</firstName>
@@ -2040,7 +2040,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Mary</firstName>
@@ -2063,7 +2063,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Jacob</firstName>
@@ -2086,7 +2086,7 @@
             <color>white</color>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="24">
         <firstOwner>
             <purchased>
@@ -2098,19 +2098,19 @@
                 <surName>Abraham</surName>
             </persName>
 
-                <persName>
-                    <firstName>Paul</firstName>
-                    <MI>J</MI>
-                    <surName>Abraham</surName>
-                </persName>
-            
-                <persName>
-                    <firstName>Clara</firstName>
-                    <MI>A</MI>
-                    <surName>Lauffer</surName>
-                </persName>
+            <persName>
+                <firstName>Paul</firstName>
+                <MI>J</MI>
+                <surName>Abraham</surName>
+            </persName>
+
+            <persName>
+                <firstName>Clara</firstName>
+                <MI>A</MI>
+                <surName>Lauffer</surName>
+            </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Caroline</firstName>
@@ -2133,7 +2133,7 @@
             <color>white</color>
             <causeofDeath>respiratory arrest</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Paul</firstName>
@@ -2157,7 +2157,7 @@
             <color>white</color>
             <causeofDeath>leukemia</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Henry</firstName>
@@ -2180,7 +2180,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Clara</firstName>
@@ -2205,7 +2205,7 @@
             <causeofDeath>coronary occlusion</causeofDeath>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="23">
         <firstOwner>
             <persName>
@@ -2214,7 +2214,7 @@
                 <surName>Brisbine</surName>
             </persName>
         </firstOwner>
-        
+
         <firstOwner>
             <note>owns first three plots</note>
             <persName>
@@ -2223,14 +2223,14 @@
                 <MI>C</MI>
                 <surName>Sorber</surName>
             </persName>
-            
+
             <persName>
                 <firstName>Madeline</firstName>
                 <MI>C</MI>
                 <surName>Sorber</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>John</firstName>
@@ -2254,7 +2254,7 @@
             <color>white</color>
             <causeofDeath>cerebral hemorrhage</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Edna</firstName>
@@ -2278,7 +2278,7 @@
             <color>white</color>
             <causeofDeath>uremia</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Jane</firstName>
@@ -2303,7 +2303,7 @@
             <causeofDeath>subarachnoid hemorrhage</causeofDeath>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="23">
         <firstOwner>
             <persName>
@@ -2311,7 +2311,7 @@
                 <surName>Reynolds</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Samuel</firstName>
@@ -2333,7 +2333,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Elizabeth</firstName>
@@ -2356,7 +2356,7 @@
             <color>white</color>
             <causeofDeath>cerebral hemmorrhage</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Cecil</firstName>
@@ -2379,7 +2379,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Cecil</firstName>
@@ -2403,7 +2403,7 @@
             <color>white</color>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="21 and 22">
         <note>Mausoleum</note>
         <firstOwner>
@@ -2413,14 +2413,14 @@
                 <surName>Walthour</surName>
             </persName>
         </firstOwner>
-        
+
         <secondOwner>
             <persName>
                 <firstName>Christy</firstName>
                 <surName>Walthour</surName>
             </persName>
         </secondOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Emma</firstName>
@@ -2435,11 +2435,11 @@
             <deathDate>
                 <date>1915-11</date>
             </deathDate>
-            <age>0</age>
+            <age>1 hour</age>
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Bessie</firstName>
@@ -2463,70 +2463,70 @@
             <color>white</color>
             <causeofDeath>cardiac failure</causeofDeath>
         </occupant>
-    
-    <occupant>
-        <persName>
-            <firstName>Christopher</firstName>
-            <MI>C</MI>
-            <surName>Walthour</surName>
-        </persName>
-        <lotLocation>3</lotLocation>
-        <interred>
-            <date>1940-12-09</date>
-            <intermentNo>101</intermentNo>
-        </interred>
-        <deathDate>
-            <date>1940-12-07</date>
-        </deathDate>
-        <deathPlace>
-            <city>Manor</city>
-            <state>Pennsylvania</state>
-        </deathPlace>
-        <age>49</age>
-        <gender>male</gender>
-        <color>white</color>
-    </occupant>
-    
-    <occupant>
-        <persName>
-            <firstName>Christopher</firstName>
-            <MI>C</MI>
-            <surName>Walthour</surName>
-            <genName>Junior</genName>
-        </persName>
-        <lotLocation>4</lotLocation>
-        <interred>
-            <date>2003-08-19</date>
-            <intermentNo>53</intermentNo>
-        </interred>
-        <deathDate>
-            <date>2003-08-15</date>
-        </deathDate>
-        <deathPlace>
-            <city>Greensburg</city>
-            <state>Pennsylvania</state>
-        </deathPlace>
-        <age>86</age>
-        <gender>male</gender>
-        <color>white</color>
-        <causeofDeath>cardio pulmonary arrest</causeofDeath>
-    </occupant>
+
+        <occupant>
+            <persName>
+                <firstName>Christopher</firstName>
+                <MI>C</MI>
+                <surName>Walthour</surName>
+            </persName>
+            <lotLocation>3</lotLocation>
+            <interred>
+                <date>1940-12-09</date>
+                <intermentNo>101</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1940-12-07</date>
+            </deathDate>
+            <deathPlace>
+                <city>Manor</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>49</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+
+        <occupant>
+            <persName>
+                <firstName>Christopher</firstName>
+                <MI>C</MI>
+                <surName>Walthour</surName>
+                <genName>Junior</genName>
+            </persName>
+            <lotLocation>4</lotLocation>
+            <interred>
+                <date>2003-08-19</date>
+                <intermentNo>53</intermentNo>
+            </interred>
+            <deathDate>
+                <date>2003-08-15</date>
+            </deathDate>
+            <deathPlace>
+                <city>Greensburg</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>86</age>
+            <gender>male</gender>
+            <color>white</color>
+            <causeofDeath>cardio pulmonary arrest</causeofDeath>
+        </occupant>
     </lot>
-    
+
     <lot section="1" number="20">
         <firstOwner>
             <persName>
                 <firstName>Margaret</firstName>
                 <surName>Ferguson</surName>
             </persName>
-            
-                <persName>
-                    <firstName>John</firstName>
-                    <MI>F</MI>
-                    <surName>Buck</surName>
-                </persName>
+
+            <persName>
+                <firstName>John</firstName>
+                <MI>F</MI>
+                <surName>Buck</surName>
+            </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Margaret</firstName>
@@ -2548,7 +2548,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Samuel</firstName>
@@ -2570,7 +2570,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>John</firstName>
@@ -2593,7 +2593,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Sarah</firstName>
@@ -2617,7 +2617,7 @@
             <color>white</color>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="19">
         <firstOwner>
             <persName>
@@ -2626,19 +2626,19 @@
                 <surName>Peterson</surName>
             </persName>
         </firstOwner>
-        
+
         <firstOwner>
             <persName>
                 <firstName>Harvey</firstName>
                 <MI>S</MI>
                 <surName>Sorber</surName>
             </persName>
-            
+
             <firstName>Della</firstName>
             <middleName>Ann</middleName>
             <surName>Sorber</surName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Mearl</firstName>
@@ -2662,7 +2662,7 @@
             <color>white</color>
             <causeofDeath>cancer of lung</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Janet</firstName>
@@ -2685,7 +2685,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Harvey</firstName>
@@ -2713,7 +2713,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Della</firstName>
@@ -2737,7 +2737,7 @@
             <color>white</color>
             <causeofDeath>congestive heart failure</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Charles</firstName>
@@ -2762,7 +2762,7 @@
             <causeofDeath>cardiac arrest</causeofDeath>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="18">
         <firstOwner>
             <persName>
@@ -2771,14 +2771,14 @@
                 <surName>Fritchman</surName>
             </persName>
         </firstOwner>
-        
+
         <firstOwner>
             <persName>
                 <firstName>Emma</firstName>
                 <surName>Campbell</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>James</firstName>
@@ -2806,7 +2806,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Mary</firstName>
@@ -2830,7 +2830,7 @@
             <color>white</color>
             <causeofDeath>hypostatic pneumonia</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Grant</firstName>
@@ -2854,7 +2854,7 @@
             <color>white</color>
             <causeofDeath>acute myocardial infarction</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>George</firstName>
@@ -2877,7 +2877,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Emma</firstName>
@@ -2902,9 +2902,9 @@
             <causeofDeath>arterio sclerotic heart disease</causeofDeath>
         </occupant>
     </lot>
-    
-    
-    <lot section="1" number="18">
+
+
+    <lot section="1" number="17">
         <firstOwner>
             <persName>
                 <firstName>Elizabeth</firstName>
@@ -2912,7 +2912,7 @@
                 <surName>Shrum</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Edwin</firstName>
@@ -2936,35 +2936,35 @@
             <color>white</color>
         </occupant>
 
-    
-    <occupant>
-        <persName>
-            <firstName>Mary</firstName>
-            <MI>K</MI>
-            <surName>McCaulley</surName>
-        </persName>
-        <lotLocation>1B</lotLocation>
-        <cremated>
-            <date>1996-07-23</date>
-        </cremated>
-        <interred>
-            <date>1996-07-31</date>
-            <intermentNo>55</intermentNo>
-            <note> Buried with Edwin</note>
-        </interred>
-        <deathDate>
-            <date>1996-07-19</date>
-        </deathDate>
-        <deathPlace>
-            <city>Greensburg</city>
-            <state>Pennsylvania</state>
-        </deathPlace>
-        <age>83</age>
-        <gender>female</gender>
-        <color>white</color>
-        <causeofDeath>chronic obstructive pulmonary disease</causeofDeath>
-    </occupant>
-        
+
+        <occupant>
+            <persName>
+                <firstName>Mary</firstName>
+                <MI>K</MI>
+                <surName>McCaulley</surName>
+            </persName>
+            <lotLocation>1B</lotLocation>
+            <cremated>
+                <date>1996-07-23</date>
+            </cremated>
+            <interred>
+                <date>1996-07-31</date>
+                <intermentNo>55</intermentNo>
+                <note> Buried with Edwin</note>
+            </interred>
+            <deathDate>
+                <date>1996-07-19</date>
+            </deathDate>
+            <deathPlace>
+                <city>Greensburg</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>83</age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>chronic obstructive pulmonary disease</causeofDeath>
+        </occupant>
+
         <occupant>
             <persName>
                 <firstName>Nellie</firstName>
@@ -2987,7 +2987,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>John</firstName>
@@ -3015,7 +3015,7 @@
             <color>white</color>
             <causeofDeath>respiratory failure</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Alfred</firstName>
@@ -3038,7 +3038,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>John</firstName>
@@ -3060,7 +3060,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Roberta</firstName>
@@ -3080,12 +3080,12 @@
                 <city>Jeannette</city>
                 <state>Pennsylvania</state>
             </deathPlace>
-            <age>0</age>
+            <age>infant</age>
             <gender>female</gender>
             <color>white</color>
             <causeofDeath>respiratory embarrassment</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Elizabeth</firstName>
@@ -3108,7 +3108,7 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Nellie</firstName>
@@ -3132,7 +3132,7 @@
             <color>white</color>
             <causeofDeath>acute gastrointestinal hemorrhage</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Laurie</firstName>
@@ -3159,6 +3159,218 @@
             <gender>female</gender>
             <color>white</color>
             <causeofDeath>advanced pancreatic carcinoma</causeofDeath>
+        </occupant>
+    </lot>
+
+    <lot section="1" number="16">
+        <firstOwner>
+            <persName>
+                <firstName>John</firstName>
+                <MI>A</MI>
+                <surName>Cook</surName>
+            </persName>
+
+            <persName>
+                <firstName>Emma</firstName>
+                <MI>H</MI>
+                <surName>Waugaman</surName>
+            </persName>
+        </firstOwner>
+
+        <occupant>
+            <persName>
+                <firstName>John</firstName>
+                <middleName>Albert</middleName>
+                <surName>Cook</surName>
+            </persName>
+            <lotLocation>1</lotLocation>
+            <interred>
+                <date>1939-08-18</date>
+                <intermentNo>59</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1939-08-14</date>
+            </deathDate>
+            <deathPlace>
+                <city>White Township</city>
+            </deathPlace>
+            <age>36</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+
+        <occupant>
+            <persName>
+                <firstName>Sarah</firstName>
+                <middleName>Elizabeth</middleName>
+                <surName>Cook</surName>
+            </persName>
+            <lotLocation>2</lotLocation>
+            <interred>
+                <date>1931-02-09</date>
+            </interred>
+            <deathDate>
+                <date>1931-02-06</date>
+            </deathDate>
+            <deathPlace>
+                <city>Penn Township</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>24</age>
+            <gender>female</gender>
+            <color>white</color>
+        </occupant>
+
+        <occupant>
+            <persName>
+                <firstName>William</firstName>
+                <MI>G</MI>
+                <surName>Cook</surName>
+            </persName>
+            <lotLocation>3</lotLocation>
+            <interred>
+                <date>1931-10-18</date>
+            </interred>
+            <deathDate>
+                <date>1931-10-15</date>
+            </deathDate>
+            <deathPlace>
+                <city>Penn Township</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>8 months</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+
+        <occupant>
+            <persName>
+                <firstName>Simon</firstName>
+                <MI>U</MI>
+                <surName>Waugaman</surName>
+            </persName>
+            <lotLocation>4</lotLocation>
+            <interred>
+                <date>1929-12-19</date>
+            </interred>
+            <deathDate>
+                <date>1929-12-16</date>
+            </deathDate>
+            <deathPlace>
+                <city>Pittsburgh</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>68</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
+
+        <occupant>
+            <persName>
+                <firstName>Emma</firstName>
+                <surName>Waugaman</surName>
+            </persName>
+            <lotLocation>5</lotLocation>
+            <interred>
+                <date>1952-03-13</date>
+                <intermentNo>21</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1952-03-10</date>
+            </deathDate>
+            <deathPlace>
+                <city>Scranton</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>89</age>
+            <gender>female</gender>
+            <color>white</color>
+        </occupant>
+    </lot>
+
+    <lot section="1" number="15">
+        <firstOwner>
+            <persName>
+                <firstName>Margaret</firstName>
+                <surName>Lauffer</surName>
+            </persName>
+            <note> owns lots 4, 5 and 6</note>
+        </firstOwner>
+
+        <!-- Lots 1, 2 and 3 had multiple owners (shown below) -->
+        <firstOwner>
+            <persName>
+                <firstName>Everett</firstName>
+                <MI>S</MI>
+                <MI>C</MI>
+                <surName>Sorber</surName>
+            </persName>
+
+            <persName>
+                <firstName>Madeline</firstName>
+                <surName>Sorber</surName>
+            </persName>
+            <purchased>
+                <date>1948-06-06</date>
+            </purchased>
+        </firstOwner>
+
+        <secondOwner>
+            <persName>
+                <firstName>Edgar</firstName>
+                <surName>Hammer</surName>
+            </persName>
+
+            <persName>
+                <firstName>Ann</firstName>
+                <MI>S</MI>
+                <surName>Hammer</surName>
+            </persName>
+
+            <purchased>
+                <date>1956-11-03</date>
+            </purchased>
+        </secondOwner>
+
+        <thirdOwner>
+            <persName>
+                <firstName>Kerry</firstName>
+                <MI>M</MI>
+                <surName>Anthony</surName>
+            </persName>
+
+            <persName>
+                <firstName>Molly</firstName>
+                <middleName>Ann</middleName>
+                <surName>Anthony</surName>
+            </persName>
+
+            <purchased>
+                <date>1975-11-12</date>
+            </purchased>
+        </thirdOwner>
+
+        <occupant>
+            <persName>
+                <firstName>Charles</firstName>
+                <middleName>Raymond</middleName>
+                <surName>Lauffer</surName>
+            </persName>
+            <lotLocation>4</lotLocation>
+            <interred>
+                <date>1939-04-12</date>
+                <intermentNo>33</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1939-04-09</date>
+            </deathDate>
+            <deathPlace>
+                <city>Manor</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>32</age>
+            <gender>male</gender>
+            <color>white</color>
         </occupant>
     </lot>
 </root>
