@@ -68,6 +68,16 @@
                   <memberOf key="model.personPart" mode="add"/>
                </classes>
             </elementSpec>
+            <elementSpec ident="desc" module="core" mode="change">
+               <classes mode="replace">
+                  <memberOf key="model.descLike"/>
+                  <memberOf key="model.labelLike"/>
+                  <memberOf key="model.personPart" mode="add"/>
+                  <memberOf key="att.global"/>
+                  <memberOf key="att.translatable"/>
+                  <memberOf key="att.typed"/>
+               </classes>
+            </elementSpec>
           
          
        <!-- Sample schematron rule for ODD:
