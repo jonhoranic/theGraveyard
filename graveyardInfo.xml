@@ -46,8 +46,8 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Riley.jpg"/>
             <persName>
-                <img src="cemeteryPictures/Riley.jpg"/>
                 <firstName>Fannie</firstName>
                 <surName>Riley</surName>
             </persName>
@@ -2318,7 +2318,7 @@
             </occupant>
         </img>
 
-        <img src="cemeteryPictures/Lauffer5.jpg">
+        <img src="cemeteryPictures/Lauffer5.jpg"/>
             <occupant>
                 <img src="cemeteryPictures/Lauffer4.jpg"/>
                 <persName>
@@ -2367,7 +2367,7 @@
                 <color>white</color>
                 <causeofDeath>coronary occlusion</causeofDeath>
             </occupant>
-        </img>
+
     </lot>
 
     <lot section="1" number="23">
@@ -2383,8 +2383,7 @@
             <note>owns first three plots</note>
             <persName>
                 <firstName>Everett</firstName>
-                <MI>S</MI>
-                <MI>C</MI>
+                <MI>S.C.</MI>
                 <surName>Sorber</surName>
             </persName>
 
