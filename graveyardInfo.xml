@@ -332,7 +332,7 @@
                 <surName>Kelly</surName>
             </persName>
             <lotLocation>7A</lotLocation>
-            <interred type="re-interment">
+            <interred>
                 <date>1962-11-27</date>
                 <intermentNo>82</intermentNo>
             </interred>
@@ -582,7 +582,7 @@
             </persName>
             <lotLocation>4</lotLocation>
             <interred>
-                <date>1964-04-08-</date>
+                <date>1964-04-08</date>
                 <intermentNo>23</intermentNo>
             </interred>
             <deathDate>
@@ -607,7 +607,7 @@
             </persName>
             <lotLocation>5</lotLocation>
             <interred>
-                <date>1976-09-18-</date>
+                <date>1976-09-18</date>
             </interred>
             <deathDate>
                 <date>1976-09-16</date>
@@ -631,7 +631,7 @@
             </persName>
             <lotLocation>6</lotLocation>
             <interred>
-                <date>1979-11-15-</date>
+                <date>1979-11-15</date>
                 <intermentNo>75</intermentNo>
             </interred>
             <deathDate>
@@ -1171,9 +1171,9 @@
             <img src="cemeteryPictures/Docherty.jpg"/>
             <persName>
                 <firstName>Anna</firstName>
-                <nickName>Annie</nickName>
                 <!--<surName>Daugherty</surName>-->
                 <surName>Docherty</surName>
+                <nickName>Annie</nickName>
                 <!--spelling on tombstone-->
             </persName>
             <lotLocation>8A</lotLocation>
@@ -2174,7 +2174,7 @@
                 <surName>Buckley</surName>
             </persName>
         </firstOwner>
-        <img src="cemeteryPictures/Sec1_Lot24.jpg">
+        <img src="cemeteryPictures/Sec1_Lot24.jpg"/>
             <occupant>
                 <persName>
                     <firstName>Alvin</firstName>
@@ -2195,7 +2195,6 @@
                 <gender>male</gender>
                 <color>white</color>
             </occupant>
-
             <occupant>
                 <persName>
                     <firstName>Mary</firstName>
@@ -2218,7 +2217,6 @@
                 <gender>female</gender>
                 <color>white</color>
             </occupant>
-
             <occupant>
                 <persName>
                     <firstName>Jacob</firstName>
@@ -2240,7 +2238,6 @@
                 <gender>male</gender>
                 <color>white</color>
             </occupant>
-        </img>
     </lot>
 
     <lot section="1" number="24">
@@ -2267,7 +2264,7 @@
             </persName>
         </firstOwner>
 
-        <img src="cemeteryPictures/Lauffer6.jpg">
+        <img src="cemeteryPictures/Lauffer6.jpg"/>
             <occupant>
                 <img src="cemeteryPictures/Lauffer3.jpg"/>
                 <persName>
@@ -2291,7 +2288,7 @@
                 <color>white</color>
                 <causeofDeath>respiratory arrest</causeofDeath>
             </occupant>
-
+            
             <occupant>
                 <img src="cemeteryPictures/Lauffer2.jpg"/>
                 <persName>
@@ -2316,57 +2313,56 @@
                 <color>white</color>
                 <causeofDeath>leukemia</causeofDeath>
             </occupant>
-        </img>
 
         <img src="cemeteryPictures/Lauffer5.jpg"/>
-            <occupant>
-                <img src="cemeteryPictures/Lauffer4.jpg"/>
-                <persName>
-                    <firstName>Henry</firstName>
-                    <middleName>Albert</middleName>
-                    <surName>Lauffer</surName>
-                </persName>
-                <lotLocation>3</lotLocation>
-                <interred>
-                    <date>1937-06-10</date>
-                    <intermentNo>47</intermentNo>
-                </interred>
-                <deathDate>
-                    <date>1937-06-07</date>
-                </deathDate>
-                <deathPlace>
-                    <city>Jeannette</city>
-                    <state>Pennsylvania</state>
-                </deathPlace>
-                <age>78</age>
-                <gender>male</gender>
-                <color>white</color>
-            </occupant>
+        <occupant>
+            <img src="cemeteryPictures/Lauffer4.jpg"/>
+            <persName>
+                <firstName>Henry</firstName>
+                <middleName>Albert</middleName>
+                <surName>Lauffer</surName>
+            </persName>
+            <lotLocation>3</lotLocation>
+            <interred>
+                <date>1937-06-10</date>
+                <intermentNo>47</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1937-06-07</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>78</age>
+            <gender>male</gender>
+            <color>white</color>
+        </occupant>
 
-            <occupant>
-                <img src="cemeteryPictures/Lauffer1.jpg"/>
-                <persName>
-                    <firstName>Clara</firstName>
-                    <middleName>Alice</middleName>
-                    <surName>Lauffer</surName>
-                </persName>
-                <lotLocation>4</lotLocation>
-                <interred>
-                    <date>1960-06-16</date>
-                    <intermentNo>48</intermentNo>
-                </interred>
-                <deathDate>
-                    <date>1960-06-13</date>
-                </deathDate>
-                <deathPlace>
-                    <city>Jeannette</city>
-                    <state>Pennsylvania</state>
-                </deathPlace>
-                <age>92</age>
-                <gender>female</gender>
-                <color>white</color>
-                <causeofDeath>coronary occlusion</causeofDeath>
-            </occupant>
+        <occupant>
+            <img src="cemeteryPictures/Lauffer1.jpg"/>
+            <persName>
+                <firstName>Clara</firstName>
+                <middleName>Alice</middleName>
+                <surName>Lauffer</surName>
+            </persName>
+            <lotLocation>4</lotLocation>
+            <interred>
+                <date>1960-06-16</date>
+                <intermentNo>48</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1960-06-13</date>
+            </deathDate>
+            <deathPlace>
+                <city>Jeannette</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>92</age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>coronary occlusion</causeofDeath>
+        </occupant>
 
     </lot>
 
@@ -2573,7 +2569,7 @@
     </lot>
 
     <lot section="1" number="21 and 22" type="mausoleum">
-        <img src="cemeteryPictures/Walthour.jpg">
+        <img src="cemeteryPictures/Walthour.jpg"/>
             <firstOwner>
                 <persName>
                     <firstName>Bessie</firstName>
@@ -2581,14 +2577,12 @@
                     <surName>Walthour</surName>
                 </persName>
             </firstOwner>
-
             <secondOwner>
                 <persName>
                     <firstName>Christy</firstName>
                     <surName>Walthour</surName>
                 </persName>
             </secondOwner>
-
             <occupant>
                 <img src="cemeteryPictures/Walthour2.jpg"/>
                 <persName>
@@ -2602,13 +2596,12 @@
                     <intermentNo>86</intermentNo>
                 </interred>
                 <deathDate>
-                    <date>1915-11</date>
+                    <date><note type="deathYear">1915</note></date>
                 </deathDate>
                 <age type="hours">1</age>
                 <gender>female</gender>
                 <color>white</color>
             </occupant>
-
             <occupant>
                 <img src="cemeteryPictures/Walthour1.jpg"/>
                 <persName>
@@ -2633,7 +2626,6 @@
                 <color>white</color>
                 <causeofDeath>cardiac failure</causeofDeath>
             </occupant>
-
             <occupant>
                 <img src="cemeteryPictures/Walthour3.jpg"/>
                 <persName>
@@ -2657,7 +2649,6 @@
                 <gender>male</gender>
                 <color>white</color>
             </occupant>
-
             <occupant>
                 <img src="cemeteryPictures/Walthour4.jpg"/>
                 <persName>
@@ -2683,7 +2674,6 @@
                 <color>white</color>
                 <causeofDeath>cardio pulmonary arrest</causeofDeath>
             </occupant>
-        </img>
     </lot>
 
     <lot section="1" number="20">
@@ -2811,9 +2801,11 @@
                 <surName>Sorber</surName>
             </persName>
 
-            <firstName>Della</firstName>
-            <middleName>Ann</middleName>
-            <surName>Sorber</surName>
+            <persName>
+                <firstName>Della</firstName>
+                <middleName>Ann</middleName>
+                <surName>Sorber</surName>
+            </persName>
         </firstOwner>
 
         <occupant>
@@ -3500,8 +3492,7 @@
         <firstOwner>
             <persName>
                 <firstName>Everett</firstName>
-                <MI>S</MI>
-                <MI>C</MI>
+                <MI>S.C.</MI>
                 <surName>Sorber</surName>
             </persName>
 
