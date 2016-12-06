@@ -1,0 +1,2 @@
+start = root
+root = element root{lot+}
