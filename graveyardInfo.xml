@@ -202,8 +202,10 @@
             <img src="cemeteryPictures/Mitchell2.jpg"/>
             <persName>
                 <firstName>James</firstName>
-                <MI>L</MI>
+                <middleName>Leroy</middleName>
                 <surName>Mitchell</surName>
+                <title type="military">SGT.</title>
+                <desc type="military">U.S. ARMY W.W.II</desc>
             </persName>
             <lotLocation>3</lotLocation>
             <interred>
@@ -792,6 +794,8 @@
                 <firstName>Charles</firstName>
                 <MI>P</MI>
                 <surName>Young</surName>
+                <title type="military">PVT.</title>
+                <desc type="military">CO. M. 16TH REG. PA. VOL. SPANISH AM. WAR</desc>
             </persName>
             <lotLocation>1</lotLocation>
             <interred>
@@ -868,7 +872,8 @@
                 <firstName>Charles</firstName>
                 <MI>H</MI>
                 <surName>Stein</surName>
-                <title type="military">S/SGT</title>
+                <title type="military">SGT.</title>
+                <desc type="military">398 BOMB CP AAF WORLD WAR II</desc>
             </persName>
             <lotLocation>6</lotLocation>
             <interred>
@@ -2168,7 +2173,7 @@
                 <surName>Buckley</surName>
             </persName>
         </firstOwner>
-        <img src="cemeteryPictures/Sec1_Lot24.jpg"/>
+        <img src="cemeteryPictures/Sec1_Lot24.jpg">
         <occupant>
             <persName>
                 <firstName>Alvin</firstName>
@@ -2234,6 +2239,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
+        </img>
     </lot>
 
     <lot section="1" number="24">
@@ -2567,7 +2573,7 @@
     </lot>
 
     <lot section="1" number="21 and 22" type="mausoleum">
-        <img src="cemeteryPictures/Walthour.jpg"/>
+        <img src="cemeteryPictures/Walthour.jpg">
         <firstOwner>
             <persName>
                 <firstName>Bessie</firstName>
@@ -2677,6 +2683,7 @@
             <color>white</color>
             <causeofDeath>cardio pulmonary arrest</causeofDeath>
         </occupant>
+        </img>
     </lot>
 
     <lot section="1" number="20">
