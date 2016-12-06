@@ -32,6 +32,16 @@
                 <surName>Riley</surName>
             </persName>
             <lotLocation>4</lotLocation>
+            <interred>
+                <date>N/A</date>
+            </interred>
+            <deathDate>
+                <date><note type="deathYear">1919</note></date>
+            </deathDate>
+            <age><note type="birthYear">1875</note></age>
+            <color>unknown</color>
+            <gender>unknown</gender>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -54,6 +64,7 @@
             <age>68</age>
             <gender>female</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
 
         </occupant>
 
@@ -77,6 +88,7 @@
             <age>49</age>
             <gender>male</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -89,7 +101,13 @@
             <interred>
                 <date>1943-03-26</date>
             </interred>
-
+            <deathDate>
+                <date><note type="deathYear">1943</note></date>
+            </deathDate>
+            <age><note type="birthYear">1861</note></age>
+            <color>unknown</color>
+            <gender>unknown</gender>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -114,6 +132,7 @@
             <age>88</age>
             <gender>female</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
     </lot>
 
@@ -151,6 +170,7 @@
             <age>75</age>
             <gender>male</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -175,6 +195,7 @@
             <age>73</age>
             <gender>female</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -224,6 +245,7 @@
             <age>74</age>
             <gender>female</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -247,6 +269,7 @@
             <age>19</age>
             <gender>male</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -270,6 +293,7 @@
             <age>24</age>
             <gender>male</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -292,7 +316,9 @@
                 <state>Pennsylvania</state>
             </deathPlace>
             <age>95</age>
+            <color>unknown</color>
             <gender>female</gender>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -317,6 +343,7 @@
             <age>48</age>
             <gender>male</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -338,7 +365,7 @@
                 <city>Pittsburgh</city>
                 <state>Pennsylvania</state>
             </deathPlace>
-            <age type="days">34 Days</age>
+            <age type="days">34</age>
             <gender>male</gender>
             <color>white</color>
             <causeofDeath>cardio respiratory arrest</causeofDeath>
@@ -375,6 +402,7 @@
             <age>46</age>
             <gender>male</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -424,6 +452,7 @@
             <age>82</age>
             <gender>male</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -448,6 +477,7 @@
             <age>83</age>
             <gender>female</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -470,7 +500,7 @@
                 <state>Florida</state>
                 <note>transferred body from Florida</note>
             </deathPlace>
-            <age>unknown</age>
+            <age><note type="birthYear">1899</note></age>
             <gender>male</gender>
             <color>white</color>
             <causeofDeath>natural</causeofDeath>
@@ -514,6 +544,7 @@
             <age>54</age>
             <gender>female</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -537,6 +568,7 @@
             <age>6</age>
             <gender>male</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -557,7 +589,7 @@
                 <city>Wilkinsburg</city>
                 <state>Pennsylvania</state>
             </deathPlace>
-            <age type="days">3 Days</age>
+            <age type="days">3</age>
             <gender>female</gender>
             <color>white</color>
             <causeofDeath>cerebral</causeofDeath>
@@ -584,6 +616,7 @@
             <age>85</age>
             <gender>male</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -631,6 +664,7 @@
             </deathPlace>
             <age>97</age>
             <gender>male</gender>
+            <color>unknown</color>
             <causeofDeath>cardiac arrhythmia</causeofDeath>
         </occupant>
 
@@ -665,6 +699,7 @@
             <age>76</age>
             <gender>male</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -688,6 +723,7 @@
             <age>87</age>
             <gender>female</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -772,6 +808,7 @@
             <age>65</age>
             <gender>male</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -884,6 +921,7 @@
             <age>67</age>
             <gender>male</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -943,6 +981,7 @@
             </deathPlace>
             <age>97</age>
             <gender>male</gender>
+            <color>unknown</color>
             <causeofDeath>ischemic heart disease</causeofDeath>
         </occupant>
 
@@ -1051,6 +1090,7 @@
             <age>42</age>
             <gender>female</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
     </lot>
 
@@ -1087,9 +1127,10 @@
                 <city>Phoenix</city>
                 <state>Arizona</state>
             </deathPlace>
-            <age>Unknown</age>
+            <age><note type="birthYear">1897</note></age>
             <gender>male</gender>
             <color>unknown</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -1117,6 +1158,7 @@
             <age>74</age>
             <gender>female</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -1143,6 +1185,7 @@
             <age>75</age>
             <gender>female</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -1168,6 +1211,7 @@
             <age>76</age>
             <gender>male</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -1191,6 +1235,7 @@
             <age>16</age>
             <gender>male</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
     </lot>
 
@@ -1228,6 +1273,7 @@
             <age>44</age>
             <gender>male</gender>
             <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -1373,6 +1419,12 @@
             <interred>
                 <date>1970-05-10</date>
             </interred>
+            <deathDate>
+                <date><note type="deathYear">1970</note></date>
+            </deathDate>
+            <age><note type="birthYear">1902</note></age>
+            <color>unknown</color>
+            <gender>unknown</gender>
         </occupant>
     </lot>
 
@@ -1552,7 +1604,7 @@
                 <city>Colorado Springs</city>
                 <state>Colorado</state>
             </deathPlace>
-            <age>unknown</age>
+            <age><note type="birthYear">1886</note></age>
             <gender>male</gender>
             <color>white</color>
         </occupant>
@@ -2546,7 +2598,7 @@
             <deathDate>
                 <date>1915-11</date>
             </deathDate>
-            <age>1 hour</age>
+            <age type="hours">1</age>
             <gender>female</gender>
             <color>white</color>
         </occupant>
@@ -3215,7 +3267,7 @@
                 <city>Jeannette</city>
                 <state>Pennsylvania</state>
             </deathPlace>
-            <age>infant</age>
+            <age>0 <note>infant</note></age>
             <gender>female</gender>
             <color>white</color>
             <causeofDeath>respiratory embarrassment</causeofDeath>
@@ -3376,7 +3428,7 @@
                 <city>Penn Township</city>
                 <state>Pennsylvania</state>
             </deathPlace>
-            <age>8 months</age>
+            <age type="months">8</age>
             <gender>male</gender>
             <color>white</color>
         </occupant>
