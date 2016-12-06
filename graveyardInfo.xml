@@ -12,7 +12,7 @@
                 <surName>Henderson</surName>
             </persName>
         </firstOwner>
-        
+
         <secondOwner>
             <purchased>
                 <date>1942-01-01</date>
@@ -58,7 +58,7 @@
         </occupant>
 
         <occupant>
-            
+
             <persName>
                 <firstName>James</firstName>
                 <surName>Henderson</surName>
@@ -227,7 +227,8 @@
         </occupant>
 
         <occupant>
-            <img src="cemeteryPictures/McCune2.jpg"/><!-- verify image -->
+            <img src="cemeteryPictures/McCune2.jpg"/>
+            <!-- verify image -->
             <persName>
                 <firstName>Edwin</firstName>
                 <surName>McCune</surName>
@@ -249,7 +250,8 @@
         </occupant>
 
         <occupant>
-            <img src="cemeteryPictures/McCune2.jpg"/><!-- verify image -->
+            <img src="cemeteryPictures/McCune2.jpg"/>
+            <!-- verify image -->
             <persName>
                 <firstName>Casper</firstName>
                 <surName>McCune</surName>
@@ -489,7 +491,7 @@
                 <surName>Bostwick</surName>
             </persName>
         </secondOwner>
-        
+
         <occupant>
             <img src="cemeteryPictures/King1.jpg"/>
             <persName>
@@ -608,30 +610,30 @@
             <color>white</color>
             <causeofDeath>congestive failure</causeofDeath>
         </occupant>
-        
-            <occupant>
-                <img src="cemeteryPictures/Bostwick1.jpg"/>
-                <persName>
-                    <firstName>James</firstName>
-                    <middleName>King</middleName>
-                    <surName>Bostwick</surName>
-                </persName>
-                <lotLocation>7</lotLocation>
-                <interred>
-                    <date>2008-03-07</date>
-                </interred>
-                <deathDate>
-                    <date>2008-03-03</date>
-                </deathDate>
-                <deathPlace>
-                    <city>Pittsburgh</city>
-                    <state>Pennsylvania</state>
-                </deathPlace>
-                <age>97</age>
-                <gender>male</gender>
-                <causeofDeath>cardiac arrhythmia</causeofDeath>
-            </occupant>
-        
+
+        <occupant>
+            <img src="cemeteryPictures/Bostwick1.jpg"/>
+            <persName>
+                <firstName>James</firstName>
+                <middleName>King</middleName>
+                <surName>Bostwick</surName>
+            </persName>
+            <lotLocation>7</lotLocation>
+            <interred>
+                <date>2008-03-07</date>
+            </interred>
+            <deathDate>
+                <date>2008-03-03</date>
+            </deathDate>
+            <deathPlace>
+                <city>Pittsburgh</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>97</age>
+            <gender>male</gender>
+            <causeofDeath>cardiac arrhythmia</causeofDeath>
+        </occupant>
+
         <!-- Hey, where is Lucy Bostwick? She is on the tombstone - <img src="cemeteryPictures/Bostwick1.jpg"/> -->
     </lot>
 
@@ -911,7 +913,7 @@
     </lot>
 
     <lot section="1" number="3">
-        
+
         <firstOwner>
             <persName>
                 <firstName>Norman</firstName>
@@ -1123,7 +1125,8 @@
                 <firstName>Anna</firstName>
                 <nickName>Annie</nickName>
                 <!--<surName>Daugherty</surName>-->
-                <surName>Docherty</surName> <!--spelling on tombstone-->
+                <surName>Docherty</surName>
+                <!--spelling on tombstone-->
             </persName>
             <lotLocation>8A</lotLocation>
             <interred>
@@ -1147,7 +1150,8 @@
             <persName>
                 <firstName>Daniel</firstName>
                 <!--<surName>Daugherty</surName>-->
-                <surName>Docherty</surName> <!--spelling on tombstone-->
+                <surName>Docherty</surName>
+                <!--spelling on tombstone-->
             </persName>
             <lotLocation>8B</lotLocation>
             <interred>
@@ -1599,6 +1603,7 @@
         </firstOwner>
 
         <occupant>
+            <img src="cemeteryPictures/Gongaware3.jpg"/>
             <persName>
                 <firstName>Edward</firstName>
                 <middleName>Jacob</middleName>
@@ -1622,6 +1627,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Gongaware3.jpg"/>
             <persName>
                 <firstName>Jessie</firstName>
                 <MI>M</MI>
@@ -1647,6 +1653,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Gongaware3.jpg"/>
             <persName>
                 <firstName>Gladys</firstName>
                 <middleName>Myrtle</middleName>
@@ -1671,6 +1678,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Gongaware2.jpg"/>
             <persName>
                 <firstName>Charles</firstName>
                 <MI>E</MI>
@@ -1695,6 +1703,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Gongaware2.jpg"/>
             <persName>
                 <firstName>Elise</firstName>
                 <MI>I</MI>
@@ -1727,6 +1736,7 @@
         </firstOwner>
 
         <occupant>
+            <img src="cemeteryPictures/Bratton.jpg"/>
             <persName>
                 <firstName>Carolyn</firstName>
                 <surName>Bratton</surName>
@@ -1750,6 +1760,7 @@
     </lot>
 
     <lot section="1" number="26 and 27" type="mausoleum">
+        <img src="cemeteryPictures/Woodruff.jpg"/>
         <firstOwner>
             <persName>
                 <firstName>Max</firstName>
@@ -1757,7 +1768,9 @@
                 <surName>Woodruff</surName>
             </persName>
         </firstOwner>
+
         <occupant>
+            <img src="cemeteryPictures/Woodruff2.jpg"/>
             <persName>
                 <firstName>Jane</firstName>
                 <MI>B</MI>
@@ -1783,6 +1796,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Woodruff2.jpg"/>
             <persName>
                 <firstName>Max</firstName>
                 <MI>A</MI>
@@ -1804,7 +1818,9 @@
             <gender>male</gender>
             <color>unknown</color>
         </occupant>
+
         <occupant>
+            <img src="cemeteryPictures/Woodruff1.jpg"/>
             <persName>
                 <firstName>Ruth</firstName>
                 <MI>E</MI>
@@ -1828,6 +1844,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Woodruff3.jpg"/>
             <persName>
                 <firstName>John</firstName>
                 <middleName>Edward</middleName>
@@ -1849,7 +1866,7 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-
+        <!-- Maude E Swank -->
     </lot>
 
 
@@ -1872,6 +1889,7 @@
         </firstOwner>
 
         <occupant>
+            <img src="cemeteryPictures/Sweitzer.jpg"/>
             <persName>
                 <firstName>Robert</firstName>
                 <MI>W</MI>
@@ -1896,8 +1914,10 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Sweitzer.jpg"/>
             <persName>
                 <firstName>Edna</firstName>
+                <MI>F</MI>
                 <surName>Sweitzer</surName>
             </persName>
             <lotLocation>5</lotLocation>
@@ -1918,6 +1938,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Kroon.jpg"/>
             <persName>
                 <firstName>Hilda</firstName>
                 <middleName>Emila</middleName>
@@ -1941,6 +1962,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Kroon.jpg"/>
             <persName>
                 <firstName>Carl</firstName>
                 <middleName>Albert</middleName>
@@ -1987,8 +2009,9 @@
             </persName>
             <note>owns first two plots</note>
         </firstOwner>
-
+        <img src="cemeteryPictures/Bowman1.jpg"/>
         <occupant>
+            <img src="cemeteryPictures/Bowman3.jpg"/>
             <persName>
                 <firstName>Carl</firstName>
                 <MI>I</MI>
@@ -2013,6 +2036,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Bowman2.jpg"/>
             <persName>
                 <firstName>Vera</firstName>
                 <MI>M</MI>
@@ -2037,9 +2061,10 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Park.jpg"/>
             <persName>
                 <firstName>Eliphas</firstName>
-                <MI>P</MI>
+                <middleName>Park</middleName>
                 <surName>Lauffer</surName>
             </persName>
             <lotLocation>1</lotLocation>
@@ -2060,6 +2085,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Flora.jpg"/>
             <persName>
                 <firstName>Flora</firstName>
                 <MI>M</MI>
@@ -2090,7 +2116,7 @@
                 <surName>Buckley</surName>
             </persName>
         </firstOwner>
-
+        <img src="cemeteryPictures/Sec1_Lot24.jpg"/>
         <occupant>
             <persName>
                 <firstName>Alvin</firstName>
@@ -2182,99 +2208,107 @@
             </persName>
         </firstOwner>
 
-        <occupant>
-            <persName>
-                <firstName>Caroline</firstName>
-                <surName>Abraham</surName>
-            </persName>
-            <lotLocation>1</lotLocation>
-            <interred>
-                <date>1986-08-01</date>
-                <intermentNo>75</intermentNo>
-            </interred>
-            <deathDate>
-                <date>1986-07-28</date>
-            </deathDate>
-            <deathPlace>
-                <city>Greensburg</city>
-                <state>Pennsylvania</state>
-            </deathPlace>
-            <age>95</age>
-            <gender>female</gender>
-            <color>white</color>
-            <causeofDeath>respiratory arrest</causeofDeath>
-        </occupant>
+        <img src="cemeteryPictures/Lauffer6.jpg">
+            <occupant>
+                <img src="cemeteryPictures/Lauffer3.jpg"/>
+                <persName>
+                    <firstName>Caroline</firstName>
+                    <surName>Abraham</surName>
+                </persName>
+                <lotLocation>1</lotLocation>
+                <interred>
+                    <date>1986-08-01</date>
+                    <intermentNo>75</intermentNo>
+                </interred>
+                <deathDate>
+                    <date>1986-07-28</date>
+                </deathDate>
+                <deathPlace>
+                    <city>Greensburg</city>
+                    <state>Pennsylvania</state>
+                </deathPlace>
+                <age>95</age>
+                <gender>female</gender>
+                <color>white</color>
+                <causeofDeath>respiratory arrest</causeofDeath>
+            </occupant>
 
-        <occupant>
-            <persName>
-                <firstName>Paul</firstName>
-                <middleName>James</middleName>
-                <surName>Abraham</surName>
-            </persName>
-            <lotLocation>2</lotLocation>
-            <interred>
-                <date>1964-03-25</date>
-                <intermentNo>19</intermentNo>
-            </interred>
-            <deathDate>
-                <date>1964-03-22</date>
-            </deathDate>
-            <deathPlace>
-                <city>Greensburg</city>
-                <state>Pennsylvania</state>
-            </deathPlace>
-            <age>76</age>
-            <gender>male</gender>
-            <color>white</color>
-            <causeofDeath>leukemia</causeofDeath>
-        </occupant>
+            <occupant>
+                <img src="cemeteryPictures/Lauffer2.jpg"/>
+                <persName>
+                    <firstName>Paul</firstName>
+                    <middleName>James</middleName>
+                    <surName>Abraham</surName>
+                </persName>
+                <lotLocation>2</lotLocation>
+                <interred>
+                    <date>1964-03-25</date>
+                    <intermentNo>19</intermentNo>
+                </interred>
+                <deathDate>
+                    <date>1964-03-22</date>
+                </deathDate>
+                <deathPlace>
+                    <city>Greensburg</city>
+                    <state>Pennsylvania</state>
+                </deathPlace>
+                <age>76</age>
+                <gender>male</gender>
+                <color>white</color>
+                <causeofDeath>leukemia</causeofDeath>
+            </occupant>
+        </img>
 
-        <occupant>
-            <persName>
-                <firstName>Henry</firstName>
-                <middleName>Albert</middleName>
-                <surName>Lauffer</surName>
-            </persName>
-            <lotLocation>3</lotLocation>
-            <interred>
-                <date>1937-06-10</date>
-                <intermentNo>47</intermentNo>
-            </interred>
-            <deathDate>
-                <date>1937-06-07</date>
-            </deathDate>
-            <deathPlace>
-                <city>Jeannette</city>
-                <state>Pennsylvania</state>
-            </deathPlace>
-            <age>78</age>
-            <gender>male</gender>
-            <color>white</color>
-        </occupant>
+        <img src="cemeteryPictures/Lauffer5.jpg">
+            <occupant>
+                <img src="cemeteryPictures/Lauffer4.jpg"/>
+                <persName>
+                    <firstName>Henry</firstName>
+                    <middleName>Albert</middleName>
+                    <surName>Lauffer</surName>
+                </persName>
+                <lotLocation>3</lotLocation>
+                <interred>
+                    <date>1937-06-10</date>
+                    <intermentNo>47</intermentNo>
+                </interred>
+                <deathDate>
+                    <date>1937-06-07</date>
+                </deathDate>
+                <deathPlace>
+                    <city>Jeannette</city>
+                    <state>Pennsylvania</state>
+                </deathPlace>
+                <age>78</age>
+                <gender>male</gender>
+                <color>white</color>
+            </occupant>
 
-        <occupant>
-            <persName>
-                <firstName>Clara</firstName>
-                <middleName>Alice</middleName>
-                <surName>Lauffer</surName>
-            </persName>
-            <lotLocation>4</lotLocation>
-            <interred>
-                <date>1960-06-16</date>
-                <intermentNo>48</intermentNo>
-            </interred>
-            <deathDate>
-                <date>1960-06-13</date>
-            </deathDate>
-            <deathPlace>
-                <city>Jeannette</city>
-                <state>Pennsylvania</state>
-            </deathPlace>
-            <age>92</age>
-            <gender>female</gender>
-            <color>white</color>
-            <causeofDeath>coronary occlusion</causeofDeath>
-        </occupant>
+            <occupant>
+                <img src="cemeteryPictures/Lauffer1.jpg"/>
+                <persName>
+                    <firstName>Clara</firstName>
+                    <middleName>Alice</middleName>
+                    <surName>Lauffer</surName>
+                </persName>
+                <lotLocation>4</lotLocation>
+                <interred>
+                    <date>1960-06-16</date>
+                    <intermentNo>48</intermentNo>
+                </interred>
+                <deathDate>
+                    <date>1960-06-13</date>
+                </deathDate>
+                <deathPlace>
+                    <city>Jeannette</city>
+                    <state>Pennsylvania</state>
+                </deathPlace>
+                <age>92</age>
+                <gender>female</gender>
+                <color>white</color>
+                <causeofDeath>coronary occlusion</causeofDeath>
+            </occupant>
+        </img>
     </lot>
 
     <lot section="1" number="23">
@@ -2303,10 +2337,12 @@
         </firstOwner>
 
         <occupant>
+            <img src="cemeteryPictures/Brisbine.jpg"/>
             <persName>
                 <firstName>John</firstName>
-                <MI>S</MI>
+                <MI>C</MI>
                 <surName>Brisbine</surName>
+                <genName>Doctor</genName>
             </persName>
             <lotLocation>4</lotLocation>
             <interred>
@@ -2327,6 +2363,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Brisbine.jpg"/>
             <persName>
                 <firstName>Edna</firstName>
                 <MI>W</MI>
@@ -2351,6 +2388,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Underwood.jpg"/>
             <persName>
                 <firstName>Jane</firstName>
                 <surName>Brisbine</surName>
@@ -2429,6 +2467,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Montgomery2.jpg"/>
             <persName>
                 <firstName>Cecil</firstName>
                 <MI>R</MI>
@@ -2452,9 +2491,9 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Montgomery1.jpg"/>
             <persName>
-                <firstName>Cecil</firstName>
-                <surName>Reynolds</surName>
+                <firstName>Margaret</firstName>
                 <surName>Montgomery</surName>
             </persName>
             <lotLocation>5</lotLocation>
@@ -2475,8 +2514,8 @@
         </occupant>
     </lot>
 
-    <lot section="1" number="21 and 22">
-        <note>Mausoleum</note>
+    <lot section="1" number="21 and 22" type="mausoleum">
+        <img src="cemeteryPictures/Walthour.jpg"/>
         <firstOwner>
             <persName>
                 <firstName>Bessie</firstName>
@@ -2493,6 +2532,7 @@
         </secondOwner>
 
         <occupant>
+            <img src="cemeteryPictures/Walthour2.jpg"/>
             <persName>
                 <firstName>Emma</firstName>
                 <MI>G</MI>
@@ -2512,6 +2552,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Walthour1.jpg"/>
             <persName>
                 <firstName>Bessie</firstName>
                 <MI>T</MI>
@@ -2536,6 +2577,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Walthour3.jpg"/>
             <persName>
                 <firstName>Christopher</firstName>
                 <MI>C</MI>
@@ -2559,6 +2601,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Walthour4.jpg"/>
             <persName>
                 <firstName>Christopher</firstName>
                 <MI>C</MI>
@@ -2599,6 +2642,7 @@
         </firstOwner>
 
         <occupant>
+            <img src="cemeteryPictures/Ferguson.jpg"/>
             <persName>
                 <firstName>Margaret</firstName>
                 <surName>Ferguson</surName>
@@ -2621,6 +2665,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Ferguson.jpg"/>
             <persName>
                 <firstName>Samuel</firstName>
                 <surName>Ferguson</surName>
@@ -2643,6 +2688,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Buck.jpg"/>
             <persName>
                 <firstName>John</firstName>
                 <MI>F</MI>
@@ -2666,6 +2712,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Buck.jpg"/>
             <persName>
                 <firstName>Sarah</firstName>
                 <middleName>Agnes</middleName>
@@ -2711,6 +2758,7 @@
         </firstOwner>
 
         <occupant>
+            <img src="cemeteryPictures/Peterson.jpg"/>
             <persName>
                 <firstName>Mearl</firstName>
                 <MI>J</MI>
@@ -2735,6 +2783,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Peterson.jpg"/>
             <persName>
                 <firstName>Janet</firstName>
                 <MI>E</MI>
@@ -2758,6 +2807,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Sorber.jpg"/>
             <persName>
                 <firstName>Harvey</firstName>
                 <MI>S</MI>
@@ -2786,6 +2836,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Sorber.jpg"/>
             <persName>
                 <firstName>Della</firstName>
                 <middleName>Ann</middleName>
@@ -2810,6 +2861,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Sorber.jpg"/>
             <persName>
                 <firstName>Charles</firstName>
                 <MI>H</MI>
@@ -2851,6 +2903,7 @@
         </firstOwner>
 
         <occupant>
+            <img src="cemeteryPictures/Fritchman3.jpg"/>
             <persName>
                 <firstName>James</firstName>
                 <MI>C</MI>
@@ -2879,6 +2932,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Fritchman3.jpg"/>
             <persName>
                 <firstName>Mary</firstName>
                 <MI>L</MI>
@@ -2903,6 +2957,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Fritchman2.jpg"></img>
             <persName>
                 <firstName>Grant</firstName>
                 <MI>W</MI>
@@ -2927,6 +2982,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Campbell.jpg"/>
             <persName>
                 <firstName>George</firstName>
                 <MI>W</MI>
@@ -2950,6 +3006,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Campbell.jpg"/>
             <persName>
                 <firstName>Emma</firstName>
                 <middleName>Mae</middleName>
@@ -2985,6 +3042,7 @@
         </firstOwner>
 
         <occupant>
+            <img src="cemeteryPictures/McCaulley4.jpg"/>
             <persName>
                 <firstName>Edwin</firstName>
                 <MI>W</MI>
@@ -3009,6 +3067,7 @@
 
 
         <occupant>
+            <img src="cemeteryPictures/McCaulley4.jpg"/>
             <persName>
                 <firstName>Mary</firstName>
                 <MI>K</MI>
@@ -3037,6 +3096,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/McCaulley3.jpg"/>
             <persName>
                 <firstName>Nellie</firstName>
                 <MI>A</MI>
@@ -3060,6 +3120,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/McCaulley3.jpg"/>
             <persName>
                 <firstName>John</firstName>
                 <MI>R</MI>
@@ -3088,6 +3149,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/McCaulley2.jpg"/>
             <persName>
                 <firstName>Alfred</firstName>
                 <middleName>Benson</middleName>
@@ -3111,6 +3173,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Shrum1.jpg"/>
             <persName>
                 <firstName>John</firstName>
                 <middleName>Baer</middleName>
@@ -3133,6 +3196,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Shrum1.jpg"/>
             <persName>
                 <firstName>Roberta</firstName>
                 <surName>Shrum</surName>
@@ -3158,6 +3222,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Shrum1.jpg"/>
             <persName>
                 <firstName>Elizabeth</firstName>
                 <MI>M</MI>
@@ -3181,6 +3246,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/McCaulley1.jpg"/>
             <persName>
                 <firstName>Nellie</firstName>
                 <MI>W</MI>
@@ -3205,6 +3271,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/McCaulley1.jpg"/>
             <persName>
                 <firstName>Laurie</firstName>
                 <middleName>Elizabeth</middleName>
@@ -3315,6 +3382,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Waugaman2.jpg"/>
             <persName>
                 <firstName>Simon</firstName>
                 <MI>U</MI>
@@ -3337,6 +3405,7 @@
         </occupant>
 
         <occupant>
+            <img src="cemeteryPictures/Waugaman1.jpg"/>
             <persName>
                 <firstName>Emma</firstName>
                 <surName>Waugaman</surName>
@@ -3422,6 +3491,7 @@
         </thirdOwner>
 
         <occupant>
+            <img src="cemeteryPictures/Lauffer7.jpg"/>
             <persName>
                 <firstName>Charles</firstName>
                 <middleName>Raymond</middleName>
@@ -3444,7 +3514,7 @@
             <color>white</color>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="14">
         <firstOwner>
             <persName>
@@ -3453,7 +3523,7 @@
                 <surName>Gongaware</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
             <persName>
                 <firstName>Harry</firstName>
@@ -3477,7 +3547,7 @@
             <color>white</color>
             <causeofDeath>cardiac arrest</causeofDeath>
         </occupant>
-        
+
         <occupant>
             <persName>
                 <firstName>Catherine</firstName>
@@ -3500,8 +3570,9 @@
             <color>white</color>
             <causeofDeath>myocardial infarction</causeofDeath>
         </occupant>
-        
+
         <occupant>
+            <img src="cemeteryPictures/Gongaware1.jpg"/>
             <persName>
                 <firstName>Harry</firstName>
                 <middleName>Jonas</middleName>
@@ -3520,7 +3591,7 @@
             <color>white</color>
         </occupant>
     </lot>
-    
+
     <lot section="1" number="13">
         <firstOwner>
             <persName>
@@ -3529,8 +3600,9 @@
                 <surName>Coles</surName>
             </persName>
         </firstOwner>
-        
+
         <occupant>
+            <img src="cemeteryPictures/Coles.jpg"/>
             <persName>
                 <firstName>William</firstName>
                 <MI>J</MI>
@@ -3552,8 +3624,9 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
+            <img src="cemeteryPictures/Coles.jpg"/>
             <persName>
                 <firstName>Anna</firstName>
                 <surName>Coles</surName>
@@ -3574,8 +3647,9 @@
             <gender>female</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
+            <img src="cemeteryPictures/Shirey.jpg"/>
             <persName>
                 <firstName>Charles</firstName>
                 <middleName>Alfred</middleName>
@@ -3598,11 +3672,12 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        
+
         <occupant>
+            <img src="cemeteryPictures/Shirey.jpg"/>
             <persName>
                 <firstName>Emily</firstName>
-               <MI>G</MI>
+                <MI>G</MI>
                 <surName>Munson</surName>
                 <surName>Shirey</surName>
             </persName>
