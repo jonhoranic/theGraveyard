@@ -1,33 +1,54 @@
 start = root
-root = element root{lot+} #there needs to be at least one lot, but there can be more than one
-lot = element lot{(section, number, type?), img?, firstOwner+, secondOwner*, occupant+}
-section = attribute section {xsd:int}
-number = attribute number {xsd:int}
-type = attribute type {"mausoleum" | "military" | "deathYear" | "birthYear" | "days" | "hours" | "months"}
-img = element img {src, occupant*, empty}
-src = attribute src {text}
-firstOwner = element firstOwner {persName+, purchased*, note*}
-secondOwner = element secondOwner {purchased*, persName+, note*}
-purchased = element purchased {date}
-occupant = element occupant {img? | persName | lotLocation | interred | deathDate | deathPlace? | age | gender | color? | causeofDeath}
-lotLocation = element lotLocation {xsd:int}
-interred = element interred {date, intermentNo?}
-date = element date {(xsd:date|"N/A") | note }
-intermentNo = element intermentNo {xsd:int}
-deathDate = element deathDate {date}
-note = element note {type?, (xsd:int|xsd:gYear|text)}
-deathPlace = element deathPlace {(city | state | country)*}
-city = element city {text}
-state = element state {text}
-country = element country {text}
-age = element age {type?, (xsd:int | (text, note) | note)}
-gender = element gender {"male" | "female" | "unknown"}
-color = element color {"white" | "unknown"}
-causeofDeath = element causeofDeath {text}
-persName = element persName {firstName, (middleName | MI)?, surName+, title?, desc?}
-firstName = element firstName {text}
-middleName = element middleName {text}
-MI = element MI {text}
-surName = element surName {text}
-title = element title {type, text}
-desc = element desc {type, text}
+root = element root { lot+ }
+# there needs to be at least one lot, but there can be more than one
+lot = element lot { (section, number, type?), img?, firstOwner+, secondOwner*, occupant+ }
+# section, number, and type are all attributes on lot; type may appear once or not at all, then lot can have an img element when there is a marker or mausolem image for the whole lot; every lot has at least one firstOwner but there may be more than one firstOwner if multiple people own different sections of the same lot; there may or may not be more than one secondOwner; there is always one or more occupants in each lot
+section = attribute section { xsd:int } #the section attribute must always be a number
+number = attribute number { xsd:int } #the number attribute must always be a number
+type =
+    attribute type {
+        "mausoleum" | "military" | "deathYear" | "birthYear" | "days" | "hours" | "months"
+    } #the mausolem value is only used on the lot element, the military value is used on title and desc, deathYear and birthYear can only be found on the note element, days/hours/months can only be found on the age element 
+img = element img { src, (occupant+ | empty)} # the img element must have a src attribute; it is either a self-closing tag or contains one or more occupants (not self-closing when image of marker or mausolem)
+src = attribute src { text }
+firstOwner = element firstOwner { persName+ | purchased* | note* } #needs to be at least one but could be more than one persName, purchased and note may or may not appear 
+secondOwner = element secondOwner { purchased* | persName+ | note* } #needs to be at least one but could be more than one persName, purchased and note may or may not appear
+purchased = element purchased { date } #has to have date element
+occupant =
+    element occupant {
+        img? #img may appear once or not at all; because some occupants do not have pictures ??
+        | persName #has to be one and only one persName
+        | lotLocation #has to be one and only one lotLocation
+        | interred #has to be one and only one interred
+        | deathDate #has to be one and only one deathDate
+        | deathPlace? #deathPlace may appear on or not at all
+        | age #has to be one and only one age
+        | gender #has to be one and only one gender
+        | color #has to be one and only one color
+        | causeofDeath? #may or may not appear -- in XSLT transfer would like all the ones where causeofDeath does not appear indicate an unknown cause of death
+    }
+lotLocation = element lotLocation { xsd:int } #must be a number
+interred = element interred { date, intermentNo? } #must include a date element and the internment element may or may not appear
+date = element date { (xsd:date | "N/A") | note }
+intermentNo = element intermentNo { xsd:int }
+deathDate = element deathDate { date }
+note = element note { type?, (xsd:int | xsd:gYear | text) }
+deathPlace = element deathPlace { (city | state | country)* }
+city = element city { text }
+state = element state { text }
+country = element country { text }
+age =
+    element age {
+        type?,
+        (xsd:int | (text, note) | note)
+    }
+gender = element gender { "male" | "female" | "unknown" }
+color = element color { "white" | "unknown" }
+causeofDeath = element causeofDeath { text }
+persName = element persName { firstName, (middleName | MI)?, surName+, title?, desc? }
+firstName = element firstName { text }
+middleName = element middleName { text }
+MI = element MI { text }
+surName = element surName { text }
+title = element title { type, text }
+desc = element desc { type, text }
