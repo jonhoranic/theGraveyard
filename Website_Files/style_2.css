@@ -1,0 +1,38 @@
+body {
+background-color: #acc1ca;
+}
+h2 {
+color: black;
+font-size:25px;
+font-family: hightowerEOT;
+padding: 5px;
+}
+.memberName {
+color: #6a363b;
+font-size:20px;
+font-family: hightowerEOT;
+padding: 10px;
+font-weight: bold;
+}
+.boxed {
+border: 2px solid white;
+margin-left: 400px;
+margin-right: 400px;
+background-color: #725d5f;
+position: relative;
+}
+p {
+color: black;
+font-size: 20px;
+font-family: hightowerEOT;
+padding: 5px;
+}
+img {
+position: relative;
+max-width: 300px;
+max-height:200px;
+display: block;
+margin-left: 200px;
+margin-right: 1100px;
+border: 2px solid white;
+}

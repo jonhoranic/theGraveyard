@@ -20,17 +20,20 @@ h2 {
 color: black;
 font-size:25px;
 font-family: hightowerEOT;
+padding: 5px;
 }
 p {
 color: black;
 font-size: 20px;
 font-family: hightowerEOT;
+padding: 5px;
 }
 img {
 max-width: 700px;
 display: block;
 margin-left: auto;
 margin-right: auto;
+margin-top: auto;
 padding: 200px;
 }
 body {
@@ -45,12 +48,13 @@ background-color: #725d5f;
 ul.topnav {
 list-style-type: none;
 margin: 0 auto;
-width: 10;
+width: 1300px;
+height: 43px;
 padding: 0;
 overflow: hidden;
 background-color: white;
 text-align: center;
-margin-top: -561px;
+margin-top: -558.5px;
 }
 ul.topnav li {
 display: inline-block;
