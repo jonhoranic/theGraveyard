@@ -1639,8 +1639,6 @@
             <color>white</color>
         </occupant>
     </lot>
-
-    <!-- THIS IS WHERE WE LEFT OFF ADDING IMAGES -->
     <lot section="1" number="28">
         <firstOwner>
             <persName>
@@ -1708,6 +1706,67 @@
             <gender>female</gender>
             <color>white</color>
             <causeofDeath>heart attack</causeofDeath>
+        </occupant>
+        <occupant>
+            <img src="cemeteryPictures/Gongaware1.jpg"/>
+            <persName>
+                <firstName>Jessie</firstName>
+                <MI>W</MI>
+                <surName>Gongaware</surName>
+            </persName>
+            <lotLocation>4</lotLocation>
+            <reinterred>
+                <date>1940-05-21</date>
+                <intermentNo>39</intermentNo>
+                <note>Removed from 181-F</note>
+            </reinterred>
+            <deathDate>
+                <date><note type="deathYear">1920</note></date>
+            </deathDate>
+            <age><note type="birthYear">1882</note></age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
+        </occupant>
+        <occupant>
+            <img src="cemeteryPictures/Gongaware1.jpg"/>
+            <persName>
+                <firstName>William</firstName>
+                <surName>Gongaware</surName>
+            </persName>
+            <lotLocation>4B</lotLocation>
+            <reinterred>
+                <date>1940-05-21</date>
+                <note>Removed from 181-F</note>
+                <note>Buried with Jessie W. Gongaware</note>
+            </reinterred>
+            <deathDate>
+                <date><note type="deathYear">1918</note></date>
+            </deathDate>
+            <age><note type="birthYear">1918</note></age>
+            <gender>unknown</gender>
+            <color>unknown</color>
+            <causeofDeath>unknown</causeofDeath>
+        </occupant>
+        <occupant>
+            <img src="cemeteryPictures/Gongaware1.jpg"/>
+            <persName>
+                <firstName>Infant</firstName>
+                <surName>Gongaware</surName>
+            </persName>
+            <lotLocation>4A</lotLocation>
+            <reinterred>
+                <date>1940-05-21</date>
+                <note>Removed from 181-F</note>
+                <note>Buried with Jessie W. Gongaware</note>
+            </reinterred>
+            <deathDate>
+                <date><note type="deathYear">1911</note></date>
+            </deathDate>
+            <age><note type="birthYear">1911</note></age>
+            <gender>unknown</gender>
+            <color>unknown</color>
+            <causeofDeath>unknown</causeofDeath>
         </occupant>
 
         <occupant>
@@ -1924,7 +1983,36 @@
             <gender>male</gender>
             <color>white</color>
         </occupant>
-        <!-- Maude E Swank -->
+        <occupant>
+            <img src="cemeteryPictures/Woodruff4.jpg"/>
+            <persName>
+                <firstName>Maude</firstName>
+                <middleName>Elizabeth</middleName>
+                <surName>Swank</surName>
+                <surName>Woodruff</surName>
+            </persName>
+            <lotLocation>7</lotLocation>
+            <interred>
+                <date>1937-02-16</date>
+                <intermentNo>22</intermentNo>
+            </interred>
+            <reinterred>
+                <date>1939-12-23</date>
+                <intermentNo>87</intermentNo>
+                <note>Removal of body from mausolem to Woodruff mausolem</note>
+            </reinterred>
+            <deathDate>
+                <date>1937-02-13</date>
+            </deathDate>
+            <deathPlace>
+                <city>Greensburg</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>53</age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
+        </occupant>
     </lot>
 
 

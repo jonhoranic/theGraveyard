@@ -32,7 +32,7 @@ occupant =
     )*}
 lotLocation = element lotLocation { text } #must be a number
 interred = element interred {  date, intermentNo?, note? } #must include a date element and the internment element may or may not appear
-reinterred = element reinterred { date, intermentNo?, note? }
+reinterred = element reinterred { date, intermentNo?, note* }
 cremated = element cremated {date}
 date = element date { (xsd:date | "N/A" | note)? }
 intermentNo = element intermentNo { xsd:int }
