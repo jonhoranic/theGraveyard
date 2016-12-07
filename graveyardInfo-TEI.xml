@@ -70,15 +70,15 @@
       <div>
         <listPerson xml:id="lotNo12">
           <head><!--Describe Lot--><geo><!--whitespace-separated geocoordinates look up how to do this in the TEI--></geo></head>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="na">
             <persName><surname>Henderson</surname><forename type="first"
               >Harrold</forename></persName>
           </person>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="na">
             <persName><surname>Henderson</surname><forename type="first">Anna</forename><forename
                 type="middle">G</forename></persName>
           </person>
-          <person role="owner" n="2">
+          <person role="owner" n="2" sex="u" ref="#L12P4">
             <persName><surname>Riley</surname><forename type="first">Paullos</forename><forename
                 type="middle">N</forename></persName>
             <note type="purchased"><date when="1942-01-01"/></note>
@@ -159,10 +159,10 @@
         </listPerson>
         <listPerson xml:id="lotNo9">
           <head><!--Describe Lot--><geo><!--whitespace-separated geocoordinates look up how to do this in the TEI--></geo></head>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="m" ref="#L9P1">
             <persName><surname>McCune</surname><forename type="first">John</forename></persName>
           </person>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="f" ref="#L9P2">
             <persName><surname>McCune</surname><forename type="first">Mary</forename><forename
                 type="middle">E</forename></persName>
           </person>
@@ -318,7 +318,7 @@
         </listPerson>
         <listPerson xml:id="lotNo8">
           <head><!--Describe Lot--><geo><!--whitespace-separated geocoordinates look up how to do this in the TEI--></geo></head>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="f" ref="L8P5">
             <persName><surname>Kleist</surname><forename type="first">Ella</forename><forename
                 type="middle">H</forename></persName>
           </person>
@@ -409,11 +409,11 @@
         </listPerson>
         <listPerson xml:id="lotNo7">
           <head><!--Describe Lot--><geo><!--whitespace-separated geocoordinates look up how to do this in the TEI--></geo></head>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="na">
             <persName><surname>Menges</surname><forename type="first">William</forename><forename
                 type="middle">Clifford</forename></persName>
           </person>
-          <person role="owner" n="2">
+          <person role="owner" n="2" sex="f" ref="#L7P6">
             <persName><surname>Bostwick</surname><forename type="first">Mary</forename><forename
                 type="middle">K</forename></persName>
           </person>
@@ -521,8 +521,8 @@
         </listPerson>
         <listPerson xml:id="lotNo6">
           <head><!--Describe Lot--><geo><!--whitespace-separated geocoordinates look up how to do this in the TEI--></geo></head>
-          <person role="owner" n="1">
-            <persName><surname>Vogel</surname><forename type="first">Amanda </forename></persName>
+          <person role="owner" n="1" sex="f" ref="#L6P2">
+            <persName><surname>Vogel</surname><forename type="first">Amanda</forename></persName>
           </person>
           <person xml:id="L6P1" role="occupant" sex="m">
             <persName><surname>Vogel</surname><forename type="first">Albert</forename></persName>
@@ -592,7 +592,7 @@
         </listPerson>
         <listPerson xml:id="lotNo5">
           <head><!--Describe Lot--><geo><!--whitespace-separated geocoordinates look up how to do this in the TEI--></geo></head>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="f" ref="#L5P2">
             <persName><surname>Young</surname><forename type="first">Hannah</forename><forename
                 type="middle">M</forename></persName>
           </person>
@@ -669,7 +669,7 @@
         </listPerson>
         <listPerson xml:id="lotNo4">
           <head><!--Describe Lot--><geo><!--whitespace-separated geocoordinates look up how to do this in the TEI--></geo></head>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="f" ref="#L4P2">
             <persName><surname>Apple</surname><forename type="first">Ida</forename><forename
                 type="middle">Mae</forename></persName>
           </person>
@@ -710,7 +710,7 @@
         </listPerson>
         <listPerson xml:id="lotNo3">
           <head><!--Describe Lot--><geo><!--whitespace-separated geocoordinates look up how to do this in the TEI--></geo></head>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="m" ref="#L3P4">
             <persName><surname>Wallace</surname><forename type="first">Norman</forename><forename
                 type="middle">F</forename></persName>
           </person>
@@ -752,7 +752,7 @@
         </listPerson>
         <listPerson xml:id="lotNo33">
           <head><!--Describe Lot--><geo><!--whitespace-separated geocoordinates look up how to do this in the TEI--></geo></head>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="m" ref="#L33P2">
             <persName><surname>DeWalt</surname><forename type="first">A.J.</forename><forename
                 type="middle">Bert A.</forename></persName>
           </person>
@@ -808,11 +808,11 @@
         </listPerson>
         <listPerson xml:id="lotNo32">
           <head><!--Describe Lot--><geo><!--whitespace-separated geocoordinates look up how to do this in the TEI--></geo></head>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="na">
             <persName><surname>Del Vitto</surname><forename type="first"
               >William</forename></persName>
           </person>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="na">
             <persName><surname>Del Vitto</surname><forename type="first"
               >Jessie</forename></persName>
           </person>
@@ -905,7 +905,7 @@
         </listPerson>
         <listPerson xml:id="lotNo31">
           <head><!--Describe Lot--><geo><!--whitespace-separated geocoordinates look up how to do this in the TEI--></geo></head>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="f" ref="#L10P4">
             <persName><surname>Helman</surname><forename type="first">Evaline</forename><forename
                 type="middle">E</forename></persName>
           </person>
@@ -966,7 +966,7 @@
         </listPerson>
         <listPerson xml:id="lotNo10">
           <head><!--Describe Lot--><geo><!--whitespace-separated geocoordinates look up how to do this in the TEI--></geo></head>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="f" ref="#L10P4">
             <persName><surname>Helman</surname><forename type="first">Evaline</forename><forename
                 type="middle">E</forename></persName>
           </person>
@@ -1060,7 +1060,7 @@
         </listPerson>
         <listPerson xml:id="lotNo30">
           <head><!--Describe Lot--><geo><!--whitespace-separated geocoordinates look up how to do this in the TEI--></geo></head>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="f" ref="#L10P4">
             <persName><surname>Helman</surname><forename type="first">Evaline</forename><forename
                 type="middle">E</forename></persName>
           </person>
@@ -1131,11 +1131,11 @@
         </listPerson>
         <listPerson xml:id="lotNo29">
           <head><!--Describe Lot--><geo><!--whitespace-separated geocoordinates look up how to do this in the TEI--></geo></head>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="m" ref="#L29P4">
             <persName><surname>Brezler</surname><forename type="first">William</forename><forename
                 type="middle">J</forename></persName>
           </person>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="m" ref="#L29P8">
             <persName><surname>Brezler</surname><forename type="first">Harry</forename><forename
                 type="middle">M</forename></persName>
           </person>
@@ -1277,11 +1277,11 @@
         </listPerson>
         <listPerson xml:id="lotNo28West">
           <head><!--Describe Lot--><geo><!--whitespace-separated geocoordinates look up how to do this in the TEI--></geo></head>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="f" ref="#L28WestP2">
             <persName><surname>Gongaware</surname><forename type="first">Jessie</forename><forename
                 type="middle">M</forename></persName>
           </person>
-          <person role="owner" n="1">
+          <person role="owner" n="1" sex="m" ref="#L28WestP4">
             <persName><surname>Gongaware</surname><forename type="first">Charles</forename><forename
                 type="middle">E</forename></persName>
           </person>
@@ -1349,7 +1349,7 @@
               <desc>N/A</desc>
             </event>
             <event type="reinterred" when="1940-05-21">
-              <desc>Removed from 181-FBuried with Jessie W. Gongaware</desc>
+              <desc>Removed from 181-F Buried with Jessie W. Gongaware</desc>
             </event>
             <trait type="racial">
               <label>unknown</label>
@@ -1366,7 +1366,7 @@
               <desc>N/A</desc>
             </event>
             <event type="reinterred" when="1940-05-21">
-              <desc>Removed from 181-FBuried with Jessie W. Gongaware</desc>
+              <desc>Removed from 181-F Buried with Jessie W. Gongaware</desc>
             </event>
             <trait type="racial">
               <label>unknown</label>
