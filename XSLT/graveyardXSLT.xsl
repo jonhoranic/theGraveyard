@@ -39,7 +39,7 @@
                                 <region>Pennsylvania</region>
                                 <settlement>Iriwn</settlement>
                                 <repository>Brush Creek Cemetery - Main Office</repository>
-                                <collection>Office Files</collection>
+                                <xsl:comment><collection>Office Files</collection></xsl:comment>
                                 <idno>S-I</idno>
                             </msIdentifier>
                             <physDesc>
@@ -130,22 +130,25 @@
         <graphic url="{@src}"/>
     </xsl:template>
     <xsl:template match="firstOwner">
+        <xsl:for-each select="child::persName">
         <person role="owner" n="1">
-            <xsl:apply-templates select="persName"/>
-
+            <xsl:apply-templates select="."/>
         </person>
+        </xsl:for-each>
     </xsl:template>
     <xsl:template match="secondOwner">
+        <xsl:for-each select="child::persName">
         <person role="owner" n="2">
-            <xsl:apply-templates select="persName"/>
-
+            <xsl:apply-templates select="."/>
         </person>
+        </xsl:for-each>
     </xsl:template>
     <xsl:template match="thirdOwner">
+        <xsl:for-each select="child::persName">
         <person role="owner" n="2">
-            <xsl:apply-templates select="persName"/>
-
+            <xsl:apply-templates select="."/>
         </person>
+        </xsl:for-each>
     </xsl:template>
     <xsl:template match="occupant">
         <person xml:id="L{./parent::lot/@number}P{descendant::lotLocation}" role="occupant"

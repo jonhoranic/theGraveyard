@@ -33,7 +33,7 @@
             <region>Pennsylvania</region>
             <settlement>Iriwn</settlement>
             <repository>Brush Creek Cemetery - Main Office</repository>
-            <!--<collection>Office Files</collection>-->
+            <!--Office Files-->
             <idno>S-I</idno>
           </msIdentifier>
           <physDesc>
@@ -73,6 +73,8 @@
           <person role="owner" n="1">
             <persName><surname>Henderson</surname><forename type="first"
               >Harrold</forename></persName>
+          </person>
+          <person role="owner" n="1">
             <persName><surname>Henderson</surname><forename type="first">Anna</forename><forename
                 type="middle">G</forename></persName>
           </person>
@@ -159,6 +161,8 @@
           <head><!--Describe Lot--><geo><!--whitespace-separated geocoordinates look up how to do this in the TEI--></geo></head>
           <person role="owner" n="1">
             <persName><surname>McCune</surname><forename type="first">John</forename></persName>
+          </person>
+          <person role="owner" n="1">
             <persName><surname>McCune</surname><forename type="first">Mary</forename><forename
                 type="middle">E</forename></persName>
           </person>
@@ -807,6 +811,8 @@
           <person role="owner" n="1">
             <persName><surname>Del Vitto</surname><forename type="first"
               >William</forename></persName>
+          </person>
+          <person role="owner" n="1">
             <persName><surname>Del Vitto</surname><forename type="first"
               >Jessie</forename></persName>
           </person>
@@ -1128,6 +1134,8 @@
           <person role="owner" n="1">
             <persName><surname>Brezler</surname><forename type="first">William</forename><forename
                 type="middle">J</forename></persName>
+          </person>
+          <person role="owner" n="1">
             <persName><surname>Brezler</surname><forename type="first">Harry</forename><forename
                 type="middle">M</forename></persName>
           </person>
@@ -1272,8 +1280,12 @@
           <person role="owner" n="1">
             <persName><surname>Gongaware</surname><forename type="first">Jessie</forename><forename
                 type="middle">M</forename></persName>
+          </person>
+          <person role="owner" n="1">
             <persName><surname>Gongaware</surname><forename type="first">Charles</forename><forename
                 type="middle">E</forename></persName>
+          </person>
+          <person role="owner" n="1">
             <persName><surname>Gongaware</surname><forename type="first">Gladys</forename><forename
                 type="middle">M</forename></persName>
           </person>
@@ -1619,6 +1631,8 @@
           <person role="owner" n="1">
             <persName><surname>Bowman</surname><forename type="first">Carl</forename><forename
                 type="middle">S</forename></persName>
+          </person>
+          <person role="owner" n="1">
             <persName><surname>Bowman</surname><forename type="first">Vera</forename><forename
                 type="middle">M</forename></persName>
           </person>
@@ -1756,8 +1770,12 @@
             <persName><surname>Lauffer</surname><surname>Abraham</surname><forename type="first"
                 >Caroline</forename></persName>
             <note type="purchased"><date when="1937-07-14"/></note>
+          </person>
+          <person role="owner" n="1">
             <persName><surname>Abraham</surname><forename type="first">Paul</forename><forename
                 type="middle">J</forename></persName>
+          </person>
+          <person role="owner" n="1">
             <persName><surname>Lauffer</surname><forename type="first">Clara</forename><forename
                 type="middle">A</forename></persName>
           </person>
@@ -1841,6 +1859,8 @@
             <persName><surname>Sorber</surname><forename type="first">Everett</forename><forename
                 type="middle">S.C.</forename></persName>
             <note>owns first three plots</note>
+          </person>
+          <person role="owner" n="1">
             <persName><surname>Sorber</surname><forename type="first">Madeline</forename><forename
                 type="middle">C</forename></persName>
           </person>
@@ -2055,6 +2075,8 @@
           <person role="owner" n="1">
             <persName><surname>Ferguson</surname><forename type="first"
               >Margaret</forename></persName>
+          </person>
+          <person role="owner" n="1">
             <persName><surname>Buck</surname><forename type="first">John</forename><forename
                 type="middle">F</forename></persName>
           </person>
@@ -2135,6 +2157,8 @@
           <person role="owner" n="1">
             <persName><surname>Sorber</surname><forename type="first">Harvey</forename><forename
                 type="middle">S</forename></persName>
+          </person>
+          <person role="owner" n="1">
             <persName><surname>Sorber</surname><forename type="first">Della</forename><forename
                 type="middle">Ann</forename></persName>
           </person>
@@ -2517,6 +2541,8 @@
           <person role="owner" n="1">
             <persName><surname>Cook</surname><forename type="first">John</forename><forename
                 type="middle">A</forename></persName>
+          </person>
+          <person role="owner" n="1">
             <persName><surname>Waugaman</surname><forename type="first">Emma</forename><forename
                 type="middle">H</forename></persName>
           </person>
@@ -2609,11 +2635,15 @@
           <person role="owner" n="1">
             <persName><surname>Sorber</surname><forename type="first">Everett</forename><forename
                 type="middle">S.C.</forename></persName>
+          </person>
+          <person role="owner" n="1">
             <persName><surname>Sorber</surname><forename type="first">Madeline</forename></persName>
             <note type="purchased"><date when="1948-06-06"/></note>
           </person>
           <person role="owner" n="2">
             <persName><surname>Hammer</surname><forename type="first">Edgar</forename></persName>
+          </person>
+          <person role="owner" n="2">
             <persName><surname>Hammer</surname><forename type="first">Ann</forename><forename
                 type="middle">S</forename></persName>
             <note type="purchased"><date when="1956-11-03"/></note>
@@ -2621,6 +2651,8 @@
           <person role="owner" n="2">
             <persName><surname>Anthony</surname><forename type="first">Kerry</forename><forename
                 type="middle">M</forename></persName>
+          </person>
+          <person role="owner" n="2">
             <persName><surname>Anthony</surname><forename type="first">Molly</forename><forename
                 type="middle">Ann</forename></persName>
             <note type="purchased"><date when="1975-11-12"/></note>
