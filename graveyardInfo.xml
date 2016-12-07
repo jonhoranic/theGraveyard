@@ -1776,7 +1776,7 @@
             <color>white</color>
         </occupant>
     </lot>
-    <lot section="1" number="28">
+    <lot section="1" number="28West">
         <firstOwner>
             <persName>
                 <firstName>Jessie</firstName>
@@ -1851,7 +1851,7 @@
                 <MI>W</MI>
                 <surName>Gongaware</surName>
             </persName>
-            <lotLocation>4</lotLocation>
+            <lotLocation>4R</lotLocation>
             <reinterred>
                 <date>1940-05-21</date>
                 <intermentNo>39</intermentNo>
@@ -1980,7 +1980,7 @@
             <color>white</color>
         </occupant>
     </lot>
-    <lot section="1" number="28">
+    <lot section="1" number="28East">
         <firstOwner>
             <persName>
                 <firstName>Joseph</firstName>
@@ -2013,7 +2013,7 @@
         </occupant>
     </lot>
 
-    <lot section="1" number="26 and 27" type="mausoleum">
+    <lot section="1" number="26_27" type="mausoleum">
         <img src="cemeteryPictures/Woodruff.jpg"/>
         <firstOwner>
             <persName>
@@ -2153,7 +2153,7 @@
     </lot>
 
 
-    <lot section="1" number="25">
+    <lot section="1" number="25East">
         <firstOwner>
             <persName>
                 <firstName>Robert</firstName>
@@ -2163,8 +2163,9 @@
         </firstOwner>
 
         <firstOwner>
-            <note>Owns first 3 plots</note>
+            
             <persName>
+                <note>Owns first 3 plots</note>
                 <firstName>Hilda</firstName>
                 <middleName>Emila</middleName>
                 <surName>Kroon</surName>
@@ -2269,7 +2270,7 @@
         </occupant>
     </lot>
 
-    <lot section="1" number="25">
+    <lot section="1" number="25West">
         <firstOwner>
             <persName>
                 <firstName>Carl</firstName>
@@ -2286,11 +2287,12 @@
 
         <firstOwner>
             <persName>
+                <note>owns first two plots</note>
                 <firstName>E</firstName>
                 <middleName>Park</middleName>
                 <surName>Lauffer</surName>
             </persName>
-            <note>owns first two plots</note>
+            
         </firstOwner>
         <img src="cemeteryPictures/Bowman1.jpg"/>
         <occupant>
@@ -2392,7 +2394,7 @@
         </occupant>
     </lot>
 
-    <lot section="1" number="24">
+    <lot section="1" number="24East">
         <firstOwner>
             <persName>
                 <firstName>Alvin</firstName>
@@ -2465,7 +2467,7 @@
         </occupant>
     </lot>
 
-    <lot section="1" number="24">
+    <lot section="1" number="24West">
         <firstOwner>
             <persName>
                 <firstName>Caroline</firstName>
@@ -2592,7 +2594,7 @@
 
     </lot>
 
-    <lot section="1" number="23">
+    <lot section="1" number="23WestA">
         <firstOwner>
             <persName>
                 <firstName>Edna</firstName>
@@ -2693,7 +2695,7 @@
         </occupant>
     </lot>
 
-    <lot section="1" number="23">
+    <lot section="1" number="23East">
         <firstOwner>
             <persName>
                 <firstName>Elizabeth</firstName>
@@ -2794,7 +2796,7 @@
         </occupant>
     </lot>
 
-    <lot section="1" number="21 and 22" type="mausoleum">
+    <lot section="1" number="21_22" type="mausoleum">
         <img src="cemeteryPictures/Walthour.jpg"/>
         <firstOwner>
             <persName>
