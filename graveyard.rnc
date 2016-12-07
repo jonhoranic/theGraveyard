@@ -11,9 +11,9 @@ type =
     } #the mausolem value is only used on the lot element, the military value is used on title and desc, deathYear and birthYear can only be found on the note element, days/hours/months can only be found on the age element 
 img = element img {src, empty} # the img element must have a src attribute; it is either a self-closing tag or contains one or more occupants (not self-closing when image of marker or mausolem)
 src = attribute src { text }
-firstOwner = element firstOwner { (persName+ | purchased* | note*)* } #needs to be at least one but could be more than one persName, purchased and note may or may not appear 
-secondOwner = element secondOwner { (purchased* | persName+ | note*)* } #needs to be at least one but could be more than one persName, purchased and note may or may not appear
-thirdOwner = element thirdOwner { (purchased* | persName+ | note*)* }
+firstOwner = element firstOwner { (persName+ | note*)* } #needs to be at least one but could be more than one persName, purchased and note may or may not appear 
+secondOwner = element secondOwner { (persName+ | note*)* } #needs to be at least one but could be more than one persName, purchased and note may or may not appear
+thirdOwner = element thirdOwner { (persName+ | note*)* }
 purchased = element purchased { date } #has to have date element
 occupant =
     element occupant {(
@@ -51,7 +51,7 @@ age =
 gender = element gender { "male" | "female" | "unknown" }
 color = element color { "white" | "unknown" }
 causeofDeath = element causeofDeath { text }
-persName = element persName { firstName, (middleName | MI)?, surName+, genName?, nickName?, title?, desc? }
+persName = element persName { firstName, (middleName | MI)?, surName+, genName?, nickName?, title?, desc?, purchased?}
 genName = element genName {text}
 nickName = element nickName {text}
 firstName = element firstName { text }
