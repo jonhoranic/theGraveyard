@@ -1331,6 +1331,141 @@
             <color>white</color>
         </occupant>
     </lot>
+    <lot section="1" number="10">
+        <firstOwner>
+            <persName>
+                <firstName>Evaline</firstName>
+                <MI>E</MI>
+                <surName>Helman</surName>
+            </persName>
+        </firstOwner>
+        <occupant>
+            <img src="cemeteryPictures/Helman13.jpg"/>
+            <persName>
+                <firstName>Fred</firstName>
+                <MI>K</MI>
+                <surName>Helman</surName>
+                <title type="military">S/SGT</title>
+                <desc type="military">U.S.A.A.F. 484 BOMB GROUP H. 824 BOMB SQUADRON U.S. ARMY</desc>
+            </persName>
+            <lotLocation>1</lotLocation>
+            <interred>
+                <date>1948-03-27</date>
+                <intermentNo>28</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1948-03-25</date>
+            </deathDate>
+            <deathPlace>
+                <city>Fairmont</city>
+                <state>West Virginia</state>
+            </deathPlace>
+            <age>22</age>
+            <gender>male</gender>
+            <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
+        </occupant>
+        <occupant>
+            <img src="cemeteryPictures/Helman14.jpg"/>
+            <persName>
+                <firstName>Mervyn</firstName>
+                <MI>P</MI>
+                <surName>Helman</surName>
+                <genName>Jr.</genName>
+                <title type="military">T/4</title>
+                <desc type="military">3 RD INF. REGT. W.W. II</desc>
+            </persName>
+            <lotLocation>3</lotLocation>
+            <interred>
+                <date>1990-12-17</date>
+                <intermentNo>84</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1990-12-13</date>
+            </deathDate>
+            <deathPlace>
+                <city>College Township</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>75</age>
+            <gender>male</gender>
+            <color>white</color>
+            <causeofDeath>ischemic cerebrovascular accident</causeofDeath>
+        </occupant>
+        <occupant>
+            <img src="cemeteryPictures/Helman12.jpg"/>
+            <persName>
+                <firstName>Evaline</firstName>
+                <MI>E</MI>
+                <surName>Helman</surName>
+            </persName>
+            <lotLocation>4</lotLocation>
+            <interred>
+                <date>1936-01-21</date>
+                <intermentNo>15</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1936-01-18</date>
+            </deathDate>
+            <deathPlace>
+                <city>Scottsdale</city>
+                <state>Pennsylvania</state>
+            </deathPlace>
+            <age>17</age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
+        </occupant>
+        <occupant>
+            <img src="cemeteryPictures/Helman11.jpg"/>
+            <persName>
+                <firstName>Ruth</firstName>
+                <MI>E</MI>
+                <surName>Kennedy</surName>
+                <surName>Helman</surName>
+            </persName>
+            <lotLocation>5</lotLocation>
+            <interred>
+                <date>1947-09-24</date>
+                <intermentNo>64</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1947-09-22</date>
+            </deathDate>
+            <deathPlace>
+                <city>Fairmont</city>
+                <state>West Virginia</state>
+            </deathPlace>
+            <age>60</age>
+            <gender>female</gender>
+            <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
+        </occupant>
+        <occupant>
+            <img src="cemeteryPictures/Helman10.jpg"/>
+            <persName>
+                <firstName>Mervyn</firstName>
+                <MI>Painter</MI>
+                <surName>Helman</surName>
+            </persName>
+            <lotLocation>6</lotLocation>
+            <interred>
+                <date>1970-03-11</date>
+                <intermentNo>24</intermentNo>
+            </interred>
+            <deathDate>
+                <date>1970-03-08</date>
+            </deathDate>
+            <deathPlace>
+                <city>Fairmont</city>
+                <state>West Virginia</state>
+            </deathPlace>
+            <age>82</age>
+            <gender>male</gender>
+            <color>white</color>
+            <causeofDeath>unknown</causeofDeath>
+        </occupant>
+    </lot>
 
     <lot section="1" number="30">
         <firstOwner>
