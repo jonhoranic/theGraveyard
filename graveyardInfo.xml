@@ -35,12 +35,16 @@
             </persName>
             <lotLocation>4</lotLocation>
             <interred>
-                <date>N/A</date>
+                <note>N/A</note>
             </interred>
             <deathDate>
-                <date><note type="deathYear">1919</note></date>
+                <date>
+                    <note type="deathYear">1919</note>
+                </date>
             </deathDate>
-            <age><note type="birthYear">1875</note></age>
+            <age>
+                <note type="birthYear">1875</note>
+            </age>
             <color>unknown</color>
             <gender>unknown</gender>
             <causeofDeath>unknown</causeofDeath>
@@ -104,9 +108,13 @@
                 <date>1943-03-26</date>
             </interred>
             <deathDate>
-                <date><note type="deathYear">1943</note></date>
+                <date>
+                    <note type="deathYear">1943</note>
+                </date>
             </deathDate>
-            <age><note type="birthYear">1861</note></age>
+            <age>
+                <note type="birthYear">1861</note>
+            </age>
             <color>unknown</color>
             <gender>unknown</gender>
             <causeofDeath>unknown</causeofDeath>
@@ -504,7 +512,9 @@
                 <state>Florida</state>
                 <note>transferred body from Florida</note>
             </deathPlace>
-            <age><note type="birthYear">1899</note></age>
+            <age>
+                <note type="birthYear">1899</note>
+            </age>
             <gender>male</gender>
             <color>white</color>
             <causeofDeath>natural</causeofDeath>
@@ -1134,7 +1144,9 @@
                 <city>Phoenix</city>
                 <state>Arizona</state>
             </deathPlace>
-            <age><note type="birthYear">1897</note></age>
+            <age>
+                <note type="birthYear">1897</note>
+            </age>
             <gender>male</gender>
             <color>unknown</color>
             <causeofDeath>unknown</causeofDeath>
@@ -1563,9 +1575,13 @@
                 <date>1970-05-10</date>
             </interred>
             <deathDate>
-                <date><note type="deathYear">1970</note></date>
+                <date>
+                    <note type="deathYear">1970</note>
+                </date>
             </deathDate>
-            <age><note type="birthYear">1902</note></age>
+            <age>
+                <note type="birthYear">1902</note>
+            </age>
             <color>unknown</color>
             <gender>unknown</gender>
         </occupant>
@@ -1747,7 +1763,9 @@
                 <city>Colorado Springs</city>
                 <state>Colorado</state>
             </deathPlace>
-            <age><note type="birthYear">1886</note></age>
+            <age>
+                <note type="birthYear">1886</note>
+            </age>
             <gender>male</gender>
             <color>white</color>
         </occupant>
@@ -1852,15 +1870,22 @@
                 <surName>Gongaware</surName>
             </persName>
             <lotLocation>4R</lotLocation>
+            <interred>
+                <note>N/A</note>
+            </interred>
             <reinterred>
                 <date>1940-05-21</date>
                 <intermentNo>39</intermentNo>
                 <note>Removed from 181-F</note>
             </reinterred>
             <deathDate>
-                <date><note type="deathYear">1920</note></date>
+                <date>
+                    <note type="deathYear">1920</note>
+                </date>
             </deathDate>
-            <age><note type="birthYear">1882</note></age>
+            <age>
+                <note type="birthYear">1882</note>
+            </age>
             <gender>female</gender>
             <color>white</color>
             <causeofDeath>unknown</causeofDeath>
@@ -1872,15 +1897,22 @@
                 <surName>Gongaware</surName>
             </persName>
             <lotLocation>4B</lotLocation>
+            <interred>
+                <note>N/A</note>
+            </interred>
             <reinterred>
                 <date>1940-05-21</date>
                 <note>Removed from 181-F</note>
                 <note>Buried with Jessie W. Gongaware</note>
             </reinterred>
             <deathDate>
-                <date><note type="deathYear">1918</note></date>
+                <date>
+                    <note type="deathYear">1918</note>
+                </date>
             </deathDate>
-            <age><note type="birthYear">1918</note></age>
+            <age>
+                <note type="birthYear">1918</note>
+            </age>
             <gender>unknown</gender>
             <color>unknown</color>
             <causeofDeath>unknown</causeofDeath>
@@ -1892,15 +1924,22 @@
                 <surName>Gongaware</surName>
             </persName>
             <lotLocation>4A</lotLocation>
+            <interred>
+                <note>N/A</note>
+            </interred>
             <reinterred>
                 <date>1940-05-21</date>
                 <note>Removed from 181-F</note>
                 <note>Buried with Jessie W. Gongaware</note>
             </reinterred>
             <deathDate>
-                <date><note type="deathYear">1911</note></date>
+                <date>
+                    <note type="deathYear">1911</note>
+                </date>
             </deathDate>
-            <age><note type="birthYear">1911</note></age>
+            <age>
+                <note type="birthYear">1911</note>
+            </age>
             <gender>unknown</gender>
             <color>unknown</color>
             <causeofDeath>unknown</causeofDeath>
@@ -2163,7 +2202,7 @@
         </firstOwner>
 
         <firstOwner>
-            
+
             <persName>
                 <note>Owns first 3 plots</note>
                 <firstName>Hilda</firstName>
@@ -2292,7 +2331,7 @@
                 <middleName>Park</middleName>
                 <surName>Lauffer</surName>
             </persName>
-            
+
         </firstOwner>
         <img src="cemeteryPictures/Bowman1.jpg"/>
         <occupant>
@@ -2604,11 +2643,12 @@
         </firstOwner>
 
         <firstOwner>
-            <note>owns first three plots</note>
+
             <persName>
                 <firstName>Everett</firstName>
                 <MI>S.C.</MI>
                 <surName>Sorber</surName>
+                <note>owns first three plots</note>
             </persName>
 
             <persName>
@@ -2824,7 +2864,9 @@
                 <intermentNo>86</intermentNo>
             </interred>
             <deathDate>
-                <date><note type="deathYear">1915</note></date>
+                <date>
+                    <note type="deathYear">1915</note>
+                </date>
             </deathDate>
             <age type="hours">1</age>
             <gender>female</gender>
@@ -3712,8 +3754,9 @@
             <persName>
                 <firstName>Margaret</firstName>
                 <surName>Lauffer</surName>
+                <note> owns lots 4, 5 and 6</note>
             </persName>
-            <note> owns lots 4, 5 and 6</note>
+
         </firstOwner>
 
         <!-- Lots 1, 2 and 3 had multiple owners (shown below) -->

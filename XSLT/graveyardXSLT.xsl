@@ -64,8 +64,8 @@
                                     </supportDesc>
                                     <layoutDesc>
                                         <layout>A hilltop section of the graveyard that is
-                                            approximately <measureGrp><measure
-                                                  ># square feet<xsl:comment>FILL THIS IN!</xsl:comment></measure>
+                                            approximately <measureGrp><measure># square
+                                                  feet<xsl:comment>FILL THIS IN!</xsl:comment></measure>
                                                 square feet</measureGrp>, comprised of
                                             #<xsl:comment>FILL THIS IN!</xsl:comment> headstones and
                                             two mausoleums.</layout>
@@ -108,10 +108,10 @@
                                         <xsl:comment>whitespace-separated geocoordinates look up how to do this in the TEI</xsl:comment>
                                     </geo>
                                     <xsl:if test="./child::img">
-                                        <graphic url="{./child::img/@src}"/>
+                                        <xsl:apply-templates select="./child::img"/>
                                     </xsl:if>
                                 </head>
-                                <xsl:apply-templates select="./child::firstOwner"/>                               
+                                <xsl:apply-templates select="./child::firstOwner"/>
                                 <xsl:if test="child::secondOwner">
                                     <xsl:apply-templates select="./child::secondOwner"/>
                                 </xsl:if>
@@ -126,36 +126,53 @@
             </text>
         </TEI>
     </xsl:template>
+    <xsl:template match="img">
+        <graphic url="{@src}"/>
+    </xsl:template>
     <xsl:template match="firstOwner">
         <person role="owner" n="1">
             <xsl:apply-templates select="persName"/>
-            
+
         </person>
     </xsl:template>
     <xsl:template match="secondOwner">
         <person role="owner" n="2">
             <xsl:apply-templates select="persName"/>
-            
+
         </person>
     </xsl:template>
     <xsl:template match="thirdOwner">
         <person role="owner" n="2">
             <xsl:apply-templates select="persName"/>
-            
+
         </person>
     </xsl:template>
     <xsl:template match="occupant">
-        <person xml:id="L{./parent::lot/@number}P{descendant::lotLocation}" role="occupant">
+        <person xml:id="L{./parent::lot/@number}P{descendant::lotLocation}" role="occupant"
+            sex="{descendant::gender}">
             <xsl:apply-templates select="child::persName"/>
+            <xsl:apply-templates select="child::age"/>
+            <xsl:apply-templates select="child::deathDate"/>
+            <xsl:apply-templates select="child::interred"/>
+            <xsl:if test="child::reinterred">
+                <xsl:apply-templates select="child::reinterred"/>
+            </xsl:if>
+            <xsl:apply-templates select="child::color"/>
+            <xsl:if test="child::img">
+                <xsl:apply-templates select="child::img"/>
+            </xsl:if>
         </person>
+    </xsl:template>
+    <xsl:template match="age">
+        
     </xsl:template>
     <xsl:template match="persName">
         <persName>
-                <xsl:apply-templates select="child::surName"/>
-                <xsl:apply-templates select="child::firstName"/>
+            <xsl:apply-templates select="child::surName"/>
+            <xsl:apply-templates select="child::firstName"/>
             <xsl:choose>
                 <xsl:when test="child::MI">
-                        <xsl:apply-templates select="child::MI"/>
+                    <xsl:apply-templates select="child::MI"/>
                 </xsl:when>
                 <xsl:when test="child::middleName">
                     <xsl:apply-templates select="child::middleName"/>
@@ -163,17 +180,20 @@
                 <xsl:otherwise/>
             </xsl:choose>
             <xsl:if test="child::genName">
-                    <xsl:apply-templates select="child::genName"/>                
+                <xsl:apply-templates select="child::genName"/>
             </xsl:if>
             <xsl:if test="child::title[@type = 'military']">
-                    <xsl:apply-templates select="child::title[@type = 'military']"/>
+                <xsl:apply-templates select="child::title[@type = 'military']"/>
             </xsl:if>
         </persName>
         <xsl:if test="child::nickName">
-                <xsl:apply-templates select="child::nickName"/>
+            <xsl:apply-templates select="child::nickName"/>
         </xsl:if>
         <xsl:if test="child::purchased">
             <xsl:apply-templates select="child::purchased"/>
+        </xsl:if>
+        <xsl:if test="child::note">
+            <xsl:apply-templates select="child::note"/>
         </xsl:if>
 
     </xsl:template>
@@ -188,21 +208,21 @@
         </forename>
     </xsl:template>
     <xsl:template match="MI">
-                <forename type="middle">
-                    <xsl:apply-templates/>
-                </forename>
+        <forename type="middle">
+            <xsl:apply-templates/>
+        </forename>
     </xsl:template>
     <xsl:template match="middleName">
-            <forename type="middle">
-                <xsl:apply-templates/>
-            </forename>
+        <forename type="middle">
+            <xsl:apply-templates/>
+        </forename>
     </xsl:template>
     <xsl:template match="genName">
         <genName>
             <xsl:apply-templates/>
         </genName>
     </xsl:template>
-    <xsl:template match="title[@type='military']">
+    <xsl:template match="title[@type = 'military']">
         <roleName>
             <xsl:apply-templates/>
             <desc>
@@ -216,32 +236,103 @@
         </persName>
     </xsl:template>
     <xsl:template match="purchased">
-        <note type="purchased"><date when="{child::date}"/></note>
+        <note type="purchased">
+            <date when="{child::date}"/>
+        </note>
     </xsl:template>
-    <!--<xsl:template match="note">
-    </xsl:template>-->
-    <!-- <person xml:id="" sex="f">
-        <persName>
-            <surname/>
-            <forename/>
-            <forename/>
-            <roleName/>
-        </persName>
-        <birth notBefore="2016-01-01" notAfter="2016-02-05">
-            <placeName>Mount Pleasant, PA</placeName>
-        </birth>
-        <death when="2016-09-09">
-            <note type="cause">natural causes</note>
-            <placeName>Greensburg, PA</placeName>
-        </death>
-        <event>
-            <desc>Stuff</desc>
+    <xsl:template match="persName/descendant::note">
+        <note>
+            <xsl:apply-templates/>
+        </note>
+    </xsl:template>
+    <xsl:template match="deathDate">
+        <xsl:choose>
+            <xsl:when test="not(descendant::note[@type = 'deathYear'])">
+                <death when="{child::date}">
+                    <xsl:if test="following-sibling::deathPlace">
+                        <placeName>
+                            <xsl:apply-templates select="following-sibling::deathPlace"/>
+                        </placeName>
+                    </xsl:if>
+                    <xsl:choose>
+                        <xsl:when test="current()/parent::occupant/child::causeofDeath">
+                            <note type="cause">
+                                <xsl:apply-templates
+                                    select="current()/parent::occupant/child::causeofDeath"/>
+                            </note>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <note type="cause"> unknown </note>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </death>
+            </xsl:when>
+            <xsl:when test="descendant::note[@type = 'deathYear']">
+                <death when="{descendant::note[@type='deathYear']}">
+                    <xsl:if test="following-sibling::deathPlace">
+                        <placeName>
+                            <xsl:apply-templates select="following-sibling::deathPlace"/>
+                        </placeName>
+                    </xsl:if>
+                    <xsl:choose>
+                        <xsl:when test="current()/parent::occupant/child::causeofDeath">
+                            <note type="cause">
+                                <xsl:apply-templates
+                                    select="current()/parent::occupant/child::causeofDeath"/>
+                            </note>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <note type="cause"> unknown </note>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </death>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="interred">
+        <event type="interred" when="{child::date}">
+            <xsl:if test="child::internmentNo">
+                <note type="intNo"><xsl:apply-templates select="child::internmentNo"/></note>
+            </xsl:if>
+            <desc>
+                <xsl:if test="child::note">
+                    <xsl:apply-templates select="child::note"/>
+                </xsl:if>
+            </desc>
         </event>
-        <occupation/>
+    </xsl:template>
+    <xsl:template match="reinterred">
+        <event type="reinterred" when="{child::date}">
+            <xsl:if test="child::internmentNo">
+                <note type="intNo"><xsl:apply-templates select="child::internmentNo"/></note>
+            </xsl:if>
+                <xsl:if test="count(child::note) = 1">
+                    <desc><xsl:apply-templates select="child::note"/></desc>
+                </xsl:if>
+            <xsl:if test="count(child::note) = 2">
+                <desc><xsl:apply-templates select="child::note[1]"/> <xsl:apply-templates select="child::note[2]"/></desc>
+            </xsl:if>
+            
+        </event>
+    </xsl:template>
+    <xsl:template match="color">
         <trait type="racial">
-            <label>white</label>
+            <label>
+                <xsl:apply-templates/>
+            </label>
         </trait>
-        <graphic url="photo.jpg"/>
-        <!-\-<geo></geo>-\->
-    </person>-->
+    </xsl:template>
+    <xsl:template match="deathPlace">
+        <xsl:choose>
+            <xsl:when test="child::city">
+                <settlement type="city"><xsl:apply-templates select="child::city"/></settlement>
+                <region type="state"><xsl:apply-templates select="child::state"/></region>
+            </xsl:when>
+            <xsl:when test="child::province">
+                <region type="province"><xsl:apply-templates select="child::province"/></region>
+                <country><xsl:apply-templates select="country"/></country>
+            </xsl:when>
+        </xsl:choose>
+        <xsl:if test="descendant::note"><xsl:apply-templates select="descendant::note"/></xsl:if>
+    </xsl:template>
 </xsl:stylesheet>
