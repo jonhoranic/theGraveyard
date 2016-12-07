@@ -161,10 +161,22 @@
             <xsl:if test="child::img">
                 <xsl:apply-templates select="child::img"/>
             </xsl:if>
+            <geo>
+                <xsl:comment>whitespace-separated geocoordinates look up how to do this in the TEI</xsl:comment>
+            </geo>
         </person>
     </xsl:template>
     <xsl:template match="age">
-        
+        <xsl:choose>
+            <xsl:when test="child::note[@type = 'birthYear']">
+                <birth when="{child::note[@type='birthYear']}"/>
+            </xsl:when>
+            <xsl:when test="not(child::note[@type = 'birthYear'])">
+                <age>
+                    <xsl:apply-templates/>
+                </age>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="persName">
         <persName>
@@ -225,9 +237,9 @@
     <xsl:template match="title[@type = 'military']">
         <roleName>
             <xsl:apply-templates/>
-            <desc>
+            <note>
                 <xsl:apply-templates select="following-sibling::desc[@type = 'military']"/>
-            </desc>
+            </note>
         </roleName>
     </xsl:template>
     <xsl:template match="nickName">
@@ -290,30 +302,82 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="interred">
-        <event type="interred" when="{child::date}">
-            <xsl:if test="child::internmentNo">
-                <note type="intNo"><xsl:apply-templates select="child::internmentNo"/></note>
-            </xsl:if>
-            <desc>
-                <xsl:if test="child::note">
-                    <xsl:apply-templates select="child::note"/>
-                </xsl:if>
-            </desc>
-        </event>
+        <xsl:choose>
+            <xsl:when test="child::date">
+                <event type="interred" when="{child::date}">
+                    <xsl:if test="child::internmentNo">
+                        <note type="intNo">
+                            <xsl:apply-templates select="child::internmentNo"/>
+                        </note>
+                    </xsl:if>
+                    <desc>
+                        <xsl:if test="child::note">
+                            <xsl:apply-templates select="child::note"/>
+                        </xsl:if>
+                    </desc>
+                </event>
+            </xsl:when>
+            <xsl:when test="not(child::date)">
+                <event type="interred">
+                    <xsl:if test="child::internmentNo">
+                        <note type="intNo">
+                            <xsl:apply-templates select="child::internmentNo"/>
+                        </note>
+                    </xsl:if>
+                    <desc>
+                        <xsl:if test="child::note">
+                            <xsl:apply-templates select="child::note"/>
+                        </xsl:if>
+                    </desc>
+                </event>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="reinterred">
-        <event type="reinterred" when="{child::date}">
-            <xsl:if test="child::internmentNo">
-                <note type="intNo"><xsl:apply-templates select="child::internmentNo"/></note>
-            </xsl:if>
-                <xsl:if test="count(child::note) = 1">
-                    <desc><xsl:apply-templates select="child::note"/></desc>
-                </xsl:if>
-            <xsl:if test="count(child::note) = 2">
-                <desc><xsl:apply-templates select="child::note[1]"/> <xsl:apply-templates select="child::note[2]"/></desc>
-            </xsl:if>
-            
-        </event>
+        <xsl:choose>
+            <xsl:when test="child::date">
+                <event type="reinterred" when="{child::date}">
+                    <xsl:if test="child::internmentNo">
+                        <note type="intNo">
+                            <xsl:apply-templates select="child::internmentNo"/>
+                        </note>
+                    </xsl:if>
+                    <xsl:if test="count(child::note) = 1">
+                        <desc>
+                            <xsl:apply-templates select="child::note"/>
+                        </desc>
+                    </xsl:if>
+                    <xsl:if test="count(child::note) = 2">
+                        <desc>
+                            <xsl:apply-templates select="child::note[1]"/>
+                            <xsl:apply-templates select="child::note[2]"/>
+                        </desc>
+                    </xsl:if>
+
+                </event>
+            </xsl:when>
+            <xsl:when test="not(child::date)">
+                <event type="reinterred">
+                    <xsl:if test="child::internmentNo">
+                        <note type="intNo">
+                            <xsl:apply-templates select="child::internmentNo"/>
+                        </note>
+                    </xsl:if>
+                    <xsl:if test="count(child::note) = 1">
+                        <desc>
+                            <xsl:apply-templates select="child::note"/>
+                        </desc>
+                    </xsl:if>
+                    <xsl:if test="count(child::note) = 2">
+                        <desc>
+                            <xsl:apply-templates select="child::note[1]"/>
+                            <xsl:apply-templates select="child::note[2]"/>
+                        </desc>
+                    </xsl:if>
+
+                </event>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="color">
         <trait type="racial">
@@ -325,14 +389,24 @@
     <xsl:template match="deathPlace">
         <xsl:choose>
             <xsl:when test="child::city">
-                <settlement type="city"><xsl:apply-templates select="child::city"/></settlement>
-                <region type="state"><xsl:apply-templates select="child::state"/></region>
+                <settlement type="city">
+                    <xsl:apply-templates select="child::city"/>
+                </settlement>
+                <region type="state">
+                    <xsl:apply-templates select="child::state"/>
+                </region>
             </xsl:when>
             <xsl:when test="child::province">
-                <region type="province"><xsl:apply-templates select="child::province"/></region>
-                <country><xsl:apply-templates select="country"/></country>
+                <region type="province">
+                    <xsl:apply-templates select="child::province"/>
+                </region>
+                <country>
+                    <xsl:apply-templates select="country"/>
+                </country>
             </xsl:when>
         </xsl:choose>
-        <xsl:if test="descendant::note"><xsl:apply-templates select="descendant::note"/></xsl:if>
+        <xsl:if test="descendant::note">
+            <xsl:apply-templates select="descendant::note"/>
+        </xsl:if>
     </xsl:template>
 </xsl:stylesheet>
