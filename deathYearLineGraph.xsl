@@ -9,7 +9,11 @@
 
     <xsl:variable name="numPeople" select="count(//person[@role = 'occupant'])"/>
     <xsl:variable name="allYears" select="//person[@role = 'occupant']//death/tokenize(@when,'-')[1]"/>
-    <xsl:variable name="minYear" select="//person[@role = 'occupant']//death/tokenize(@when,'-')[1]"/>
+    <xsl:variable name="minYear" select="min(//person[@role = 'occupant']//death/tokenize(@when,'-')[1])"/>
+   <xsl:variable name="maxYear" select="max(//person[@role = 'occupant']//death/tokenize(@when,'-')[1])"/>
+    <xsl:variable name="distinctYears" select="distinct-values(//person[@role = 'occupant']//death/tokenize(@when,'-')[1])"/>
+    <xsl:variable name="person" select="//person[@role = 'occupant'][death/tokenize(@when,'-')[1]='1911']"/>
+    
     
     
     <!-- <xsl:variable name="xSpacer" select="100"/>
@@ -21,7 +25,17 @@
     <xsl:template match="/">
         <xsl:comment>The total number of occupants is: <xsl:value-of select="$numPeople"/></xsl:comment>
         <xsl:comment><xsl:value-of select="$allYears"/></xsl:comment>
+        <xsl:comment><xsl:value-of select="$minYear"/></xsl:comment>
+        <xsl:comment><xsl:value-of select="$maxYear"/></xsl:comment>
+        <xsl:comment><xsl:value-of select="$distinctYears"/></xsl:comment>
+        <xsl:comment><xsl:value-of select="$person"/></xsl:comment>
         
+        <xsl:for-each select="//person[@role = 'occupant'][death/tokenize(@when,'-')[1]]">
+            <xsl:value-of select="//person[@role = 'occupant'][death/tokenize(@when,'-')[1]=current()]"/>
+        </xsl:for-each>
+        
+                
+                    
 
         <!--<svg width="100%" height="100%">
             
