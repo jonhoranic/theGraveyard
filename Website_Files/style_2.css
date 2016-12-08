@@ -5,34 +5,43 @@ h2 {
 color: black;
 font-size:25px;
 font-family: hightowerEOT;
-padding: 5px;
+position: relative;
+right: 1100px;
+left: 188px;
+padding: 10px;
+}
+.members {
+	display: table;
+    width: 750px;
+    height: 100%;
+    margin-bottom: 35px;
+}
+.memberRow {
+	display: table-row;
+	height: 100%;
+}
+.memberPic {
+	display: table-cell;
+	width: 200px;
+	text-align: center;
+	background-color: #acc1ca;
+}
+.memberBio {
+	display: table-cell;
+	width: 300px;
+	height: 300px;
+	background-color: #725d5f;
+	
 }
 .memberName {
-color: #6a363b;
-font-size:20px;
-font-family: hightowerEOT;
-padding: 10px;
-font-weight: bold;
+	padding: 10px;
+	display:block;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
 }
-.boxed {
-border: 2px solid white;
-margin-left: 400px;
-margin-right: 400px;
-background-color: #725d5f;
-position: relative;
-}
-p {
-color: black;
-font-size: 20px;
-font-family: hightowerEOT;
-padding: 5px;
-}
-img {
-position: relative;
-max-width: 300px;
-max-height:200px;
-display: block;
-margin-left: 200px;
-margin-right: 1100px;
-border: 2px solid white;
-}
+.memberBioCopy {
+	line-height: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	}
