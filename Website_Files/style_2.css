@@ -1,5 +1,13 @@
+html{max-width: 100%;
+    overflow-x: hidden;
+}
 body {
 background-color: #acc1ca;
+max-width: 100%;
+    overflow-x: hidden;
+}
+.copy {
+margin-left: 250px;
 }
 h2 {
 color: black;
@@ -7,7 +15,7 @@ font-size:25px;
 font-family: hightowerEOT;
 position: relative;
 right: 1100px;
-left: 188px;
+left: -150px;
 padding: 10px;
 }
 .members {
@@ -28,10 +36,10 @@ padding: 10px;
 }
 .memberBio {
 	display: table-cell;
-	width: 300px;
-	height: 300px;
+	width: 350px;
+	height: 200px;
 	background-color: #725d5f;
-	
+	opacity: 0.8;
 }
 .memberName {
 	padding: 10px;
@@ -45,3 +53,6 @@ padding: 10px;
 	padding-left: 30px;
 	padding-right: 30px;
 	}
+img{
+    height: 250px;
+}
