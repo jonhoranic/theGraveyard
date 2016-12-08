@@ -7,7 +7,11 @@
     <xsl:output method="xml" indent="yes"/>
 
 
-    <xsl:variable name="numYears" select="count(//person[@role = 'occupant'])"/>
+    <xsl:variable name="numPeople" select="count(//person[@role = 'occupant'])"/>
+    <xsl:variable name="allYears" select="//person[@role = 'occupant']//death/tokenize(@when,'-')[1]"/>
+    <xsl:variable name="minYear" select="//person[@role = 'occupant']//death/tokenize(@when,'-')[1]"/>
+    
+    
     <!-- <xsl:variable name="xSpacer" select="100"/>
     <xsl:variable name="maxXVAL" select="$numChapters * $xSpacer"/>
     <xsl:variable name="maxSpeeches" select="max(//chapter//count(descendant::q[@sp='alice']))"/>
@@ -15,7 +19,9 @@
     <xsl:variable name="maxYVAL" select="$maxSpeeches * $ySpacer"/>-->
 
     <xsl:template match="/">
-        <xsl:comment>The total number of years is: <xsl:value-of select="$numYears"/></xsl:comment>
+        <xsl:comment>The total number of occupants is: <xsl:value-of select="$numPeople"/></xsl:comment>
+        <xsl:comment><xsl:value-of select="$allYears"/></xsl:comment>
+        
 
         <!--<svg width="100%" height="100%">
             
