@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs"
     xmlns="http://www.w3.org/2000/svg">
-    
-    <xsl:output method="xml" indent="yes"/> 
-    
-    <xsl:variable name="numChapters" select="count(//chapter)"/>
-    <xsl:variable name="xSpacer" select="100"/>
+    <xsl:output method="xml" indent="yes"/>
+
+
+    <xsl:variable name="numYears" select="count(//person[@role = 'occupant'])"/>
+    <!-- <xsl:variable name="xSpacer" select="100"/>
     <xsl:variable name="maxXVAL" select="$numChapters * $xSpacer"/>
     <xsl:variable name="maxSpeeches" select="max(//chapter//count(descendant::q[@sp='alice']))"/>
     <xsl:variable name="ySpacer" select="10"/>
-    <xsl:variable name="maxYVAL" select="$maxSpeeches * $ySpacer"/>
-    
+    <xsl:variable name="maxYVAL" select="$maxSpeeches * $ySpacer"/>-->
+
     <xsl:template match="/">
-        <xsl:comment>The total number of chapters is: <xsl:value-of select="$numChapters"/>
-            The total length of my X axis is now set to: <xsl:value-of select="$maxXVAL"/>
-            The maximum number of Alice'a speeches in any chapter is: <xsl:value-of select="$maxSpeeches"/>
-            The total length of my Y axis is now set to: <xsl:value-of select="$maxYVAL"/>
-        </xsl:comment>
-        
-        <svg width="100%" height="100%">
+        <xsl:comment>The total number of years is: <xsl:value-of select="$numYears"/></xsl:comment>
+
+        <!--<svg width="100%" height="100%">
             
             <g transform="translate(50 750)">
                 
@@ -60,6 +57,6 @@
             </g>
             
             
-        </svg>
+        </svg>-->
     </xsl:template>
 </xsl:stylesheet>
