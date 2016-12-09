@@ -10,13 +10,15 @@
     <xsl:variable name="allYears"
         select="//person[@role = 'occupant']//death/tokenize(@when, '-')[1]"/>
     <xsl:variable name="minYear"
-        select="min(//person[@role = 'occupant']//death/tokenize(@when, '-')[1])"/>
+        select="number(min(//person[@role = 'occupant']//death/tokenize(@when, '-')[1]))"/>
     <xsl:variable name="maxYear"
-        select="max(//person[@role = 'occupant']//death/tokenize(@when, '-')[1])"/>
+        select="number(max(//person[@role = 'occupant']//death/tokenize(@when, '-')[1]))"/>
     <xsl:variable name="distinctYears"
         select="distinct-values(//person[@role = 'occupant']//death/tokenize(@when, '-')[1])"/>
     <xsl:variable name="oneYearPeopleCount"
         select="count(//person[@role = 'occupant'][death/tokenize(@when, '-')[1] = '1911'])"/>
+    <xsl:variable name="xSpacer" select="10"/>
+    <xsl:variable name="X-decade" select="floor((($maxYear - $minYear) div 10))"/>
 
     <xsl:template match="/">
         <xsl:comment><xsl:value-of select="$numPeople"/></xsl:comment>
@@ -25,24 +27,22 @@
         <xsl:comment><xsl:value-of select="$maxYear"/></xsl:comment>
         <xsl:comment><xsl:value-of select="$distinctYears"/></xsl:comment>
         <xsl:comment><xsl:value-of select="$oneYearPeopleCount"/></xsl:comment>
-
-        <xsl:for-each select="$distinctYears">
-            <xsl:sort/>
-            <xsl:comment><xsl:value-of select="tokenize(current(), '-')[1]"/>
-            <xsl:text>: </xsl:text>
-            <xsl:value-of select="count($graveyardFile//person//death[tokenize(@when, '-')[1] = tokenize(current(), '-')[1]])"/></xsl:comment>
-        </xsl:for-each>
+        <xsl:comment><xsl:value-of select="$X-decade"/></xsl:comment>
         
         <svg width="100%" height="100%">
             
             <g transform="translate(50 750)">
                 
-                <line x1="30" y1="-10" x2="{$maxYear}" y2="-10" stroke="black" stroke-width="1"/>
-               
-                <xsl:for-each select="1 to 6">
-
+                <line x1="0" y1="0" x2="{($maxYear - $minYear)}" y2="0" stroke="black" stroke-width="1"/>
+                <xsl:for-each select="$distinctYears">
+                    <xsl:sort/>
+                    <xsl:comment><xsl:value-of select="tokenize(current(), '-')[1]"/>
+            <xsl:text>: </xsl:text>
+            <xsl:value-of select="count($graveyardFile//person//death[tokenize(@when, '-')[1] = tokenize(current(), '-')[1]])"/></xsl:comment>
+                </xsl:for-each>            
+                <xsl:for-each select="0 to 10">
+                    <text x="{current() * $xSpacer}" y="10" text-anchor="middle"><xsl:value-of select=""/></text>
                 </xsl:for-each>
-                
                 
             </g>
         </svg>
