@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xpath-default-namespace="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="xs"
+    xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs"
     xmlns="http://www.w3.org/2000/svg">
     <xsl:output method="xml" indent="yes"/>
 
 
     <xsl:variable name="numPeople" select="count(//person[@role = 'occupant'])"/>
-    <xsl:variable name="allYears" select="//person[@role = 'occupant']//death/tokenize(@when,'-')[1]"/>
-    <xsl:variable name="minYear" select="min(//person[@role = 'occupant']//death/tokenize(@when,'-')[1])"/>
-   <xsl:variable name="maxYear" select="max(//person[@role = 'occupant']//death/tokenize(@when,'-')[1])"/>
-    <xsl:variable name="distinctYears" select="distinct-values(//person[@role = 'occupant']//death/tokenize(@when,'-')[1])"/>
-    <xsl:variable name="person" select="//person[@role = 'occupant'][death/tokenize(@when,'-')[1]='1911']"/>
-    
-    
-    
-    <!-- <xsl:variable name="xSpacer" select="100"/>
-    <xsl:variable name="maxXVAL" select="$numChapters * $xSpacer"/>
-    <xsl:variable name="maxSpeeches" select="max(//chapter//count(descendant::q[@sp='alice']))"/>
-    <xsl:variable name="ySpacer" select="10"/>
-    <xsl:variable name="maxYVAL" select="$maxSpeeches * $ySpacer"/>-->
+    <xsl:variable name="allYears"
+        select="//person[@role = 'occupant']//death/tokenize(@when, '-')[1]"/>
+    <xsl:variable name="minYear"
+        select="min(//person[@role = 'occupant']//death/tokenize(@when, '-')[1])"/>
+    <xsl:variable name="maxYear"
+        select="max(//person[@role = 'occupant']//death/tokenize(@when, '-')[1])"/>
+    <xsl:variable name="distinctYears"
+        select="distinct-values(//person[@role = 'occupant']//death/tokenize(@when, '-')[1])"/>
+    <xsl:variable name="oneYearPeopleCount"
+        select="count(//person[@role = 'occupant'][death/tokenize(@when, '-')[1] = '1911'])"/>
 
     <xsl:template match="/">
         <xsl:comment>The total number of occupants is: <xsl:value-of select="$numPeople"/></xsl:comment>
@@ -28,16 +24,39 @@
         <xsl:comment><xsl:value-of select="$minYear"/></xsl:comment>
         <xsl:comment><xsl:value-of select="$maxYear"/></xsl:comment>
         <xsl:comment><xsl:value-of select="$distinctYears"/></xsl:comment>
-        <xsl:comment><xsl:value-of select="$person"/></xsl:comment>
-        
-        <xsl:for-each select="//person[@role = 'occupant'][death/tokenize(@when,'-')[1]]">
-            <xsl:value-of select="//person[@role = 'occupant'][death/tokenize(@when,'-')[1]=current()]"/>
-        </xsl:for-each>
-        
-                
-                    
+        <xsl:comment><xsl:value-of select="$oneYearPeopleCount"/></xsl:comment>
 
-        <!--<svg width="100%" height="100%">
+        <xsl:for-each select="descendant::person[@role = 'occupant']//death/@when">
+            <xsl:comment><xsl:value-of select="tokenize(current(), '-')[1]"/>
+            <xsl:text>: </xsl:text>
+            <xsl:value-of select="count(//person//death[tokenize(@when, '-')[1] = tokenize(current(), '-')[1]])"/></xsl:comment>
+        </xsl:for-each>
+
+    </xsl:template>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <xsl:variable name="xSpacer" select="100"/>
+    <xsl:variable name="maxXVAL" select="$numChapters * $xSpacer"/>
+    <xsl:variable name="maxSpeeches" select="max(//chapter//count(descendant::q[@sp='alice']))"/>
+    <xsl:variable name="ySpacer" select="10"/>
+    <xsl:variable name="maxYVAL" select="$maxSpeeches * $ySpacer"/>-->
+
+
+    <!--<svg width="100%" height="100%">
             
             <g transform="translate(50 750)">
                 
@@ -78,5 +97,4 @@
             
             
         </svg>-->
-    </xsl:template>
 </xsl:stylesheet>
