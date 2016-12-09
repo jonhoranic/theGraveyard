@@ -4,7 +4,7 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs"
     xmlns="http://www.w3.org/2000/svg">
     <xsl:output method="xml" indent="yes"/>
-
+<xsl:variable name="graveyardFile" select="document('graveyardInfo-TEI.xml')"/>
 
     <xsl:variable name="numPeople" select="count(//person[@role = 'occupant'])"/>
     <xsl:variable name="allYears"
@@ -26,10 +26,11 @@
         <xsl:comment><xsl:value-of select="$distinctYears"/></xsl:comment>
         <xsl:comment><xsl:value-of select="$oneYearPeopleCount"/></xsl:comment>
 
-        <xsl:for-each select="descendant::person[@role = 'occupant']//death/@when">
+        <xsl:for-each select="$distinctYears">
+            <xsl:sort/>
             <xsl:comment><xsl:value-of select="tokenize(current(), '-')[1]"/>
             <xsl:text>: </xsl:text>
-            <xsl:value-of select="count(//person//death[tokenize(@when, '-')[1] = tokenize(current(), '-')[1]])"/></xsl:comment>
+            <xsl:value-of select="count($graveyardFile//person//death[tokenize(@when, '-')[1] = tokenize(current(), '-')[1]])"/></xsl:comment>
         </xsl:for-each>
         
         <svg width="100%" height="100%">
