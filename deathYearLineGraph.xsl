@@ -4,7 +4,7 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs"
     xmlns="http://www.w3.org/2000/svg">
     <xsl:output method="xml" indent="yes"/>
-<xsl:variable name="graveyardFile" select="document('graveyardInfo-TEI.xml')"/>
+    <xsl:variable name="graveyardFile" select="document('graveyardInfo-TEI.xml')"/>
 
     <xsl:variable name="numPeople" select="count(//person[@role = 'occupant'])"/>
     <xsl:variable name="allYears"
@@ -29,48 +29,61 @@
         <xsl:comment><xsl:value-of select="$distinctYears"/></xsl:comment>
         <xsl:comment><xsl:value-of select="$oneYearPeopleCount"/></xsl:comment>
         <xsl:comment><xsl:value-of select="$X-decade"/></xsl:comment>
-        
+
         <svg width="100%" height="100%">
-            
+
             <g transform="translate(50 750)">
-                
-                <line x1="0" y1="0" x2="{($maxYear - $minYear)}" y2="0" stroke="black" stroke-width="1"/>
+
+                <line x1="0" y1="0" x2="{($maxYear - $minYear)}" y2="0" stroke="black"
+                    stroke-width="1"/>
                 <line x1="0" y1="{6 * $ySpacer}" x2="0" y2="0" stroke="black" stroke-width="1"/>
-                
+
                 <xsl:for-each select="$distinctYears">
                     <xsl:sort/>
-                    <xsl:comment><xsl:value-of select="tokenize(current(), '-')[1]"/>
-            <xsl:text>: </xsl:text>
-            <xsl:value-of select="count($graveyardFile//person//death[tokenize(@when, '-')[1] = tokenize(current(), '-')[1]])"/></xsl:comment>
-                </xsl:for-each>   
-                
-                
-                <xsl:for-each select="1 to 11">                    
-                        <xsl:choose>
-                            <xsl:when test="current() lt 10">
-                                <text x="{current() * $xSpacer}" y="10" text-anchor="middle"><xsl:text>19</xsl:text><xsl:value-of select="current()"/><xsl:text>0</xsl:text></text>
-                            </xsl:when>
-                            <xsl:when test="current() eq 10">
-                                <text x="{current() * $xSpacer}" y="10" text-anchor="middle"><xsl:value-of select="100 + current() * $xSpacer"/><xsl:text>0</xsl:text></text>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <text x="{current() * $xSpacer}" y="10" text-anchor="middle"><xsl:text>20</xsl:text><xsl:value-of select="current() -1"/></text>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                        
+                    <xsl:variable name="xPos" select="current()"/>
+                    <xsl:variable name="dotLabel" select="tokenize(current(), '-')[1]"/>
+                    <xsl:variable name="yearCount"
+                        select="count($graveyardFile//person//death[tokenize(@when, '-')[1] = tokenize(current(), '-')[1]])"/>
+                    <circle fill="red" r="5" cx="{$xPos}" cy="{$yearCount}"/>
                 </xsl:for-each>
-                
+
+
+                <xsl:for-each select="1 to 11">
+                    <xsl:choose>
+                        <xsl:when test="current() lt 10">
+                            <text x="{current() * $xSpacer}" y="10" text-anchor="middle">
+                                <xsl:text>19</xsl:text>
+                                <xsl:value-of select="current()"/>
+                                <xsl:text>0</xsl:text>
+                            </text>
+                        </xsl:when>
+                        <xsl:when test="current() eq 10">
+                            <text x="{current() * $xSpacer}" y="10" text-anchor="middle">
+                                <xsl:value-of select="100 + current() * $xSpacer"/>
+                                <xsl:text>0</xsl:text>
+                            </text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <text x="{current() * $xSpacer}" y="10" text-anchor="middle">
+                                <xsl:text>20</xsl:text>
+                                <xsl:value-of select="current() - 1"/>
+                            </text>
+                        </xsl:otherwise>
+                    </xsl:choose>
+
+                </xsl:for-each>
+
                 <xsl:for-each select="1 to 7">
                     <text x="10" y="{current() * $ySpacer}" text-anchor="middle">
                         <xsl:value-of select="current()"/>
                     </text>
                 </xsl:for-each>
-                
-                
-                
+
+
+
             </g>
         </svg>
-        
+
         <!--NOT WORKING:
             
             <xsl:for-each-group select="descendant::person[@role = 'occupant']//death" group-by="descendant::person[@role = 'occupant']//death/tokenize(@when, '-')[1]">
