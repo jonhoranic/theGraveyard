@@ -2,27 +2,44 @@ html{max-width: 100%;
     overflow-x: hidden;
 }
 body {
-background-color: #acc1ca;
-max-width: 100%;
+    background-color: #acc1ca;
+    max-width: 100%;
     overflow-x: hidden;
 }
 .copy {
-margin-left: 250px;
+    margin-left: 250px;
 }
 h2 {
-color: black;
-font-size:25px;
-font-family: hightowerEOT;
-position: relative;
-right: 1100px;
-left: -150px;
-padding: 10px;
+    color: black;
+    font-size:25px;
+    font-family: hightowerEOT;
+    position: relative;
+    right: 1100px;
+    left: -150px;
+    top: 20px;
+}
+h1{
+    color: #acc1ca;
+    font-size:20px;
+    font-family: hightowerEOT;
+    position: relative;
+    left: -230px;
+    top: -17px;
+    z-index:8;
+}
+#rectangle {
+	width: 100%;
+	height: 40px;
+	background: #725d5f;
+	top: -10px;
+	position: absolute;
 }
 .members {
 	display: table;
     width: 750px;
     height: 100%;
     margin-bottom: 35px;
+    padding: 10px;
 }
 .memberRow {
 	display: table-row;
@@ -36,8 +53,8 @@ padding: 10px;
 }
 .memberBio {
 	display: table-cell;
-	width: 350px;
-	height: 200px;
+	width: 300px;
+	height: 100px;
 	background-color: #725d5f;
 	opacity: 0.8;
 }
@@ -55,4 +72,31 @@ padding: 10px;
 	}
 img{
     height: 250px;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0 auto;
+    height: 43px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    margin-top: -1473px;
+    width: 100%;
+    padding: 0;
+}
+ul.topnav li {
+    display: inline-block;
+    text-align: center;
+}
+ul.topnav li a {
+    display: inline-block;
+    color: #6a363b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+ul.topnav li a:hover {
+    background-color: #acc1ca;
 }
