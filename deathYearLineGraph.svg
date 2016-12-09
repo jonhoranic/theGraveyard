@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--142-->
+<!--1919 1944 1931 1943 1955 1957 1959 1972 1991 1930 1930 2008 1961 1971 1932 1981 1943 1949 1978 1945 1929 1964 1976 1979 2008 1930 1944 1968 1990 1937 1959 1945 1944 1953 1977 2013 2002 1963 1974 1929 1969 1969 1936 1938 1929 1981 1930 1961 1948 1990 1936 1947 1970 1960 1985 1977 1970 1953 1945 1955 1953 1948 1963 1965 1934 1941 1959 1920 1918 1911 1990 1990 2002 1949 1989 1943 1992 1967 1937 1978 1945 1963 1944 1958 1958 1951 1966 1932 1951 1966 1986 1964 1937 1960 1956 1965 1960 1932 1962 1969 1952 1915 1975 1940 2003 1940 1933 1956 1934 1986 1996 1950 1966 1962 1938 1971 1987 1947 1958 1944 1996 1953 1992 1947 1930 1962 1986 1930 2005 1939 1931 1931 1929 1952 1939 1988 1996 1950 1947 1944 1946 1940-->
+<!--1911-->
+<!--2013-->
+<!--1919 1944 1931 1943 1955 1957 1959 1972 1991 1930 2008 1961 1971 1932 1981 1949 1978 1945 1929 1964 1976 1979 1968 1990 1937 1953 1977 2013 2002 1963 1974 1969 1936 1938 1948 1947 1970 1960 1985 1965 1934 1941 1920 1918 1911 1989 1992 1967 1958 1951 1966 1986 1956 1962 1952 1915 1975 1940 2003 1933 1996 1950 1987 2005 1939 1988 1946-->
+<!--1-->
+<!--10-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000">
+   <g transform="translate(100 250)">
+      <line x1="0"
+            y1="0"
+            x2="102"
+            y2="0"
+            stroke="black"
+            stroke-width="1"/>
+      <line x1="0"
+            y1="-140"
+            x2="0"
+            y2="0"
+            stroke="black"
+            stroke-width="1"/>
+      <circle fill="red" r="5" cx="104" cy="-20"/>
+      <circle fill="red" r="5" cx="79" cy="-120"/>
+      <circle fill="red" r="5" cx="92" cy="-60"/>
+      <circle fill="red" r="5" cx="80" cy="-60"/>
+      <circle fill="red" r="5" cx="68" cy="-40"/>
+      <circle fill="red" r="5" cx="66" cy="-20"/>
+      <circle fill="red" r="5" cx="64" cy="-60"/>
+      <circle fill="red" r="5" cx="51" cy="-20"/>
+      <circle fill="red" r="5" cx="32" cy="-20"/>
+      <circle fill="red" r="5" cx="93" cy="-120"/>
+      <circle fill="red" r="5" cx="15" cy="-40"/>
+      <circle fill="red" r="5" cx="62" cy="-40"/>
+      <circle fill="red" r="5" cx="52" cy="-40"/>
+      <circle fill="red" r="5" cx="91" cy="-60"/>
+      <circle fill="red" r="5" cx="42" cy="-40"/>
+      <circle fill="red" r="5" cx="74" cy="-40"/>
+      <circle fill="red" r="5" cx="45" cy="-40"/>
+      <circle fill="red" r="5" cx="78" cy="-80"/>
+      <circle fill="red" r="5" cx="94" cy="-80"/>
+      <circle fill="red" r="5" cx="59" cy="-40"/>
+      <circle fill="red" r="5" cx="47" cy="-20"/>
+      <circle fill="red" r="5" cx="44" cy="-20"/>
+      <circle fill="red" r="5" cx="55" cy="-20"/>
+      <circle fill="red" r="5" cx="33" cy="-80"/>
+      <circle fill="red" r="5" cx="86" cy="-60"/>
+      <circle fill="red" r="5" cx="70" cy="-80"/>
+      <circle fill="red" r="5" cx="46" cy="-40"/>
+      <circle fill="red" r="5" cx="10" cy="-20"/>
+      <circle fill="red" r="5" cx="21" cy="-40"/>
+      <circle fill="red" r="5" cx="60" cy="-60"/>
+      <circle fill="red" r="5" cx="49" cy="-20"/>
+      <circle fill="red" r="5" cx="54" cy="-60"/>
+      <circle fill="red" r="5" cx="87" cy="-40"/>
+      <circle fill="red" r="5" cx="85" cy="-40"/>
+      <circle fill="red" r="5" cx="75" cy="-40"/>
+      <circle fill="red" r="5" cx="76" cy="-80"/>
+      <circle fill="red" r="5" cx="53" cy="-40"/>
+      <circle fill="red" r="5" cx="63" cy="-60"/>
+      <circle fill="red" r="5" cx="38" cy="-20"/>
+      <circle fill="red" r="5" cx="58" cy="-40"/>
+      <circle fill="red" r="5" cx="89" cy="-40"/>
+      <circle fill="red" r="5" cx="82" cy="-20"/>
+      <circle fill="red" r="5" cx="103" cy="-20"/>
+      <circle fill="red" r="5" cx="105" cy="-20"/>
+      <circle fill="red" r="5" cx="112" cy="-20"/>
+      <circle fill="red" r="5" cx="34" cy="-20"/>
+      <circle fill="red" r="5" cx="31" cy="-40"/>
+      <circle fill="red" r="5" cx="56" cy="-20"/>
+      <circle fill="red" r="5" cx="65" cy="-60"/>
+      <circle fill="red" r="5" cx="72" cy="-40"/>
+      <circle fill="red" r="5" cx="57" cy="-60"/>
+      <circle fill="red" r="5" cx="37" cy="-60"/>
+      <circle fill="red" r="5" cx="67" cy="-40"/>
+      <circle fill="red" r="5" cx="61" cy="-60"/>
+      <circle fill="red" r="5" cx="71" cy="-40"/>
+      <circle fill="red" r="5" cx="108" cy="-20"/>
+      <circle fill="red" r="5" cx="48" cy="-20"/>
+      <circle fill="red" r="5" cx="83" cy="-60"/>
+      <circle fill="red" r="5" cx="20" cy="-20"/>
+      <circle fill="red" r="5" cx="90" cy="-20"/>
+      <circle fill="red" r="5" cx="27" cy="-60"/>
+      <circle fill="red" r="5" cx="73" cy="-40"/>
+      <circle fill="red" r="5" cx="36" cy="-20"/>
+      <circle fill="red" r="5" cx="18" cy="-20"/>
+      <circle fill="red" r="5" cx="84" cy="-40"/>
+      <circle fill="red" r="5" cx="35" cy="-20"/>
+      <circle fill="red" r="5" cx="77" cy="-20"/>
+      <text x="20" y="10" text-anchor="middle">1910</text>
+      <text x="40" y="10" text-anchor="middle">1920</text>
+      <text x="60" y="10" text-anchor="middle">1930</text>
+      <text x="80" y="10" text-anchor="middle">1940</text>
+      <text x="100" y="10" text-anchor="middle">1950</text>
+      <text x="120" y="10" text-anchor="middle">1960</text>
+      <text x="140" y="10" text-anchor="middle">1970</text>
+      <text x="160" y="10" text-anchor="middle">1980</text>
+      <text x="180" y="10" text-anchor="middle">1990</text>
+      <text x="200" y="10" text-anchor="middle">3000</text>
+      <text x="220" y="10" text-anchor="middle">2010</text>
+      <text x="10" y="-20" text-anchor="middle">1</text>
+      <text x="10" y="-40" text-anchor="middle">2</text>
+      <text x="10" y="-60" text-anchor="middle">3</text>
+      <text x="10" y="-80" text-anchor="middle">4</text>
+      <text x="10" y="-100" text-anchor="middle">5</text>
+      <text x="10" y="-120" text-anchor="middle">6</text>
+      <text x="10" y="-140" text-anchor="middle">7</text>
+   </g>
+</svg>

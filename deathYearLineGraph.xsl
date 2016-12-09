@@ -4,8 +4,9 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs"
     xmlns="http://www.w3.org/2000/svg">
     <xsl:output method="xml" indent="yes"/>
+    
+    <!--GLOBAL VARIABLES-->
     <xsl:variable name="graveyardFile" select="document('graveyardInfo-TEI.xml')"/>
-
     <xsl:variable name="numPeople" select="count(//person[@role = 'occupant'])"/>
     <xsl:variable name="allYears"
         select="//person[@role = 'occupant']//death/tokenize(@when, '-')[1]"/>
@@ -17,37 +18,33 @@
         select="distinct-values(//person[@role = 'occupant']//death/tokenize(@when, '-')[1])"/>
     <xsl:variable name="oneYearPeopleCount"
         select="count(//person[@role = 'occupant'][death/tokenize(@when, '-')[1] = '1911'])"/>
-    <xsl:variable name="xSpacer" select="10"/>
-    <xsl:variable name="ySpacer" select="10"/>
+    <xsl:variable name="xSpacer" select="20"/>
+    <xsl:variable name="ySpacer" select="20"/>
     <xsl:variable name="X-decade" select="floor((($maxYear - $minYear) div 10))"/>
 
     <xsl:template match="/">
-        <xsl:comment><xsl:value-of select="$numPeople"/></xsl:comment>
-        <xsl:comment><xsl:value-of select="$allYears"/></xsl:comment>
-        <xsl:comment><xsl:value-of select="$minYear"/></xsl:comment>
-        <xsl:comment><xsl:value-of select="$maxYear"/></xsl:comment>
-        <xsl:comment><xsl:value-of select="$distinctYears"/></xsl:comment>
-        <xsl:comment><xsl:value-of select="$oneYearPeopleCount"/></xsl:comment>
-        <xsl:comment><xsl:value-of select="$X-decade"/></xsl:comment>
 
-        <svg width="100%" height="100%">
+        <svg width="1000" height="1000">
 
-            <g transform="translate(50 750)">
+            <g transform="translate(100 250)">
 
+                <!--X-AXIS-->
                 <line x1="0" y1="0" x2="{($maxYear - $minYear)}" y2="0" stroke="black"
                     stroke-width="1"/>
-                <line x1="0" y1="{6 * $ySpacer}" x2="0" y2="0" stroke="black" stroke-width="1"/>
+                <!--Y-AXIS-->
+                <line x1="0" y1="-{7 * $ySpacer}" x2="0" y2="0" stroke="black" stroke-width="1"/>
 
+                <!-- DOTS -->
                 <xsl:for-each select="$distinctYears">
-                    <xsl:sort/>
                     <xsl:variable name="xPos" select="current()"/>
                     <xsl:variable name="dotLabel" select="tokenize(current(), '-')[1]"/>
                     <xsl:variable name="yearCount"
                         select="count($graveyardFile//person//death[tokenize(@when, '-')[1] = tokenize(current(), '-')[1]])"/>
-                    <circle fill="red" r="5" cx="{$xPos}" cy="{$yearCount}"/>
+                    <circle fill="red" r="5" cx="{(xs:integer($maxYear) - xs:integer($xPos)) + 10}"
+                        cy="-{$yearCount * $ySpacer}"/>
                 </xsl:for-each>
 
-
+                <!-- X-AXIS MARKS (DECADES) -->
                 <xsl:for-each select="1 to 11">
                     <xsl:choose>
                         <xsl:when test="current() lt 10">
@@ -70,11 +67,11 @@
                             </text>
                         </xsl:otherwise>
                     </xsl:choose>
-
                 </xsl:for-each>
 
+                <!-- Y-AXIS MARKS (# OF DEATHS) -->
                 <xsl:for-each select="1 to 7">
-                    <text x="10" y="{current() * $ySpacer}" text-anchor="middle">
+                    <text x="10" y="-{current() * $ySpacer}" text-anchor="middle">
                         <xsl:value-of select="current()"/>
                     </text>
                 </xsl:for-each>
