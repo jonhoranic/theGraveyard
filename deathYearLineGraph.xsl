@@ -18,6 +18,7 @@
     <xsl:variable name="oneYearPeopleCount"
         select="count(//person[@role = 'occupant'][death/tokenize(@when, '-')[1] = '1911'])"/>
     <xsl:variable name="xSpacer" select="10"/>
+    <xsl:variable name="ySpacer" select="10"/>
     <xsl:variable name="X-decade" select="floor((($maxYear - $minYear) div 10))"/>
 
     <xsl:template match="/">
@@ -34,7 +35,7 @@
             <g transform="translate(50 750)">
                 
                 <line x1="0" y1="0" x2="{($maxYear - $minYear)}" y2="0" stroke="black" stroke-width="1"/>
-                
+                <line x1="0" y1="{6 * $ySpacer}" x2="0" y2="0" stroke="black" stroke-width="1"/>
                 
                 <xsl:for-each select="$distinctYears">
                     <xsl:sort/>
@@ -58,6 +59,14 @@
                         </xsl:choose>
                         
                 </xsl:for-each>
+                
+                <xsl:for-each select="1 to 7">
+                    <text x="10" y="{current() * $ySpacer}" text-anchor="middle">
+                        <xsl:value-of select="current()"/>
+                    </text>
+                </xsl:for-each>
+                
+                
                 
             </g>
         </svg>
