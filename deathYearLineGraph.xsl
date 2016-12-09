@@ -38,6 +38,10 @@
             <g transform="translate(50 750)">
                 
                 <line x1="30" y1="-10" x2="{$maxYear}" y2="-10" stroke="black" stroke-width="1"/>
+               
+                <xsl:for-each select="1 to 6">
+
+                </xsl:for-each>
                 
                 
             </g>
