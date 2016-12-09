@@ -87,42 +87,19 @@
             </facsimile>
             <text>
                 <body>
-                    <div><!--ebb: The div sets the section level. This needs either an attribute or a child <head> element to define the section.--> 
-                        <listPerson xml:id="lot3"><!--Each listPerson represents a single "lot" of people. You want an attribute value to hold this info. Let's use an @xml:id.-->
-                            <head>Lot 3 refers to a group of gravestones bordered on the southeastern side by a shrub. 
-                                <geo><!--Stick a pair of whitespace-separated geocoordinates here. Look up how to do this in the TEI.--></geo>
-                            </head>
-                            
-                            <person xml:id="who1" sex="f">
-                                <persName><surname/>
-                                    <forename/>
-                                    <forename/>
-                                    <roleName/>
-                                </persName>
-                                <birth notBefore="2016-01-01" notAfter="2016-02-05"><placeName>Mount Pleasant,
-                                    PA</placeName></birth>
-                                <death when="2016-09-09"><note type="cause">natural
-                                    causes</note><placeName>Greensburg, PA</placeName></death>
-                                <event>
-                                    
-                                    <desc>Stuff</desc>
-                                </event>
-                                <occupation/>
-                                <trait type="racial">
-                                    <label>white</label>
-                                </trait>
-                                <graphic url="photo.jpg"/>
-                                <geo><!--Look up how to properly set geocoordinates in here.--></geo>
-                            </person>
-                        </listPerson>
-                    </div>
+                   <xsl:apply-templates select="//lot"/>
                 </body>
             </text>
         </TEI>
-        
-        
-        
-        
-        
+     
+    </xsl:template>
+    <xsl:template match="lot">
+        <div type="lot" n="{@number}">
+           <head><!--ebb: Every div can have a <head> element that works liks a label. Anything else you want in here? --></head>
+            <div><xsl:apply-templates select="firstOwner"/></div>
+                
+                
+            
+        </div>
     </xsl:template>
 </xsl:stylesheet>
