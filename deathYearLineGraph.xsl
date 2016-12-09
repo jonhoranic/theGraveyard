@@ -32,6 +32,16 @@
             <xsl:value-of select="count(//person//death[tokenize(@when, '-')[1] = tokenize(current(), '-')[1]])"/></xsl:comment>
         </xsl:for-each>
         
+        <svg width="100%" height="100%">
+            
+            <g transform="translate(50 750)">
+                
+                <line x1="30" y1="-10" x2="{$maxYear}" y2="-10" stroke="black" stroke-width="1"/>
+                
+                
+            </g>
+        </svg>
+        
         <!--NOT WORKING:
             
             <xsl:for-each-group select="descendant::person[@role = 'occupant']//death" group-by="descendant::person[@role = 'occupant']//death/tokenize(@when, '-')[1]">
