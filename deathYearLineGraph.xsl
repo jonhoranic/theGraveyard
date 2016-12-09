@@ -19,7 +19,7 @@
         select="count(//person[@role = 'occupant'][death/tokenize(@when, '-')[1] = '1911'])"/>
 
     <xsl:template match="/">
-        <xsl:comment>The total number of occupants is: <xsl:value-of select="$numPeople"/></xsl:comment>
+        <xsl:comment><xsl:value-of select="$numPeople"/></xsl:comment>
         <xsl:comment><xsl:value-of select="$allYears"/></xsl:comment>
         <xsl:comment><xsl:value-of select="$minYear"/></xsl:comment>
         <xsl:comment><xsl:value-of select="$maxYear"/></xsl:comment>
@@ -31,6 +31,19 @@
             <xsl:text>: </xsl:text>
             <xsl:value-of select="count(//person//death[tokenize(@when, '-')[1] = tokenize(current(), '-')[1]])"/></xsl:comment>
         </xsl:for-each>
+        
+        <!--NOT WORKING:
+            
+            <xsl:for-each-group select="descendant::person[@role = 'occupant']//death" group-by="descendant::person[@role = 'occupant']//death/tokenize(@when, '-')[1]">
+            
+            <xsl:for-each select="current-grouping-key()">
+                <xsl:comment><xsl:value-of select="current-grouping-key()"/>
+            <xsl:text>: </xsl:text>
+            <xsl:value-of select="count(person//death[tokenize(@when, '-')[1] eq current-grouping-key()])"/>
+            </xsl:comment>
+            </xsl:for-each>
+        </xsl:for-each-group>
+        -->
 
     </xsl:template>
 
