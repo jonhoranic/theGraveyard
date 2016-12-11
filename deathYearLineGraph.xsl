@@ -36,6 +36,7 @@
 
                 <!-- DOTS -->
                 <xsl:for-each select="$distinctYears">
+                    <xsl:sort/>
                     <xsl:variable name="xPos" select="xs:integer($maxYear) - xs:integer(current())"/>
                     <xsl:variable name="yearCount"
                         select="count($graveyardFile//person//death[tokenize(@when, '-')[1] = tokenize(current(), '-')[1]])"/>
