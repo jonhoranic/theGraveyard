@@ -2467,7 +2467,7 @@
           <person xml:id="L17P4B" role="occupant" sex="f">
             <persName><surname>Shrum</surname><surname>Faison</surname><forename type="first"
                 >Roberta</forename></persName>
-            <age>0 infant</age>
+            <age>0</age>
             <death when="1962-08-24"><placeName><settlement type="city"
                   >Jeannette</settlement><region type="state">Pennsylvania</region></placeName><note
                 type="cause">respiratory embarrassment</note></death>
