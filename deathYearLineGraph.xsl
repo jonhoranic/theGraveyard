@@ -74,8 +74,8 @@
                 </xsl:for-each>
 
                 <!-- Y-AXIS MARKS (# OF DEATHS) -->
-                <xsl:for-each select="1 to 7">
-                    <text x="10" y="-{current() * $ySpacer}" text-anchor="middle">
+                <xsl:for-each select="1 to 6">
+                    <text x="-10" y="-{current() * $ySpacer}" text-anchor="middle">
                         <xsl:value-of select="current()"/>
                     </text>
                 </xsl:for-each>
