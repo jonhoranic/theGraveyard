@@ -1,0 +1,14 @@
+<h1 class="ssiHeader">theGraveyard</h1>
+<div id="menu">
+    <div id="header">
+        <div id="picture2">
+            <img alt="Creative Commons License"  src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" class="menuImage"/>
+            <ul class="topMenu" id="myTopmenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="map.html">Map</a></li>
+                <li><a href="analysis.html">Analysis</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -9,7 +9,7 @@ body {
 .copy {
     margin-left: 250px;
 }
-h2 {
+.aboutHeader {
     color: black;
     font-size:25px;
     font-family: hightowerEOT;
@@ -18,7 +18,7 @@ h2 {
     left: -150px;
     top: 20px;
 }
-h1{
+.aboutBanner{
     color: #acc1ca;
     font-size:20px;
     font-family: hightowerEOT;

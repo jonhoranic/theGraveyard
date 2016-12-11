@@ -1,44 +1,41 @@
 body {
 background-color: #acc1ca;
+margin: 0px;
+padding: 0px;
 }
 .boxed {
 border: 1px solid white;
 position: absolute;
-top: 530px;
-left: 200px;
-right: 200px;
+top: 70%;
+left: 20%;
+right: 20%;
 }
-h1{
+.homeBanner{
 color: #acc1ca;
 position: absolute; 
-top: -35px;
-left: 375px;
+top: -5%;
+left: 30%;
+right: 30%;
 font-size:90px;
 font-family: hightowerEOT;
 }
-h2 {
+.homeHeader {
 color: black;
 font-size:25px;
 font-family: hightowerEOT;
 padding: 5px;
 }
-p {
+p1 {
 color: black;
 font-size: 20px;
 font-family: hightowerEOT;
 padding: 5px;
 }
-img {
-max-width: 700px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: auto;
-padding: 200px;
-}
-body {
-margin: 0px;
-padding: 0px;
+.homeImage {
+max-width: 54.5%;
+    margin-left: 22.5%;
+margin-top: 4%;
+padding: 5px;
 }
 #header-container {
 width: 100%;
@@ -48,13 +45,13 @@ background-color: #725d5f;
 ul.topnav {
 list-style-type: none;
 margin: 0 auto;
-width: 1300px;
+width: 100%;
 height: 43px;
 padding: 0;
 overflow: hidden;
 background-color: white;
 text-align: center;
-margin-top: -558.5px;
+margin-top: 5%;
 }
 ul.topnav li {
 display: inline-block;
@@ -71,4 +68,114 @@ font-size: 17px;
 }
 ul.topnav li a:hover {
 background-color: #acc1ca;
+}
+.copy {
+    margin-left: 20%;
+    margin-top: 9%;
+}
+.aboutHeader {
+    color: black;
+    font-size:32px;
+    font-family: hightowerEOT;
+    position: relative;
+    left: -10%;
+    top: 10%;
+}
+.aboutBanner{
+    color: #acc1ca;
+    font-size:20px;
+    font-family: hightowerEOT;
+    position: relative;
+    left: -230px;
+    top: -17px;
+    z-index:8;
+}
+.members {
+	display: table;
+    width: 750px;
+    height: 100%;
+    margin-bottom: 35px;
+    padding: 10px;
+}
+.memberRow {
+	display: table-row;
+	height: 100%;
+}
+.memberPic {
+	display: table-cell;
+	width: 200px;
+	text-align: center;
+	background-color: #acc1ca;
+}
+.memberBio {
+	display: table-cell;
+	width: 300px;
+	height: 100px;
+	background-color: #725d5f;
+	opacity: 0.8;
+}
+.memberName {
+	padding: 10px;
+	display:block;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+.memberBioCopy {
+	line-height: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	}
+.aboutImage{
+    height: 250px;
+}
+#menu{
+    width: 100%;
+height: 70px;
+background-color: #725d5f;
+}
+.ssiHeader{
+color: #acc1ca;
+position: absolute; 
+top: -2.5%;
+left: 5%;
+font-size:40px;
+font-family: hightowerEOT;
+}
+ul.topMenu {
+list-style-type: none;
+margin: 0 auto;
+width: 100%;
+height: 43px;
+padding: 0;
+overflow: hidden;
+background-color: white;
+text-align: center;
+margin-top: 1.9%;
+}
+ul.topMenu li {
+display: inline-block;
+text-align: center;
+}
+ul.topMenu li a {
+display: inline-block;
+color: #6a363b;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+transition: 0.3s;
+font-size: 17px;
+}
+ul.topMenu li a:hover {
+background-color: #acc1ca;
+}
+.menuImage{
+margin-left: 90%;
+margin-right: 10%;
+margin-top: 1.2%;
+}
+.cc{
+    margin-left: 90%;
+margin-right: 10%;
+margin-top: 4%;
 }
