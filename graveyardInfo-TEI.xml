@@ -2004,7 +2004,8 @@
           <person xml:id="L21_22P1" role="occupant" sex="f">
             <persName><surname>Walthour</surname><forename type="first">Emma</forename><forename
                 type="middle">G</forename></persName>
-            <age>1</age>
+            
+            
             <death when="1915"><note type="cause"> unknown </note></death>
             <event type="interred" when="1978-10-26">
               <desc/>
