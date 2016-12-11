@@ -34,6 +34,7 @@ padding: 5px;
 .homeImage {
 max-width: 54.5%;
     margin-left: 22.5%;
+    margin-right: 22.5%;
 margin-top: 4%;
 padding: 5px;
 }
@@ -51,7 +52,7 @@ padding: 0;
 overflow: hidden;
 background-color: white;
 text-align: center;
-margin-top: 5%;
+margin-top: -45.8%;
 }
 ul.topnav li {
 display: inline-block;
@@ -151,7 +152,7 @@ padding: 0;
 overflow: hidden;
 background-color: white;
 text-align: center;
-margin-top: 1.9%;
+margin-top: -127%;
 }
 ul.topMenu li {
 display: inline-block;
@@ -170,12 +171,22 @@ ul.topMenu li a:hover {
 background-color: #acc1ca;
 }
 .menuImage{
-margin-left: 90%;
-margin-right: 10%;
-margin-top: 1.2%;
+margin-left: 48%;
+margin-right: 48%;
+margin-top: 130%;
 }
 .cc{
-    margin-left: 90%;
-margin-right: 10%;
-margin-top: 4%;
+    margin-left: 48%;
+margin-right: 48%;
+margin-top: 55%;
+}
+.creativeCommons{
+margin-left: 19%;
+margin-right: 19%;
+margin-top: 16%;
+}
+.ssiCC{
+    margin-left: 19%;
+margin-right: 19%;
+margin-top: 8.5%;
 }
