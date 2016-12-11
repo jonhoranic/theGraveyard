@@ -4,7 +4,7 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs"
     xmlns="http://www.w3.org/2000/svg">
     <xsl:output method="xml" indent="yes"/>
-    
+
     <!--GLOBAL VARIABLES-->
     <xsl:variable name="graveyardFile" select="document('graveyardInfo-TEI.xml')"/>
     <xsl:variable name="numPeople" select="count(//person[@role = 'occupant'])"/>
@@ -36,12 +36,15 @@
 
                 <!-- DOTS -->
                 <xsl:for-each select="$distinctYears">
-                    <xsl:variable name="xPos" select="current()"/>
-                    <xsl:variable name="dotLabel" select="tokenize(current(), '-')[1]"/>
+                    <xsl:variable name="xPos" select="xs:integer($maxYear) - xs:integer(current())"/>
                     <xsl:variable name="yearCount"
                         select="count($graveyardFile//person//death[tokenize(@when, '-')[1] = tokenize(current(), '-')[1]])"/>
-                    <circle fill="red" r="5" cx="{(xs:integer($maxYear) - xs:integer($xPos)) + 10}"
-                        cy="-{$yearCount * $ySpacer}"/>
+                    
+                    
+                    <circle fill="red" r="5" cx="{$xPos}" cy="-{$yearCount * $ySpacer}"/>
+                    <text x="{$xPos}" y="{-($yearCount * $ySpacer) - 5}">
+                        <xsl:value-of select="current()"/>
+                    </text>
                 </xsl:for-each>
 
                 <!-- X-AXIS MARKS (DECADES) -->
@@ -56,7 +59,7 @@
                         </xsl:when>
                         <xsl:when test="current() eq 10">
                             <text x="{current() * $xSpacer}" y="10" text-anchor="middle">
-                                <xsl:value-of select="100 + current() * $xSpacer"/>
+                                <xsl:value-of select="current() * 20"/>
                                 <xsl:text>0</xsl:text>
                             </text>
                         </xsl:when>
