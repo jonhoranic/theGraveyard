@@ -156,11 +156,15 @@ background-color: white;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
+font-family: hightowerEOT;
+font-size: 23px;
 }
 .memberBioCopy {
 	line-height: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
+	font-size: 20px;
+font-family: hightowerEOT
 	}
 .aboutImage{
     height: 250px;
@@ -187,7 +191,7 @@ padding: 0;
 overflow: hidden;
 background-color: white;
 text-align: center;
-margin-top: -127%;
+margin-top: 1.6%;
 }
 ul.topMenu li {
 display: inline-block;
@@ -236,9 +240,9 @@ background-color: white;
 background-color: white;
 }
 .menuImage{
-margin-left: 48%;
-margin-right: 48%;
-margin-top: 130%;
+margin-left: 90%;
+margin-right: 10%;
+margin-top: 1.5%;
 }
 .cc{
     margin-left: 48%;
@@ -269,6 +273,7 @@ top: 26.5%;
 left: 50%;
 right: 10%;
 font-size: 20px;
+font-family: hightowerEOT
 }
 .methodHeader{
     color: black;
@@ -277,4 +282,40 @@ font-size: 20px;
     position: absolute;
     left: 36.5%;
     top: 16%;
+}
+.cemeteryHeader{
+        color: black;
+    font-size:32px;
+    font-family: hightowerEOT;
+    position: absolute;
+    left: 36.5%;
+    top: 16%;
+}
+.cemeteryImage{
+    max-width: 40%;
+    margin-left: 5%;
+    margin-right: 22.5%;
+margin-top: 10%;
+padding: 5px;
+}
+.p3{
+border: 1px solid black;
+position: absolute;
+top: 26.5%;
+left: 50%;
+right: 10%;
+font-size: 20px;
+font-family: hightowerEOT
+}
+p{
+    padding: 2px;
+}
+.p4{
+    border: 1px solid black;
+position: absolute;
+top: 60%;
+left: 50%;
+right: 10%;
+font-size: 20px;
+font-family: hightowerEOT
 }
