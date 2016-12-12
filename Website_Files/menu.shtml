@@ -3,12 +3,16 @@
     <div id="header">
         <div id="picture2">
             <img alt="Creative Commons License"  src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" class="menuImage"/>
-            <ul class="topMenu" id="myTopmenu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+            <div class="menu-wrap"><nav class="menuBar"><ul class="topMenu" id="myTopmenu">
+                <li><a href="index.html">Home</a>
+                <li><a href="about.html">About</a>
+                    <ul class="sub-nav">
+                        <li><a href="about.html">Our Team</a></li>
+                        <li><a href="methodology.html">Methodology</a></li>
+                    </ul></li>
                 <li><a href="map.html">Map</a></li>
                 <li><a href="analysis.html">Analysis</a></li>
-            </ul>
+            </ul></nav></div>
         </div>
     </div>
 </div>
