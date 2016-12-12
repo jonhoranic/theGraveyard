@@ -12,7 +12,11 @@
                         <li><a href="cemetery.html">The Cemetery</a></li>
                     </ul></li>
                 <li><a href="map.html">Map</a></li>
-                <li><a href="analysis.html">Analysis</a></li>
+                <li><a href="analysis.html">Analysis</a>
+                    <ul class="sub-nav2">
+                        <li><a href="pieChart.html">graph 1</a></li>
+                        <li><a href="lineGraph.html">graph 2</a></li>
+                    </ul></li>
             </ul></nav></div>
         </div>
     </div>

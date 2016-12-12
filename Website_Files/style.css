@@ -56,7 +56,7 @@ padding: 0;
 overflow: hidden;
 background-color: white;
 text-align: center;
-margin-top: -51.8%;
+margin-top: -51.7%;
 }
 ul.topnav li {
 display: inline-block;
@@ -84,7 +84,7 @@ background-color: #acc1ca;
     padding:5px 0px;
     position:absolute;
     top:25%;
-    left:38.5%;
+    left:38.8%;
     z-index:-1;
     opacity:0;
     transition:opacity linear 0.15s;
@@ -105,12 +105,43 @@ background-color: white;
 .sub-menu li a:hover, .sub-menu .current-item a {
 background-color: white;
 }
+.navBar li:hover .sub-menu2 {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu2 {
+    width:10%;
+    padding:5px 0px;
+    position:absolute;
+    top:25%;
+    left:50.5%;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+background-color: white;
+}
+ 
+.sub-menu2 li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu2 li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu2 li a:hover, .sub-menu .current-item a {
+background-color: white;
+}
 .copy {
     margin-left: 20%;
     margin-top: 9%;
 }
 .aboutHeader {
-    color: black;
+    color: #6a363b;
     font-size:32px;
     font-family: hightowerEOT;
     position: relative;
@@ -218,7 +249,7 @@ background-color: #acc1ca;
     padding:5px 0px;
     position:absolute;
     top:15%;
-    left:41.5%;
+    left:41.6%;
     z-index:-1;
     opacity:0;
     transition:opacity linear 0.15s;
@@ -237,6 +268,36 @@ background-color: white;
 }
  
 .sub-nav li a:hover, .sub-nav .current-item a {
+background-color: white;
+}
+.menuBar li:hover .sub-nav2 {
+    z-index:1;
+    opacity:1;
+}
+.sub-nav2 {
+    width:10%;
+    padding:5px 0px;
+    position:absolute;
+    top:15%;
+    left:53.5%;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+background-color: white;
+}
+ 
+.sub-nav2 li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-nav2 li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-nav2 li a:hover, .sub-nav .current-item a {
 background-color: white;
 }
 .menuImage{
@@ -276,15 +337,15 @@ font-size: 20px;
 font-family: hightowerEOT
 }
 .methodHeader{
-    color: black;
+    color: #6a363b;
     font-size:32px;
     font-family: hightowerEOT;
     position: absolute;
-    left: 36.5%;
+    left: 43.5%;
     top: 16%;
 }
 .cemeteryHeader{
-        color: black;
+        color: #6a363b;
     font-size:32px;
     font-family: hightowerEOT;
     position: absolute;
@@ -308,7 +369,7 @@ font-size: 20px;
 font-family: hightowerEOT
 }
 p{
-    padding: 2px;
+    padding: 3px;
 }
 .p4{
     border: 1px solid black;
