@@ -35,53 +35,53 @@
                 <!--X-AXIS-->
                 <line x1="{$XMin}" y1="0" x2="{($XMax + 2) * $xSpacer}" y2="0" stroke="black"
                     stroke-width="3"/>
-                <text x="{$XMin}" y="10" text-anchor="start"
-                    style="writing-mode: tb;" font-size="18px">1910</text>
-                <text x="{$XMin + 100}" y="10" text-anchor="start"
-                    style="writing-mode: tb;" font-size="18px">1920</text>
+                <text x="{$XMin}" y="20" text-anchor="start"
+                    style="writing-mode: tb; letter-spacing:5" rotate="-90" font-size="18px">1910</text>
+                <text x="{$XMin + 100}" y="20" text-anchor="start"
+                    style="writing-mode: tb; letter-spacing:5" rotate="-90" font-size="18px">1920</text>
                 <line x1="{$XMin + 100}" y1="0" x2="{$XMin + 100}" y2="-{7 * $ySpacer}" stroke="#725d5f" stroke-width="1.5"
                     stroke-dasharray="10"/>
-                <text x="{$XMin + 200}" y="10" text-anchor="start"
-                    style="writing-mode: tb;" font-size="18px">1930</text>
+                <text x="{$XMin + 200}" y="20" text-anchor="start"
+                    style="writing-mode: tb; letter-spacing:5" rotate="-90" font-size="18px">1930</text>
                 <line x1="{$XMin + 200}" y1="0" x2="{$XMin + 200}" y2="-{7 * $ySpacer}" stroke="#725d5f" stroke-width="1.5"
                     stroke-dasharray="10"/>
-                <text x="{$XMin + 300}" y="10" text-anchor="start"
-                    style="writing-mode: tb;" font-size="18px">1940</text>
+                <text x="{$XMin + 300}" y="20" text-anchor="start"
+                    style="writing-mode: tb; letter-spacing:5" rotate="-90" font-size="18px">1940</text>
                 <line x1="{$XMin + 300}" y1="0" x2="{$XMin + 300}" y2="-{7 * $ySpacer}" stroke="#725d5f" stroke-width="1.5"
                     stroke-dasharray="10"/>
-                <text x="{$XMin + 400}" y="10" text-anchor="start"
-                    style="writing-mode: tb;" font-size="18px">1950</text>
+                <text x="{$XMin + 400}" y="20" text-anchor="start"
+                    style="writing-mode: tb; letter-spacing:5" rotate="-90" font-size="18px">1950</text>
                 <line x1="{$XMin + 400}" y1="0" x2="{$XMin + 400}" y2="-{7 * $ySpacer}" stroke="#725d5f" stroke-width="1.5"
                     stroke-dasharray="10"/>
-                <text x="{$XMin + 500}" y="10" text-anchor="start"
-                    style="writing-mode: tb;" font-size="18px">1960</text>
+                <text x="{$XMin + 500}" y="20" text-anchor="start"
+                    style="writing-mode: tb; letter-spacing:5" rotate="-90" font-size="18px">1960</text>
                 <line x1="{$XMin + 500}" y1="0" x2="{$XMin + 500}" y2="-{7 * $ySpacer}" stroke="#725d5f" stroke-width="1.5"
                     stroke-dasharray="10"/>
-                <text x="{$XMin + 600}" y="10" text-anchor="start"
-                    style="writing-mode: tb;" font-size="18px">1970</text>
+                <text x="{$XMin + 600}" y="20" text-anchor="start"
+                    style="writing-mode: tb; letter-spacing:5" rotate="-90" font-size="18px">1970</text>
                 <line x1="{$XMin + 600}" y1="0" x2="{$XMin + 600}" y2="-{7 * $ySpacer}" stroke="#725d5f" stroke-width="1.5"
                     stroke-dasharray="10"/>
-                <text x="{$XMin + 700}" y="10" text-anchor="start"
-                    style="writing-mode: tb;" font-size="18px">1980</text>
+                <text x="{$XMin + 700}" y="20" text-anchor="start"
+                    style="writing-mode: tb; letter-spacing:5" rotate="-90" font-size="18px">1980</text>
                 <line x1="{$XMin + 700}" y1="0" x2="{$XMin + 700}" y2="-{7 * $ySpacer}" stroke="#725d5f" stroke-width="1.5"
                     stroke-dasharray="10"/>
-                <text x="{$XMin + 800}" y="10" text-anchor="start"
-                    style="writing-mode: tb;" font-size="18px">1990</text>
+                <text x="{$XMin + 800}" y="20" text-anchor="start"
+                    style="writing-mode: tb; letter-spacing:5" rotate="-90" font-size="18px">1990</text>
                 <line x1="{$XMin + 800}" y1="0" x2="{$XMin + 800}" y2="-{7 * $ySpacer}" stroke="#725d5f" stroke-width="1.5"
                     stroke-dasharray="10"/>
-                <text x="{$XMin + 900}" y="10" text-anchor="start"
-                    style="writing-mode: tb;" font-size="18px">2000</text>
+                <text x="{$XMin + 900}" y="20" text-anchor="start"
+                    style="writing-mode: tb; letter-spacing:5" rotate="-90" font-size="18px">2000</text>
                 <line x1="{$XMin + 900}" y1="0" x2="{$XMin + 900}" y2="-{7 * $ySpacer}" stroke="#725d5f" stroke-width="1.5"
                     stroke-dasharray="10"/>
-                <text x="{$XMin + 1000}" y="10" text-anchor="start"
-                    style="writing-mode: tb;" font-size="18px">2010</text>
+                <text x="{$XMin + 1000}" y="20" text-anchor="start"
+                    style="writing-mode: tb; letter-spacing:5" rotate="-90" font-size="18px">2010</text>
                 <line x1="{$XMin + 1000}" y1="0" x2="{$XMin + 1000}" y2="-{7 * $ySpacer}" stroke="#725d5f" stroke-width="1.5"
                     stroke-dasharray="10"/>
                 <!--Y-AXIS-->
                 <line x1="{$XMin}" y1="0" x2="{$XMin}" y2="-{7 * $ySpacer}" stroke="black"
                     stroke-width="3"/>
-                <text x="-60" y="-{(7 * $ySpacer) div 2}" text-anchor="middle"
-                    style="writing-mode: tb;" font-size="18px"> Number of Deaths </text>
+                <text x="-60" y="-{(7 * $ySpacer) div 2 - 20}" text-anchor="middle"
+                    style="writing-mode: tb; letter-spacing:10" rotate="-90" font-size="18px"> Number of Deaths </text>
                 <!-- DOTS -->
                 <xsl:for-each select="$distinctYears">
                     <xsl:sort/>
@@ -91,10 +91,10 @@
                         select="count($graveyardFile//person//death[tokenize(@when, '-')[1] = tokenize(current(), '-')[1]])"/>
 
 
-                    <circle fill="#acc1ca" r="5" cx="{$xPos * $xSpacer}"
+                    <circle fill="#725d5f" r="5" cx="{$xPos * $xSpacer}"
                         cy="-{$yearCount * $ySpacer}"/>
-                    <text x="{$xPos * $xSpacer}" y="{-($yearCount * $ySpacer) - 2}"
-                        text-anchor="end" style="writing-mode: tb;" font-size="10px">
+                    <text x="{$xPos * $xSpacer}" y="{-($yearCount * $ySpacer) + 5}"
+                        text-anchor="end" style="writing-mode: tb; letter-spacing:5" rotate="-90" font-size="10px" font-weight="900">
                         <xsl:value-of select="current()"/>
                     </text>
                 </xsl:for-each>
