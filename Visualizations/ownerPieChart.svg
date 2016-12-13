@@ -34,7 +34,7 @@
             2. Y value for female slice: -235.17506666775836
             3. Y value for NA slice: -26.57337141184118
             4. Y value for unknown slice: 1.6081226496766366E-13-->
-<svg xmlns="http://www.w3.org/1999/xhtml" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/1999/xhtml" width="700" height="700">
    <g transform="translate(350 350)">
       <circle cx="0"
               cy="0"
@@ -45,13 +45,17 @@
             font-size="35px"
             text-anchor="middle"
             text-decoration="underline">Distribution of Owner Genders</text>
+      <!--This is the male slice in the off-blue-->
       <path d="M0,0                     L250,0                     A250,250 0 0,1 -59.33167496777872,242.8574733161775                     Z"
-            style="stroke:black; stroke-width:3; fill: green"/>
+            style="stroke:black; stroke-width:3; fill: #506F7D"/>
+      <!--This is the female slice in the brown-->
       <path d="M0,0                     L-59.33167496777872,242.8574733161775                     A250,250 0 0,1 -84.80971652950741,-235.17506666775836                     Z"
-            style="stroke:black; stroke-width:3; fill: blue"/>
+            style="stroke:black; stroke-width:3; fill: #544547"/>
+      <!--This is the N/A slice in the off-grey-->
       <path d="M0,0                     L-84.80971652950741,-235.17506666775836                     A250,250 0 0,1 248.5837000525343,-26.57337141184118                     Z"
-            style="stroke:black; stroke-width:3; fill: red"/>
+            style="stroke:black; stroke-width:3; fill: #999999"/>
+      <!--This is the unknown slice in the white-->
       <path d="M0,0                     L248.5837000525343,-26.57337141184118                     A250,250 0 0,1 250,1.6081226496766366E-13                     Z"
-            style="stroke:black; stroke-width:3; fill: yellow"/>
+            style="stroke:black; stroke-width:3; fill: white"/>
    </g>
 </svg>
