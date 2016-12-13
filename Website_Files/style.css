@@ -139,7 +139,7 @@ background-color: white;
 }
 .copy {
     margin-left: 20%;
-    margin-top: 9%;
+    margin-top: 3%;
 }
 .aboutHeader {
     color: #6a363b;
@@ -147,16 +147,7 @@ background-color: white;
     font-family: hightowerEOT;
     position: relative;
     left: -10%;
-    top: 10%;
-}
-.aboutBanner{
-    color: #acc1ca;
-    font-size:20px;
-    font-family: hightowerEOT;
-    position: relative;
-    left: -230px;
-    top: -17px;
-    z-index:8;
+    top:  7%;
 }
 .members {
 	display: table;
@@ -381,4 +372,11 @@ left: 50%;
 right: 10%;
 font-size: 20px;
 font-family: hightowerEOT
+}
+ageGraph{
+        max-width: 40%;
+    margin-left: 5%;
+    margin-right: 22.5%;
+margin-top: 10%;
+padding: 5px;
 }

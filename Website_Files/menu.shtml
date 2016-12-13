@@ -15,6 +15,7 @@
                     <ul class="sub-nav2">
                         <li><a href="pieChart.html">graph 1</a></li>
                         <li><a href="lineGraph.html">graph 2</a></li>
+                        <li><a href="ageGraph.html">graph 3</a></li>
                     </ul></li>
             </ul></nav></div>
     </div>
