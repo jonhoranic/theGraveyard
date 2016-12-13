@@ -79,7 +79,7 @@
                         <!-- X Axis -->
                         <line x1="75" x2="1200" y1="0" y2="0" stroke="black" stroke-width="1"/>
                         
-                        <text x="400" y="-500" font-size="25px">Common Age of Death in Brush Creek Cemetery</text>
+                        <text x="400" y="-450" font-size="25px">Common Age of Death in Brush Creek Cemetery</text>
                         
                         <text x="50" y="-10" font-size="20px">1</text>
                         <line x1="70" x2="80" y1="-10" y2="-10" stroke="black" stroke-width="2"/>
@@ -103,94 +103,93 @@
                         <xsl:comment> Bars start here</xsl:comment>
 
                         <line x1="100" y1="-{$female0to2 * $xSpacer}" x2="100" y2="0"
-                              style="stroke:red; stroke-width:45"/>
+                              style="stroke:#FFCCFF; stroke-width:45"/>
                         <line x1="100" y1="-{$female0to2 * $xSpacer}" x2="100"
                               y2="-{($male0to2 * $xSpacer) + ($female0to2 * $xSpacer)}"
-                              style="stroke:blue; stroke-width:45"/>
+                              style="stroke:#15B7FF; stroke-width:45"/>
                         <text x="80" y="25" font-size="20px">0-2</text>
 
                         <line x1="200" y1="-{$female3to10 * $xSpacer}" x2="200" y2="0"
-                              style="stroke:red; stroke-width:45"/>
+                              style="stroke:#FFCCFF; stroke-width:45"/>
                         <line x1="200" y1="-{$female3to10 * $xSpacer}" x2="200"
                               y2="-{($male3to10 * $xSpacer) + ($female3to10 * $xSpacer)}"
-                              style="stroke:blue; stroke-width:45"/>
+                              style="stroke:#15B7FF; stroke-width:45"/>
                         <text x="180" y="25" font-size="20px">3-10</text>
 
                         <line x1="300" y1="-{$female11to19 * $xSpacer}" x2="300" y2="0"
-                              style="stroke:red; stroke-width:45"/>
+                              style="stroke:#FFCCFF; stroke-width:45"/>
                         <line x1="300" y1="-{$female11to19 * $xSpacer}" x2="300"
                               y2="-{($male11to19 * $xSpacer) + ($female11to19 * $xSpacer)}"
-                              style="stroke:blue; stroke-width:45"/>
+                              style="stroke:#15B7FF; stroke-width:45"/>
                         <text x="280" y="25" font-size="20px">11-19</text>
 
                         <line x1="400" y1="-{$female20to29 * $xSpacer}" x2="400" y2="0"
-                              style="stroke:red; stroke-width:45"/>
+                              style="stroke:#FFCCFF; stroke-width:45"/>
                         <line x1="400" y1="-{$female20to29 * $xSpacer}" x2="400"
                               y2="-{($male20to29 * $xSpacer) + ($female20to29 * $xSpacer)}"
-                              style="stroke:blue; stroke-width:45"/>
+                              style="stroke:#15B7FF; stroke-width:45"/>
                         <text x="380" y="25" font-size="20px">20-29</text>
 
                         <line x1="500" y1="-{$female30to39 * $xSpacer}" x2="500" y2="0"
-                              style="stroke:red; stroke-width:45"/>
+                              style="stroke:#FFCCFF; stroke-width:45"/>
                         <line x1="500" y1="-{$female30to39 * $xSpacer}" x2="500"
                               y2="-{($male30to39 * $xSpacer) + ($female30to39 * $xSpacer)}"
-                              style="stroke:blue; stroke-width:45"/>
+                              style="stroke:#15B7FF; stroke-width:45"/>
                         <text x="480" y="25" font-size="20px">30-39</text>
 
                         <line x1="600" y1="-{$female40to49 * $xSpacer}" x2="600" y2="0"
-                              style="stroke:red; stroke-width:45"/>
+                              style="stroke:#FFCCFF; stroke-width:45"/>
                         <line x1="600" y1="-{$female40to49 * $xSpacer}" x2="600"
                               y2="-{($male40to49 * $xSpacer) + ($female40to49 * $xSpacer)}"
-                              style="stroke:blue; stroke-width:45"/>
+                              style="stroke:#15B7FF; stroke-width:45"/>
                         <text x="580" y="25" font-size="20px">40-49</text>
 
                         <line x1="700" y1="-{$female50to59 * $xSpacer}" x2="700" y2="0"
-                              style="stroke:red; stroke-width:45"/>
+                              style="stroke:#FFCCFF; stroke-width:45"/>
                         <line x1="700" y1="-{$female50to59 * $xSpacer}" x2="700"
                               y2="-{($male50to59 * $xSpacer) + ($female50to59 * $xSpacer)}"
-                              style="stroke:blue; stroke-width:45"/>
+                              style="stroke:#15B7FF; stroke-width:45"/>
                         <text x="680" y="25" font-size="20px">50-59</text>
 
                         <line x1="800" y1="-{$female60to69 * $xSpacer}" x2="800" y2="0"
-                              style="stroke:red; stroke-width:45"/>
+                              style="stroke:#FFCCFF; stroke-width:45"/>
                         <line x1="800" y1="-{$female60to69 * $xSpacer}" x2="800"
                               y2="-{($male60to69 * $xSpacer) + ($female60to69 * $xSpacer)}"
-                              style="stroke:blue; stroke-width:45"/>
+                              style="stroke:#15B7FF; stroke-width:45"/>
                         <text x="780" y="25" font-size="20px">60-69</text>
 
                         <line x1="900" y1="-{$female70to79 * $xSpacer}" x2="900" y2="0"
-                              style="stroke:red; stroke-width:45"/>
+                              style="stroke:#FFCCFF; stroke-width:45"/>
                         <line x1="900" y1="-{$female70to79 * $xSpacer}" x2="900"
                               y2="-{($male70to79 * $xSpacer) + ($female70to79 * $xSpacer)}"
-                              style="stroke:blue; stroke-width:45"/>
+                              style="stroke:#15B7FF; stroke-width:45"/>
                         <text x="880" y="25" font-size="20px">70-79</text>
 
                         <line x1="1000" y1="-{$female80to89 * $xSpacer}" x2="1000" y2="0"
-                              style="stroke:red; stroke-width:45"/>
+                              style="stroke:#FFCCFF; stroke-width:45"/>
                         <line x1="1000" y1="-{$female80to89 * $xSpacer}" x2="1000"
                               y2="-{($male80to89 * $xSpacer) + ($female80to89 * $xSpacer)}"
-                              style="stroke:blue; stroke-width:45"/>
+                              style="stroke:#15B7FF; stroke-width:45"/>
                         <text x="980" y="25" font-size="20px">80-89</text>
 
                         <line x1="1100" y1="-{$female90to99 * $xSpacer}" x2="1100" y2="0"
-                              style="stroke:red; stroke-width:45"/>
+                              style="stroke:#FFCCFF; stroke-width:45"/>
                         <line x1="1100" y1="-{$female90to99 * $xSpacer}" x2="1100"
                               y2="-{($male90to99 * $xSpacer) + ($female90to99 * $xSpacer)}"
-                              style="stroke:blue; stroke-width:45"/>
+                              style="stroke:#15B7FF; stroke-width:45"/>
                         <text x="1080" y="25" font-size="20px">90-99</text>
 
+                        <text x="100" y="-400" font-size="30px">Legend</text>
 
-<!--                        <text x="70" y="-400" font-size="30px">Legend</text>
+                        <line x1="100" x2="130" y1="-350" y2="-350" stroke="#15B7FF" stroke-width="30"/>
+                        <text x="140" y="-350" text-anchor="start" font-size="18px">Men</text>
 
-                        <line x1="70" x2="100" y1="-350" y2="-350" stroke="blue" stroke-width="30"/>
-                        <text x="110" y="-350" text-anchor="start" font-size="18px">Men</text>
-
-                        <line x1="70" x2="100" y1="-300" y2="-300" stroke="red" stroke-width="30"/>
-                        <text x="110" y="-300" text-anchor="start" font-size="18px">Women</text>-->
+                        <line x1="100" x2="130" y1="-300" y2="-300" stroke="#FFCCFF" stroke-width="30"/>
+                        <text x="140" y="-300" text-anchor="start" font-size="18px">Women</text>
                         
                         
                         <text x="600" y="75" font-size="25px"> Age of Death</text>
-                        <text x="25" y="-300" font-size="25px" style="writing-mode: tb;"> Amount of People</text>
+                        <text x="25" y="-300" font-size="25px" writing-mode="tb" glyph-orientation-horizontal="-90"> Amount of People</text>
 
 
                   </g>
