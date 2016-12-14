@@ -222,7 +222,35 @@
                                     </g>
                               </svg>
                         </div>
+                        
+                        <div id="tables">
+                              <table id="ageResults">
+                                    <tr>
+                                          <th>Men</th>
+                                          <th>Women</th>
+                                          <th>Total</th>
+                                          <xsl:apply-templates select="//person[@role = 'occupant']"/>
+                                    </tr>
+                              </table>
+                        </div>
                   </body>
             </html>
       </xsl:template>
+      
+      <xsl:template match=".//person[@role = 'occupant']">
+            <tr>
+                  <td>
+                        <xsl:value-of select="count(//person[@role = 'occupant'][@sex = 'm']//age[number() le 2])"/>
+                  </td>
+                  
+                  <td>
+                        <xsl:value-of select="count(//person[@role = 'occupant'][@sex = 'f']//age[number() le 2])"/>
+                  </td>
+                  
+                  <td>
+                        <xsl:value-of select="count(//person[@role = 'occupant']//age[number() le 2])"/>
+                  </td>
+            </tr>
+      </xsl:template>
 </xsl:stylesheet>
+
