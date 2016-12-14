@@ -216,9 +216,10 @@
       <text x="140" y="-300" text-anchor="start" font-size="18px">Women</text>
       <text x="600" y="75" font-size="25px"> Age of Death</text>
       <text x="25"
-            y="-300"
+            y="-200"
             font-size="25px"
-            writing-mode="tb"
-            glyph-orientation-horizontal="-90"> Amount of People</text>
+            text-anchor="middle"
+            style="writing-mode: tb; letter-spacing:10"
+            rotate="-90"> Amount of Peop le</text>
    </g>
 </svg>
