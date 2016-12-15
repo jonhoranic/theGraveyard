@@ -2,8 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
       xmlns:xs="http://www.w3.org/2001/XMLSchema"
       xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs"
-      xmlns="http://www.w3.org/1999/xhtml">
-      <xsl:output method="xhtml" doctype-system="about:legacy-compat" omit-xml-declaration="yes"/>
+      xmlns="http://www.w3.org/2000/svg">
+      <xsl:output method="xml" indent="yes"/>
       <!--GLOBAL VARIABLES-->
       <xsl:variable name="graveyardFile" select="document('graveyardInfo-TEI.xml')"/>
       <xsl:variable name="numPeople" select="count(//person[@role = 'occupant'])"/>
@@ -74,12 +74,11 @@
       <xsl:template match="/">
             <html>
                   <head>
-                        <title>Age Graph</title>
-                        <link rel="stylesheet" type="text/css" href="style.css" />
+                        <title>Bar Graph</title>
                   </head>
                   <body>
-                        <div id="ageBarGraph">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="1300" height="700">
+                        <div id="barGraph">
+                              <svg width="100%" height="200%">
                                     <g transform="translate(0 600)">
                                           <!-- Y Axis -->
                                           <line x1="75" x2="75" y1="0" y2="-450" stroke="black"
@@ -241,7 +240,7 @@
 
                                           <text x="980" y="25" font-size="20px">80-89</text>
 
-                                          <g id="svg_90to99">
+                                          <g id="90to99">
                                                 <line x1="1100" y1="-{$female90to99 * $xSpacer}"
                                                   x2="1100" y2="0"
                                                   style="stroke:#FFCCFF; stroke-width:45"/>
@@ -281,7 +280,7 @@
                               </svg>
                         </div>
 
-                        <div id="ageGraphTable">
+                        <div id="tables">
                               <table id="ageResults">
                                     <tr class="header">
                                           <th>Ages Range</th>

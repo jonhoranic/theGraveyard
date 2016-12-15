@@ -373,10 +373,42 @@ right: 10%;
 font-size: 20px;
 font-family: hightowerEOT
 }
-ageGraph{
-        max-width: 40%;
+#ageBarGraph{
+width:60%;
+        max-width: 1200px;
     margin-left: 5%;
     margin-right: 22.5%;
-margin-top: 10%;
 padding: 5px;
+position:absolute;
+top:0px
 }
+
+table{
+    border-collapse:collapse;
+}
+table, th, td {
+     border-color:black;
+    border-style:solid;
+    border-width:1px;
+    padding:10px
+
+}
+
+#ageGraphTable{
+    position:absolute;
+    width:20%;
+        max-width: 900px;
+    top:30%;
+    left:30%
+}
+
+td:nth-child(2){
+    background-color:#15B7FF
+}
+
+td:nth-child(3){
+    background-color:#FFCCFF
+}
+
+#ageGraphTable tr[id] {display: none; /*height:100px; width:300px;*/}
+#ageGraphTable tr[id="0to2"] {display: table-row;}
