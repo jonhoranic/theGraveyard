@@ -1,0 +1,98 @@
+<img src="topographicMap.png" alt="Section I Map" usemap="#MapI" />
+<map name="Section I" id="MapI">
+    <!--All of these are plotted RIGHT TO LEFT, and start at the BOTTOM ROW
+    and move UPWARDS. The mausoleums are listed at the end of this document-->
+    <!--BOTTOM ROW-->
+    <area alt="" title="" href="#" shape="rect" coords="2125,1132,2089,1145" />
+    <area alt="" title="" href="#" shape="rect" coords="2065,1131,2024,1146" />
+    <area alt="" title="" href="#" shape="rect" coords="1957,1111,1998,1143" />
+    <area alt="" title="" href="#" shape="rect" coords="1921,1108,1942,1127" />
+    <area alt="" title="" href="#" shape="rect" coords="1829,1094,1882,1122" />
+    <area alt="" title="" href="#" shape="rect" coords="1731,1079,1758,1096" />
+    <area alt="" title="" href="#" shape="rect" coords="1696,1074,1718,1090" />
+    <area alt="" title="" href="#" shape="rect" coords="1631,1063,1671,1083" />
+    <area alt="" title="" href="#" shape="rect" coords="1591,1057,1615,1072" />
+    <area alt="" title="" href="#" shape="rect" coords="1561,1061,1529,1041" />
+    <area alt="" title="" href="#" shape="rect" coords="1491,1031,1525,1055" />
+    <area alt="" title="" href="#" shape="rect" coords="1451,1027,1485,1048" />
+    <area alt="" title="" href="#" shape="rect" coords="1414,1021,1442,1042" />
+    <area alt="" title="" href="#" shape="rect" coords="1339,1005,1370,1029" />
+    <area alt="" title="" href="#" shape="rect" coords="1121,964,1157,988" />
+    <area alt="" title="" href="#" shape="rect" coords="1042,953,1085,980" />
+    <area alt="" title="" href="#" shape="rect" coords="605,871,639,899" />
+    <area alt="" title="" href="#" shape="rect" coords="568,865,600,891" />
+    <area alt="" title="" href="#" shape="rect" coords="533,859,564,884" />
+    <area alt="" title="" href="#" shape="rect" coords="457,852,501,883" />
+    <area alt="" title="" href="#" shape="rect" coords="310,808,410,861" />
+    <area alt="" title="" href="#" shape="rect" coords="201,791,265,836" />
+    <!--SECOND ROW UP-->
+    <area alt="" title="" href="#" shape="rect" coords="1929,1017,1967,1044" />
+    <area alt="" title="" href="#" shape="rect" coords="1860,1002,1903,1029" />
+    <area alt="" title="" href="#" shape="rect" coords="1794,994,1821,1017" />
+    <area alt="" title="" href="#" shape="rect" coords="1748,984,1790,1013" />
+    <area alt="" title="" href="#" shape="rect" coords="1637,962,1690,993" />
+    <area alt="" title="" href="#" shape="rect" coords="1544,947,1573,969" />
+    <area alt="" title="" href="#" shape="rect" coords="1516,943,1543,965" />
+    <area alt="" title="" href="#" shape="rect" coords="1476,933,1514,961" />
+    <area alt="" title="" href="#" shape="rect" coords="1429,925,1463,951" />
+    <area alt="" title="" href="#" shape="rect" coords="1394,919,1420,941" />
+    <area alt="" title="" href="#" shape="rect" coords="1363,913,1392,938" />
+    <area alt="" title="" href="#" shape="rect" coords="1146,880,1195,906" />
+    <area alt="" title="" href="#" shape="rect" coords="1032,850,1090,886" />
+    <area alt="" title="" href="#" shape="rect" coords="918,827,979,873" />
+    <area alt="" title="" href="#" shape="rect" coords="818,813,880,847" />
+    <area alt="" title="" href="#" shape="rect" coords="725,796,760,825" />
+    <area alt="" title="" href="#" shape="rect" coords="685,787,722,820" />
+    <area alt="" title="" href="#" shape="rect" coords="599,776,643,808" />
+    <area alt="" title="" href="#" shape="rect" coords="544,768,578,796" />
+    <area alt="" title="" href="#" shape="rect" coords="475,756,525,785" />
+    <area alt="" title="" href="#" shape="rect" coords="437,749,468,772" />
+    <area alt="" title="" href="#" shape="rect" coords="368,731,423,774" />
+    <area alt="" title="" href="#" shape="rect" coords="204,704,256,742" />
+    <!--THIRD ROW UP-->
+    <area alt="" title="" href="#" shape="rect" coords="1714,883,1750,910" />
+    <area alt="" title="" href="#" shape="rect" coords="1680,875,1711,903" />
+    <area alt="" title="" href="#" shape="rect" coords="1643,868,1676,896" />
+    <area alt="" title="" href="#" shape="rect" coords="1604,859,1639,891" />
+    <area alt="" title="" href="#" shape="rect" coords="1511,840,1543,866" />
+    <area alt="" title="" href="#" shape="rect" coords="1502,871,1533,893" />
+    <area alt="" title="" href="#" shape="rect" coords="1377,827,1407,852" />
+    <area alt="" title="" href="#" shape="rect" coords="1342,821,1372,845" />
+    <area alt="" title="" href="#" shape="rect" coords="1286,810,1319,839" />
+    <area alt="" title="" href="#" shape="rect" coords="1183,787,1240,821" />
+    <area alt="" title="" href="#" shape="rect" coords="1140,779,1172,807" />
+    <area alt="" title="" href="#" shape="rect" coords="755,715,789,738" />
+    <area alt="" title="" href="#" shape="rect" coords="720,709,754,732" />
+    <!--FOURTH ROW UP-->
+    <area alt="" title="" href="#" shape="rect" coords="1493,767,1562,804" />
+    <area alt="" title="" href="#" shape="rect" coords="1449,757,1488,786" />
+    <area alt="" title="" href="#" shape="rect" coords="1391,745,1423,772" />
+    <area alt="" title="" href="#" shape="rect" coords="1360,736,1389,765" />
+    <area alt="" title="" href="#" shape="rect" coords="1297,728,1329,751" />
+    <area alt="" title="" href="#" shape="rect" coords="1265,718,1294,740" />
+    <area alt="" title="" href="#" shape="rect" coords="1229,709,1258,732" />
+    <area alt="" title="" href="#" shape="rect" coords="1198,704,1227,726" />
+    <area alt="" title="" href="#" shape="rect" coords="1155,696,1187,723" />
+    <area alt="" title="" href="#" shape="rect" coords="1052,674,1127,717" />
+    <area alt="" title="" href="#" shape="rect" coords="707,610,792,669" />
+    <area alt="" title="" href="#" shape="rect" coords="572,595,685,659" />
+    <area alt="" title="" href="#" shape="rect" coords="511,584,557,613" />
+    <area alt="" title="" href="#" shape="rect" coords="475,581,508,604" />
+    <!--FIFTH ROW UP-->
+    <area alt="" title="" href="#" shape="rect" coords="1205,618,1238,644" />
+    <area alt="" title="" href="#" shape="rect" coords="1167,612,1203,641" />
+    <area alt="" title="" href="#" shape="rect" coords="1074,579,1145,620" />
+    <area alt="" title="" href="#" shape="rect" coords="756,544,815,573" />
+    <area alt="" title="" href="#" shape="rect" coords="652,525,686,553" />
+    <area alt="" title="" href="#" shape="rect" coords="620,518,651,543" />
+    <area alt="" title="" href="#" shape="rect" coords="586,511,618,538" />
+    <area alt="" title="" href="#" shape="rect" coords="551,509,583,536" />
+    <!--TOP ROW-->
+    <area alt="" title="" href="#" shape="rect" coords="756,454,795,482" />
+    <area alt="" title="" href="#" shape="rect" coords="568,425,598,447" />
+    <area alt="" title="" href="#" shape="rect" coords="530,418,564,443" />
+    <!--MAUSOLEUMS-->
+    <area alt="" title="" href="#" shape="rect" coords="841,504,1017,723" />
+    <area alt="" title="" href="#" shape="rect" coords="253,458,421,625" />
+    [...]
+</map>
