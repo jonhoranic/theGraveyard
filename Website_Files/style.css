@@ -398,22 +398,8 @@ table, th, td {
     position:absolute;
     width:20%;
         max-width: 900px;
-    top:45%;
+    top:30%;
     left:30%
-}
-#explanation{
-    position:absolute;
-    top:100%;
-    left:10%;
-    font-size:20px
-}
-.p5{border: 1px solid black;
-position: absolute;
-width:500%;
-top: 70%;
-font-size: 18px;
-padding:5px;
-font-family: hightowerEOT
 }
 
 td:nth-child(2){
@@ -433,6 +419,3 @@ td:nth-child(3){
 margin-top: 7%;
 }
 
-.ageBarGraph{
-    margin-top: 10%;
-}
