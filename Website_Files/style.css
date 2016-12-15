@@ -419,3 +419,17 @@ td:nth-child(3){
 margin-top: 7%;
 }
 
+#explanation{
+     position:absolute;
+     top:100%;
+     left:10%;
+     font-size:20px;
+ }
+ .p5{border: 1px solid black;
+ position: absolute;
+ width:500%;
+ top: 70%;
+ font-size: 18px;
+ padding:5px;
+ font-family: hightowerEOT
+ }
