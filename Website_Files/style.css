@@ -78,6 +78,7 @@ background-color: #acc1ca;
 .navBar li:hover .sub-menu {
     z-index:1;
     opacity:1;
+    visibility: visible;
 }
  
 .sub-menu {
