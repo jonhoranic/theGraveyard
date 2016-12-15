@@ -7,7 +7,7 @@
             <li><a href="about.html">About</a>
                 <ul class="sub-nav">
                     <li><a href="about.html">Our Team</a></li>
-                    <li><a href="methodology.html">Methodology</a></li>
+                    <li><a href="methodology.html">Methods</a></li>
                     <li><a href="cemetery.html">The Cemetery</a></li>
                 </ul></li>
             <li><a href="map.html">Map</a></li>

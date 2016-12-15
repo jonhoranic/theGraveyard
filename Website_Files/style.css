@@ -110,6 +110,7 @@ background-color: white;
 .navBar li:hover .sub-menu2 {
     z-index:1;
     opacity:1;
+    visibility: visible;
 }
  
 .sub-menu2 {
@@ -235,8 +236,10 @@ ul.topMenu li a:hover {
 background-color: #acc1ca;
 }
 .menuBar li:hover .sub-nav {
+    position: absolute;
     z-index:1;
     opacity:1;
+    visibility: visible;
 }
 .sub-nav {
     width:10%;
@@ -246,6 +249,7 @@ background-color: #acc1ca;
     left:41.6%;
     z-index:-1;
     opacity:0;
+    visibility: hidden;
     transition:opacity linear 0.15s;
     box-shadow:0px 2px 3px rgba(0,0,0,0.2);
 background-color: white;
@@ -265,8 +269,10 @@ background-color: white;
 background-color: white;
 }
 .menuBar li:hover .sub-nav2 {
+    position: absolute;
     z-index:1;
     opacity:1;
+    visibility: visible;
 }
 .sub-nav2 {
     width:10%;
@@ -276,6 +282,7 @@ background-color: white;
     left:53.5%;
     z-index:-1;
     opacity:0;
+    visibility: hidden;
     transition:opacity linear 0.15s;
     box-shadow:0px 2px 3px rgba(0,0,0,0.2);
 background-color: white;
@@ -335,7 +342,7 @@ font-family: hightowerEOT
     font-size:32px;
     font-family: hightowerEOT;
     position: absolute;
-    left: 43.5%;
+    left: 45%;
     top: 16%;
 }
 .cemeteryHeader{
@@ -380,8 +387,9 @@ width:60%;
     margin-left: 5%;
     margin-right: 22.5%;
 padding: 5px;
-position:absolute;
-top:0px
+position: relative;
+top:0px;
+    z-index:0;
 }
 
 table{
@@ -399,7 +407,7 @@ table, th, td {
     position:absolute;
     width:20%;
         max-width: 900px;
-    top:40%;
+    top:50%;
     left:30%
 }
 
@@ -433,4 +441,7 @@ margin-top: 7%;
  font-size: 18px;
  padding:5px;
  font-family: hightowerEOT
+ }
+ map{
+     display: inline;
  }
