@@ -329,11 +329,10 @@ margin-top: 10%;
 padding: 5px;
 }
 .p2{
-border: 1px solid black;
 position: absolute;
 top: 35%;
-left: 20%;
-right: 20%;
+left: 35%;
+right: 5%;
 font-size: 20px;
 font-family: hightowerEOT
 }
@@ -457,4 +456,25 @@ padding: 5px;
       display: block;
 margin: auto;
 padding: 10px;
+ }
+.methodImage3{
+ display: block;
+         max-width: 30%;
+    margin-left: 2%;
+margin-top: 12%;
+padding: 5px;
+ }
+.methodImage{
+ display: block;
+         max-width: 30%;
+    margin-left: 2%;
+margin-top: 5%;
+padding: 5px;
+ }
+ .methodImage2{
+  display: block;
+              max-width: 30%;
+    margin-left: 2%;
+margin-top: 5%;
+padding: 5px;
  }
