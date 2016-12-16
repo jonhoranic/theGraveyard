@@ -6,7 +6,7 @@ padding: 0px;
 .boxed {
 border: 1px solid white;
 position: absolute;
-top: 72%;
+top: 85%;
 left: 20%;
 right: 20%;
 }
@@ -407,7 +407,7 @@ table, th, td {
     position:absolute;
     width:20%;
         max-width: 900px;
-    top:50%;
+    top:60%;
     left:30%
 }
 
