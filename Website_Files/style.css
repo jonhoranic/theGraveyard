@@ -411,11 +411,11 @@ table, th, td {
     left:30%
 }
 
-td:nth-child(2){
+#ageGraphTable td:nth-child(2){
     background-color:#15B7FF
 }
 
-td:nth-child(3){
+#ageGraphTable td:nth-child(3){
     background-color:#FFCCFF
 }
 
@@ -444,4 +444,7 @@ margin-top: 7%;
  }
  map{
      display: inline;
+ }
+ img.tn{width:75px; padding:1px;
+     
  }
