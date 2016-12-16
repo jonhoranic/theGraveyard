@@ -342,7 +342,7 @@ font-family: hightowerEOT
     font-size:32px;
     font-family: hightowerEOT;
     position: absolute;
-    left: 35%;
+    left: 38%;
     top: 16%;
 }
 .cemeteryHeader{
@@ -350,7 +350,7 @@ font-family: hightowerEOT
     font-size:32px;
     font-family: hightowerEOT;
     position: absolute;
-    left: 36.5%;
+    left: 38%;
     top: 16%;
 }
 .cemeteryImage{
@@ -447,4 +447,12 @@ margin-top: 7%;
  }
  img.tn{width:75px; padding:1px;
      
+ }
+ .iframe{
+ display: block;
+margin: auto;
+ }
+.mapI{
+      display: block;
+margin: auto;
  }
