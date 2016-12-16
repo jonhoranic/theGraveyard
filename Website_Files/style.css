@@ -451,8 +451,10 @@ margin-top: 7%;
  .iframe{
  display: block;
 margin: auto;
+padding: 5px;
  }
 .mapI{
       display: block;
 margin: auto;
+padding: 10px;
  }
