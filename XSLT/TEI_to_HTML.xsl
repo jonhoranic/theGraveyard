@@ -48,7 +48,7 @@
     </xsl:template>
     <xsl:template match="person">
         <tr id="{@xml:id}">
-            <td><a href="{graphic/@url}"><img class="tn" src="{graphic/@url}" alt="image of grave"/></a></td>    
+            <td><a href="{graphic/@url}" target="_blank"><img class="tn" src="{graphic/@url}" alt="image of grave"/></a></td>    
             <td><xsl:apply-templates select="descendant::forename[@type='first']"/><xsl:text> </xsl:text><xsl:for-each select="descendant::forename[@type='middle']"><xsl:apply-templates select="current()"/><xsl:text> </xsl:text>
             </xsl:for-each>
                 <xsl:for-each select="descendant::surname"><xsl:apply-templates select="current()"/><xsl:text> </xsl:text></xsl:for-each>
