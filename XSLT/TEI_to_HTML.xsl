@@ -28,7 +28,7 @@
         <h2><xsl:text>Lot Number </xsl:text><xsl:value-of select="tokenize(@xml:id, 'o')[last()]"/></h2>
         <!--ebb: You'll want to look up how to split this and grab just the digits in the @xml:id. -->
         
-        <table class="owners">
+        <table class="occupants">
            
             <tr>
                 <th>Grave Marker</th>
