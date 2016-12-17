@@ -478,3 +478,17 @@ padding: 5px;
 margin-top: 5%;
 padding: 5px;
  }
+ #explanation2{
+     position:absolute;
+     top:90%;
+     left:10%;
+     font-size:20px;
+ }
+ #explanation3{
+     position:absolute;
+     top:40%;
+     left:50%;
+     font-size:20px;
+     max-width: 30%;
+ }
+ 
