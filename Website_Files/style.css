@@ -4,9 +4,10 @@ margin: 0px;
 padding: 0px;
 }
 .boxed {
+padding: 5px;
 border: 1px solid white;
-position: absolute;
-top: 72%;
+position: static;
+top: 70%;
 left: 20%;
 right: 20%;
 }
@@ -406,7 +407,7 @@ table, th, td {
     position:absolute;
     width:20%;
         max-width: 900px;
-    top:60%;
+    top:70%;
     left:30%
 }
 
@@ -480,14 +481,14 @@ padding: 5px;
  }
  #explanation2{
      position:absolute;
-     top:90%;
+     top:70%;
      left:10%;
      font-size:20px;
  }
  #explanation3{
      position:absolute;
-     top:40%;
-     left:50%;
+     top:70%;
+     left:10%;
      font-size:20px;
      max-width: 30%;
  }
