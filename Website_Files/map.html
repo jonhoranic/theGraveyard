@@ -6,10 +6,29 @@
     </head>
     <body>
         <!--#include virtual="menu.shtml"-->
-        <img src="topoMapSmallerDiag.png" alt="filtered map made from photograph of Section I Map of Brush Creek Cemetery" usemap="#MapI" class="mapI"/>
-        <!--All of these are plotted RIGHT TO LEFT, and start at the BOTTOM ROW
-    and move UPWARDS. The mausoleums are listed at the end of this document-->
-        <map name="Map" id="MapI">
+      <div id="map">  
+    
+        <!-- <img src="topoMapSmallerDiag.png" alt="" usemap="#map1485319397387"/>-->
+          <!--    <map id="map1485319397387" name="map1485319397387">
+                  <area shape="rect" coords="125,209,183,273" title="L5P3" alt="L5P3" href="occupants.html#L5P3" target="MapI"/>
+                  </map>-->
+          <!--2017-01-25 ebb: First, in attempting to debug the image map, I commented out your original map and started afresh, with the same image, using this somewhat chintzy image-mapping site: http://www.html-map.com/ 
+              The map works! I plotted one rectangle and linked it to one of your table rows on occupants.html. The @target controls its opening in the iframe on this page.  
+          -->
+          
+          <!--ebb: Then I went back to our original site at http://imagemap-generator.dariodomi.de/ , which seems more functional, just to see if I got similar coordinates in doing the same mapping. I did. Take a look and compare the values on all the map attempts. The first rectangle encloses roughly the same area and the difference is attributable just to the slightly different positioning of my mouse. I've drawn around the largest mausoleums visible in the picture. I grabbed href values at random from your original map entries. And target="MapI" opens those links in the iframe we created on the page. It all works.-->
+         <!-- <img src="topoMapSmallerDiag.png" alt="testingMap" usemap="#MapRevisited"/>
+       <map name="MapRevisited" id="MapRevisited">
+           <area alt="L5P3" title="Somebody" href="occupants.html#L5P3" target="MapI" shape="rect" coords="123,203,177,287" />
+           <area alt="L8P5" title="somebodyElse" href="occupants.html#L8P5" target="MapI" shape="rect" coords="392,231,443,326" />
+           
+          </map>-->
+          
+          <!--All of these are plotted RIGHT TO LEFT, and start at the BOTTOM ROW
+    and move UPWARDS. The mausoleums are listed at the end of this document-->  
+          <!--2017-01-25 ebb: LASTLY, I squinted at your map and wondered why it wasn't working. At first I couldn't get the previous map from this site to work either, until I filled in the attribute values on the map element, and made them match. So I did that here, and just gave the @name the same value as the @id. That *seems* to work, as there is a clickable image map that brings up coordinates from occupants.html now!  -->
+   <img src="topoMapSmallerDiag.png" alt="filtered map made from photograph of Section I Map of Brush Creek Cemetery" usemap="#MapI" class="mapI"/>
+        <map name="MapI" id="MapI">
             <!--BOTTOM ROW-->
             <area alt="row1stone1" title="Wallace" href="occupants.html#L3P4" target="MapI" shape="rect" coords="1179,634,1205,650" />
             <area alt="row1stone2" title="Apple" href="occupants.html#L4P1" target="MapI" shape="rect" coords="1143,635,1168,652" />
@@ -104,7 +123,8 @@
             <!--MAUSOLEUMS-->
             <area alt="mausoleum1" title="Woodruff" href="occupants.html#L21_22P1" target="MapI" shape="rect" coords="476,281,578,413" />
             <area alt="mausoleum2" title="Walthour" href="occupants.html#L26_27P2" target="MapI" shape="rect" coords="148,257,240,352" />
-        </map>
+        </map>-->
+      </div>
   <iframe src="occupants.html" name="MapI" style="border:none;" height="200" width="1000" class="iframe"/>
     </body>
 </html>

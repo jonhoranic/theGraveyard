@@ -442,8 +442,9 @@ margin-top: 7%;
  padding:5px;
  font-family: hightowerEOT
  }
- map{
-     display: inline;
+#map{
+     display: inline; margin: auto;
+padding: 10px;
  }
  img.tn{width:75px; padding:1px;
      
